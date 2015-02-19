@@ -1,4 +1,4 @@
-# Democarcy-3-Traducao-PT-BR = 61% Completa
+# Democarcy-3-Traducao-PT-BR = 75% Completa
 
 Tradução independente do jogo Democracy 3
 
