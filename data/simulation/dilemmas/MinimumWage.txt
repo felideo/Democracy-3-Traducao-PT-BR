@@ -1,7 +1,7 @@
 [dilemma]
 name=MINIMUM WAGE
-guiname=Minimum wage
-description=At the moment we don't have a minimum wage and there is a proposal to introduce a limit below which it would be illegal to employ someone. This is designed to prevent people working for slave labor wage levels.
+guiname=Salário mínimo
+description=No momento não temos um salário mínimo e há uma proposta de introdução de um limite abaixo do qual seria ilegal a empregar alguém. Isto é projetado para evitar que as pessoas que trabalham para os níveis salariais de trabalho escravo.
 
 [influences]
 0 = _default_,0.3+(0*x)
@@ -9,11 +9,18 @@ description=At the moment we don't have a minimum wage and there is a proposal t
 2 = _LowIncome,0-(0.5*x)
 
 [option0]
-Name = Introduce law
-Description = We should introduce a minimum wage immediately. There are far too many cases where small companies are employing people to work in the construction or food industry for appallingly low wages. By setting a minimum wage we can ensure all working citizens have a good quality of life.
+Name = Introduzir lei
+Description = Devemos introduzir um salário mínimo imediatamente. Há demasiados casos em que as pequenas empresas estão empregando pessoas para trabalhar na construção ou indústria de alimentos para assustadoramente baixos salários. Ao definir um salário mínimo que podemos garantir a todos os cidadãos que trabalham têm uma boa qualidade de vida.
 OnImplement = CreateGrudge(Minimum wage,MINIMUM WAGE,_LowIncome,0.16,1.0);CreateGrudge(Minimum wage,MINIMUM WAGE,PovertyRate,-0.10,1.0);CreateGrudge(Minimum wage,MINIMUM WAGE,Socialist,0.19,1.0);CreateGrudge(Minimum wage,MINIMUM WAGE,Capitalist,-0.08,1.0);CreateGrudge(Minimum wage,MINIMUM WAGE,TradeUnionist,0.22,1.0);CreateGrudge(Minimum wage,MINIMUM WAGE,Wages,0.25,1.0);
 
 [option1]
-Name = Reject Law
-Description = This is free market interference at it's very worst. Nobody is forcing people to work for these wages, they are the wages that the market has settled on. Making it illegal to pay these levels will just destroy jobs and hurt the smaller companies in particular. The government should not interfere in the market.
+Name = Rejeitar Lei
+Description = Isto é a interferência no mercado livre que é muito pior. Ninguém está forçando as pessoas a trabalhar por estes salários, eles são os salários que o mercado se estabeleceu. Tornando ilegal pagar estes níveis só vai destruir empregos e prejudicar as companhias menores, em particular. O governo não deve interferir no mercado.
 OnImplement = CreateGrudge(Minimum wage,MINIMUM WAGE,Socialist,-0.18,0.9f);CreateGrudge(Minimum wage,MINIMUM WAGE,Capitalist,0.10,1.0);CreateGrudge(Minimum wage,MINIMUM WAGE,TradeUnionist,-0.18,1.0);
+
+
+
+
+
+
+

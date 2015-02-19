@@ -1,17 +1,24 @@
 [dilemma]
 name=POSITIVE DISCRIMINATION
-guiname=Positive Discrimination
-description=There are calls for a law to expressly set quotas for the employment of ethnic and other minorities by large corporations and government institutions. This would put pressure on companies to give higher priority to some job candidates than others on the basis of their race, sex or age.
+guiname=Discriminação Positiva
+description=Existem pedidos para uma lei para definir expressamente quotas para o emprego de minorias étnicas e outras minorias para grandes corporações e instituições governamentais. Isto colocaria pressão sobre as empresas para dar maior prioridade a alguns candidatos a emprego do que outros com base em sua raça, sexo ou idade.
 
 [influences]
 0 = _random_,0.3,0.9
 
 [option0]
-Name = Pass law
-Description = We need this law. In economic terms it makes no sense for people below or above a certain age to be rendered unemployable. Also, in human rights terms, this is much needed compensation for years of discrimination in the workplace against ethnic minorities, women, the elderly and the disabled.
+Name = Aprovar lei
+Description = Precisamos desta lei. Em termos econômicos, não faz sentido para as pessoas abaixo ou acima de uma certa idade tenha se tornado incapaz​​. Além disso, em termos de direitos humanos, isso é muito necessária compensação por anos de discriminação no local de trabalho contra as minorias étnicas, as mulheres, os idosos e os deficientes.
 OnImplement = CreateGrudge(positive discrimination,POSITIVE DISCRIMINATION,Liberal,0.10,0.9f);CreateGrudge(positive discrimination,POSITIVE DISCRIMINATION,Conservatives,-0.20,0.9f);CreateGrudge(positive discrimination,POSITIVE DISCRIMINATION,EthnicMinorities,0.15,0.9f);
 
 [option1]
-Name = Reject law
-Description = This is a deeply flawed law. It makes no sense to fight discrimination by using discrimination. It creates two problems, that of the minority members who feel they may not have achieved the position on merit, and the resentment of the potential employee who was denied the job.
+Name = Rejeitar lei
+Description = Esta é uma lei profundamente falho. Não faz sentido para lutar contra a discriminação por meio da discriminação. Ele cria dois problemas, que os membros das minorias que sentem que não podem ter alcançado a posição por mérito, e o ressentimento do potencial empregado que foi negado o trabalho.
 OnImplement = CreateGrudge(positive discrimination,POSITIVE DISCRIMINATION,Liberal,-0.10,0.9f);CreateGrudge(positive discrimination,POSITIVE DISCRIMINATION,Conservatives,0.12,0.9f);CreateGrudge(positive discrimination,POSITIVE DISCRIMINATION,EthnicMinorities,-0.17,0.9f);
+
+
+
+
+
+
+

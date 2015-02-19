@@ -1,17 +1,24 @@
 [dilemma]
 name=OilDrilling
-guiname=Oil Drilling Opportunity
-description=Oil companies are keen to get permission to drill for oil in part of the country protected as a wildlife refuge. The oil supplies under the refuge are considerable but the drilling would have a negative impact on the environment.
+guiname=Oportunidade de perfuração de petroleo
+description=As companhias de petróleo estão interessados ​​em obter permissão para explorar petróleo em região do país protegida como uma reserva natural. As reservas de petróleo sob a reserva são consideráveis​​, mas a perfuração teria um impacto negativo sobre o meio ambiente.
 
 [influences]
 0 = _random_,0.4,0.9
 
 [option0]
-Name = Allow Drilling
-Description = There are literally billions of barrels of oil right here on our soil, and current law is preventing us from drilling for it. Instead, we are importing oil from other countries. The environmental impact will be minimal when you consider the gains that drilling makes in terms of energy security. Nobody wants to spoil the environment, but the alternative is reliance on foreign oil.
+Name = Permitir Perfuração
+Description = Há, literalmente, biliões de barris de petróleo bem aqui em nosso solo, e lei atual está nos impedindo de perfura-los . Em vez disso, estamos importando petróleo de outros países. O impacto ambiental será mínimo quando você considera os ganhos que a perfuração faz em termos de segurança energética. Ninguém quer estragar o ambiente, mas a alternativa é a dependência do petróleo estrangeiro.
 OnImplement = CreateGrudge(Oil Drilling Opportunity,OilDrilling,Capitalist,0.03,0.9f);CreateGrudge(Oil Drilling Opportunity,OilDrilling,Environmentalist,-0.08,0.9f);CreateGrudge(Oil Drilling Opportunity,OilDrilling,OilSupply,0.08,0.9f);
 
 [option1]
-Name = Prevent Drilling
-Description = This valuable wildlife refuge would be devastated by oil exploration. This is one of our nations great national treasures, and it would be criminal to wreck it just to boost domestic oil production. Drilling in this part of the country will not entirely remove our dependence on foreign oil, but it will spoil our natural environment for future generations.
+Name = Evitar Perfuração
+Description = Esta reserva natural valiosa seria devastada pela exploração de petróleo. Esta é uma das nossas maiores tesouros nacional, e será criminoso destruir-lo só para aumentar a produção nacional de petróleo. Perfurar nesta parte do país não vai eliminar totalmente a dependência do petróleo estrangeiro, mas vai estragar o nosso ambiente natural para as gerações futuras.
 OnImplement = CreateGrudge(Oil Drilling Opportunity,OilDrilling,Capitalist,-0.04,0.9f);CreateGrudge(Oil Drilling Opportunity,OilDrilling,Environmentalist,0.06,0.9f);
+
+
+
+
+
+
+
