@@ -1,6 +1,6 @@
 [config]
 currency = "R$"
-population = 158334
+population = 103985
 economic_cycle_start = 0.28
 min_income = 8000
 max_income = 150000
@@ -14,27 +14,26 @@ names_file = "data\names\brasilnames.txt"
 term_length = 16
 max_terms = 2
 details_image = "brasil_details.jpg"
-description = " Brasil, oficialmente Republica Federativa do Brasil, e o maior pais da America do Sul e da regiao da America latina, sendo o quinto maior do mundo em area territorial e população. A Federacao Brasileira e formada pela uniao indissoluvel de tres entidades políticas distintas: os estados, os municípios e o Distrito Federal. A Uniao, os estados, o Distrito Federal e os municipios sao as esferas do governo. A Federacao esta definida em cinco principios fundamentais: soberania, cidadania, dignidade da pessoa humana, os valores sociais do trabalho e da livre iniciativa e o pluralismo politico. 
+description = "Brasil, oficialmente República Federativa do Brasil, é o maior país da América do Sul e da região da América Latina, sendo o quinto maior do mundo em área territorial  e população. É o único país na América onde se fala majoritariamente a língua portuguesa e o maior país lusófono do planeta, além de ser uma das nações mais multiculturais e etnicamente diversas, em decorrência da forte imigração oriunda de variados cantos do mundo.
 flag = "flag_brasil.jpg"
-apathy = 0.58
+apathy = 0.75
 jobtitle = "Presidente"
 GUID = 4
 
 [options]
-EARTHQUAKES
-HURRICANES
+COMPULSORY_VOTING
 
 [stats]
-Populacao: = "198.700.000 (Junho 2013)"
-Tamanho: = "8 515 767,049 km"
-Esperanca M.Vida: = "78.62 anos"
-Gini: = "33.7.7"
-PIB: = "R$23,047"
-Pluviosidade: = "16% (2006)"
-Etenia: = "79.9% Misto"
-Religiao: = "Cristianismo(78.3%)"
+Populacao: = "202.768.562"
+Tamanho: = "88.515.767,0492 km quadrados"
+Espectativa de Vida: = "74,9 anos"
+Indice Gini: = "0,498"
+PIB: = "2,477 Trilhões de Dolares"
+Pluviosidade: = "1325mm por ano"
+Etenia: = "68% Caucasiano"
+Religiao: = "89% Cristianismo "
 Taxa Obesidade: = "30.6%"
-Indice Big Mac: = "R$8.2"
+Indice Big Mac: = "R$13,00"
 Consumo de Carne Anual: = "42 kg/pessoa"
 
 [policies]
