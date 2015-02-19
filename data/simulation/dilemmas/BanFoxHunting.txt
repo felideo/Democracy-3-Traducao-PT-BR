@@ -1,0 +1,20 @@
+[dilemma]
+name=BanFoxHunting
+guiname=Proibir a Caça à Raposa
+description=Após anos de debate a lei está agora no parlamento sobre a proibição da Caça à Raposa Os opositores da caça alegam de que o esporte é cruel, mas aqueles que defendem, alegam que o seu passatempo e tentativas de proibir suas tradições rurais são baseados na divisão de classes
+
+[influences]
+0 = _random_,0.4,0.9
+
+[prereqs]
+FOXES
+
+[option0]
+Name = Proibir a Caça à Raposa
+Description = Ninguém contesta que a população de raposa precisa ser controlada, mas a persegui-los com cães e rasgá-los em pedaços não pode ser a forma mais humana de fazer isso. Este é um esporte desatualizado e bárbaro que não pode ser tolerado por uma sociedade civilizada. Proibi-lo agora!
+OnImplement = CreateGrudge(Ban Fox Hunting,BanFoxHunting,Farmers,-0.18,0.9f);CreateGrudge(Ban Fox Hunting,BanFoxHunting,Conservatives,-0.11,0.9f);CreateGrudge(Ban Fox Hunting,BanFoxHunting,Liberal,0.14,0.9f);CreateGrudge(Ban Fox Hunting,BanFoxHunting,Socialist,0.06,0.9f);CreateGrudge(Ban Fox Hunting,BanFoxHunting,Unemployment,0.04,0.9f);
+
+[option1]
+Name = Liberem as Cacadas
+Description = Cerca de 7.000 pessoas em comunidades rurais estão diretamente empregados na caça, e o efeito dominó sobre o emprego será muito maior. A população de raposa ainda terá de ser controlado, e quanto a crueldade contra os animais, este é um problema maior para a pecuária industrial do que para a caça. Isso não é nada mais do que a luta de classes e um ataque a comunidades rurais.
+OnImplement = CreateGrudge(Ban Fox Hunting,BanFoxHunting,Farmers,0.09,0.9f);CreateGrudge(Ban Fox Hunting,BanFoxHunting,Conservatives,0.07,0.9f);CreateGrudge(Ban Fox Hunting,BanFoxHunting,Liberal,-0.10,0.9f);CreateGrudge(Ban Fox Hunting,BanFoxHunting,Socialist,-0.03,0.9f);

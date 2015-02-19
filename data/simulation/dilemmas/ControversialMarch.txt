@@ -1,0 +1,18 @@
+[dilemma]
+name=CONTROVERSIAL MARCH
+guiname=Marcha Controversa
+description=Um grupo político extrema direita está planejando uma marcha através de nossa capital. O grupo tem fortes tendências racistas e os policiais estão convencidos de que, se a marcha for adiante, haverá confrontos violentos entre os manifestantes e as pessoas que irão aparecer para se opor a eles. A polícia recomendar a proibição da marcha.
+
+[influences]
+0 = _default_,0.3+(0*x)
+1 = _random_,0,0.5
+
+[option0]
+Name = Proibir a marcha
+Description = A polícia nos deu um bom motivo para proibir esta marcha. Devemos levar em consideração as opiniões da grande maioria da nossa sociedade que não quer ou precisa a violência e problemas que esta marcha irá causar. A liberdade de expressão não significa liberdade de motim. Proíba esta marcha.
+OnImplement = CreateGrudge(Controversial march,CONTROVERSIAL MARCH,Liberal,-0.23,0.9f);
+
+[option1]
+Name = Permitir a marcha
+Description = Uma das liberdades fundamentais em nossa sociedade deve ser o direito de se reunir livremente e apresentar uma visão política, mesmo que seja uma visão impopular ou minoria. Os manifestantes só estão expressando seus pontos de vista, e os oponentes são livres para fazer um protesto pacífico. É uma situação estranha, mas a proibição de uma manifestação política é uma coisa muito ditatorial que fazer.
+OnImplement = CreateGrudge(Controversial march,CONTROVERSIAL MARCH,CrimeRate,0.07,0.9f);CreateGrudge(Controversial march,CONTROVERSIAL MARCH,Liberal,0.15,0.9f);CreateGrudge(Controversial march,CONTROVERSIAL MARCH,RacialTension,0.31,0.85f);

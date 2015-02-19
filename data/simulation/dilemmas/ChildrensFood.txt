@@ -1,0 +1,18 @@
+[dilemma]
+name=CHILDRENS FOOD
+guiname=Comida das Crianças
+description=A lei foi proposta para regular o teor de gordura e valor nutricional dos alimentos vendidos para crianças, incluindo os alimentos vendidos em restaurantes de fast food e, claro, comida servida nas escolas. É provável que incorrer em custos para os varejistas de alimentos.
+
+[influences]
+0 = _random_,0,0.3
+1 = Health,0.8-(0.6*x)
+
+[option0]
+Name = Deixar lei inalterada
+Description = Você não pode interferir com o mercado livre. Este é o estado interferir na vida das pessoas. Se as crianças querem comer porcarias gordurosas e os pais não se importam, então quem são os políticos a dizer às pessoas para não comer hambúrgueres?
+OnImplement = CreateGrudge(Children's Food,CHILDRENS FOOD,Health,-0.05,0.9f);CreateGrudge(Children's Food,CHILDRENS FOOD,Liberal,0.10,0.9f);CreateGrudge(Children's Food,CHILDRENS FOOD,Parents,-0.06,0.9f);CreateGrudge(Children's Food,CHILDRENS FOOD,Obesity,0.05,0.9f);
+
+[option1]
+Name = Regular Alimento da Crianças
+Description = A obesidade é um problema grave, que tem um grave impacto sobre a saúde das pessoas. Comercialização de alimentos pouco saudáveis ​​para as pessoas em uma idade tão precoce é inaceitável e nós devemos aprovar a lei agora para salvaguardar o futuro da saúde dos nossos cidadãos.
+OnImplement = CreateGrudge(Children's Food,CHILDRENS FOOD,Health,0.07,0.9f);CreateGrudge(Children's Food,CHILDRENS FOOD,Capitalist,-0.04,0.9f);CreateGrudge(Children's Food,CHILDRENS FOOD,Parents,0.19,0.9f);CreateGrudge(Children's Food,CHILDRENS FOOD,Obesity,-0.09,0.9f);

@@ -1,0 +1,18 @@
+[dilemma]
+name=SoftwarePatents
+guiname=Patentes de Software
+description=As patentes de software são uma forma de lei de propriedade intelectual que permite às empresas proteger algoritmos (pedaços de código de computador) que implementam uma nova tecnologia, como um novo tipo de software de tradução, ou de um sistema de compras on-line. Eles geralmente são populares entre grandes empresas, mas impopular entre aqueles que lutam por um 'liberdade' na internet e aqueles que pensam que as patentes em geral sufocam a inovação.
+
+[influences]
+0 = _random_,0.0,0.5
+1 = Technology,0+(0.5*x)
+
+[option0]
+Name = Permitir patente de Softwares
+Description = É essencial para a nossa economia digital que promulguem leis que incentivem o investimento em novos produtos e tecnologias. Sem permitir as patentes de software, estaremos abrindo as portas para as pequenas empresas, incluindo as de outros países para intervir e colher os benefícios de investimentos grandes e caros feitos por nossas empresas de tecnologia. Ninguém vai investir em tecnologia aqui sem esse tipo de proteção.
+OnImplement = CreateGrudge(Software Patents,SoftwarePatents,Liberal,-0.10,1.0);CreateGrudge(Software Patents,SoftwarePatents,Capitalist,0.05,1.0);CreateGrudge(Software Patents,SoftwarePatents,GDP,0.02,1.0);CreateGrudge(Software Patents,SoftwarePatents,Technology,0.04,1.0);
+
+[option1]
+Name = Rejeitar patentes de software
+Description = As patentes de software parece razoável, até que você percebe que eles podem ser usados ​​para sufocar a concorrência e inovação. Poucas das idéias que estão sendo patenteados são verdadeiramente descobertas originais, mas simplesmente uma apropriação de terras por advogados para patentear o óbvio e garantir um monopólio virtual para as empresas de tecnologia com mais advogados. Isso não é nada, mas o protecionismo grande negócio.
+OnImplement = CreateGrudge(Software Patents,SoftwarePatents,Liberal,0.04,1.0);CreateGrudge(Software Patents,SoftwarePatents,Capitalist,-0.07,1.0);CreateGrudge(Software Patents,SoftwarePatents,GDP,-0.02,1.0);CreateGrudge(Software Patents,SoftwarePatents,Technology,-0.05,1.0);

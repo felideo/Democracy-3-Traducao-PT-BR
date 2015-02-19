@@ -1,0 +1,24 @@
+[dilemma]
+name=SpeedLimits
+guiname=Limites de Velocidade
+description=Um grande grupo de pressão de motorista pressionou o governo para obter os limites de velocidade maiores nas nossas estradas principais. Estes limites de velocidade foram estabelecidos há muitos anos e ambas as velocidades do carro e desempenho de frenagem melhorou desde então.
+
+[influences]
+0 = _random_,0.4,0.9
+
+[option0]
+Name = Elevar limites de velocidade
+Description = Nós mudamos desde os tempos em que os homens caminharam com bandeiras vermelhas na frente de automóveis. Os limites de velocidade nacionais são estupidamente baixa, e os limites são amplamente ignorados. Não podemos impor os limites de forma eficaz, e até os limites são estabelecidos valores como sensatas seu povo apenas incentivando a violar a lei. Precisamos aumentar os limites de imediato.
+OnImplement = CreateGrudge(Speed Limits,SpeedLimits,Motorist,0.08,0.9f);CreateGrudge(Speed Limits,SpeedLimits,Parents,-0.08,0.9f);CreateGrudge(Speed Limits,SpeedLimits,CO2Emissions,0.02,0.9f);
+
+[option1]
+Name = Não mudar
+Description = Existem limites de velocidade por um motivo. Número suficiente de pessoas morrem nas nossas estradas do jeito que ela é, e a velocidade é muitas vezes um fator na sobrevivência de acidentes de carro. É verdade que povo não respeita o limite, mas elevando-o agora só vai incentivar condução mais rápida e perigosa. Deixe-o inalterado.
+OnImplement = CreateGrudge(Speed Limits,SpeedLimits,Motorist,-0.08,0.9f);CreateGrudge(Speed Limits,SpeedLimits,Parents,0.03,0.9f);
+
+
+
+
+
+
+

@@ -1,0 +1,19 @@
+[dilemma]
+name=ViolentVideoGames
+guiname=Jogos Violentos
+description= Preocupações têm sido levantadas na imprensa sobre o impacto que os videogames violentos têm sobre os jovens da nações. Alguns desses jogos estão sendo descritos como 'simuladores de assassinato', e ligações foram sugeridos entre os jogos e os crimes violentos. Há uma proposta para proibir certos jogos e restringir a venda de outros para aqueles com mais de 18 anos de idade.
+
+[influences]
+0 = _default_,0+(0.2*x)
+1 = CrimeRate,0+(0.6*x)
+2 = PovertyRate,0+(0.4*x)
+
+[option0]
+Name = Manter inalterado
+Description = Não existem provas concretas que video games causam violência. Na verdade, existe a possibilidade de eles prevenirem pessoas jovens de se tornarem violentas. Isso é uma maneira da sociedade procurar uma soluçao simples para a violência, violência essa que existia muito tempo antes da criação de video games.
+OnImplement = CreateGrudge(Violent Video Games,ViolentVideoGames,Liberal,0.1,0.9f);CreateGrudge(Violent Video Games,ViolentVideoGames,Conservatives,-0.12,0.9f);CreateGrudge(Violent Video Games,ViolentVideoGames,Young,0.1,0.9f);
+
+[option1]
+Name = Censurar jogos
+Description = Não pode haver nenhuma relação comprovada direto, mas você não tem que jogar muitos desses jogos para ver como a influência que têm sobre os jovens impressionáveis ​​deve ter um impacto negativo na sociedade. Os videogames são uma mídia interativa e são susceptíveis de ter um efeito muito mais direto sobre as mentes impressionáveis ​​que o entretenimento passivo, tais como livros, televisão ou filmes. Algo precisa ser feito.
+OnImplement = CreateGrudge(Violent Video Games,ViolentVideoGames,Liberal,-0.08,0.9f);CreateGrudge(Violent Video Games,ViolentVideoGames,Conservatives,0.1,0.9f);CreateGrudge(Violent Video Games,ViolentVideoGames,Young,-0.12,0.9f);

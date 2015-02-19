@@ -1,0 +1,24 @@
+[dilemma]
+name=CorporateManslaughter
+guiname=Homicídio Culposo Corporativo
+description=Um novo projeto de lei propõe que permitirá que uma entidade corporativa para ser processado por homicídio culposo, quando eles foram considerados culpados de negligência, resultando em perda de vidas.
+
+[influences]
+0 = _random_,0.1,0.9
+
+[option0]
+Name = Aprovar lei
+Description = Esta lei é necessária para dissuadir as empresas de economizar quando se trata da segurança de seus funcionários e os cidadãos. Muitas pessoas morrem a cada ano em acidentes de trabalho, e muitas vezes não há lições aprendidas e nenhuma culpa repartida. Esta lei será um passo em frente para a responsabilidade corporativa.
+OnImplement = CreateGrudge(Corporate Manslaughter Bill,CorporateManslaughter,Capitalist,-0.05,0.9f);CreateGrudge(Corporate Manslaughter Bill,CorporateManslaughter,Liberal,0.03,0.9f);CreateGrudge(Corporate Manslaughter Bill,CorporateManslaughter,TradeUnionist,0.06,0.9f);
+
+[option1]
+Name = Bloquear lei
+Description = Esta lei é inaplicável. Com grandes empresas que empregam muitos subempreiteiros, as complexidades jurídicas envolvidas na aplicação culpa por acidentes são consideráveis. Esta lei pode ser bem intencionada, mas, na prática, será um desperdício caro de tempo que serve para encher os bolsos dos advogados enquanto não conseguirem alcançar qualquer mudança real no comportamento corporativo.
+OnImplement = CreateGrudge(Corporate Manslaughter Bill,CorporateManslaughter,Capitalist,0.05,0.9f);CreateGrudge(Corporate Manslaughter Bill,CorporateManslaughter,Liberal,-0.03,0.9f);CreateGrudge(Corporate Manslaughter Bill,CorporateManslaughter,TradeUnionist,-0.07,0.9f);
+
+
+
+
+
+
+

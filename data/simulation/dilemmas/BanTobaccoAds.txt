@@ -1,0 +1,20 @@
+[dilemma]
+name=Ban Tobacco Adverts
+guiname=Proibir Anúncios de Tabaco
+description=Há uma proposta de lei para proibir a publicidade ao tabaco na televisão. Embora ele permaneceria legal para fazer propaganda em outdoors e outros meios, a proibição TV é vista como uma forma potencial para reduzir o tabagismo pelos nossos cidadãos.
+
+[influences]
+0 = _default_,0.8+(0*x)
+1 = Health,0-(0.5*x)
+2 = TobaccoUse,0+(0.4*x)
+
+[option0]
+Name = Rejeitar Proibição
+Description = Não há 100% de evidência comprovada direta de que o tabaco é nem de longe tão prejudicial como alguns grupos de pressão reivindicam. Milhões de nossos cidadãos fumar um cigarro, sem quaisquer efeitos nocivos graves, e este é um exemplo do 'estado babá' tentando dizer às pessoas o que fazer. É seus corpos, e sua decisão!
+
+OnImplement = CreateGrudge(Ban Tobacco Adverts,Ban Tobacco Adverts,Liberal,0.13,0.9);
+
+[option1]
+Name = Aprovar Proibição
+Description = Fumar mata milhões de pessoas todos os anos prematuramente, e é altamente viciante. Quaisquer medidas que o governo pode tomar para reduzir o número de pessoas que sofrem de fumar doença relacionada é bem-vinda. As pessoas ainda terão o direito de fumar, mas isso reduz as chances de a próxima geração, tendo-se.
+OnImplement = CreateGrudge(Ban Tobacco Adverts,Ban Tobacco Adverts,Liberal,-0.19,0.9);CreateGrudge(Ban Tobacco Adverts,Ban Tobacco Adverts,TobaccoUse,-0.19,1.0);

@@ -1,0 +1,19 @@
+[dilemma]
+name=Deportação para Tortura
+guiname=Os agentes da polícia prenderam um vigarista que tem uma estadia em nosso país de forma ilegal. Em circunstâncias normais, ele seria elegível para ser deportado de volta ao seu país de origem. O homem afirma que, se enviado de volta à sua terra natal, é provável que ele será torturado pelo governo.
+
+[influences]
+0 = _random_,0.2,0.9
+
+[option0]
+Name = Deporta-lo
+Description = Este homem tem ninguém para culpar por sua situação, mas a si mesmo. Ele chegou aqui ilegalmente, e tem operado como um criminoso desde que ele chegou aqui. Se ele tivesse pedido asilo político quando ele chegou e não começado uma vida de crime, seria uma questão diferente. Nas circunstâncias devemos tomar suas alegações de ameaças de tortura com uma pitada de sal.
+OnImplement = CreateGrudge(Torture Deportation,TortureDeportation,Patriot,0.04,0.9f);CreateGrudge(Torture Deportation,TortureDeportation,Liberal,-0.08,0.9f);
+
+[option1]
+Name = Mantê-lo aqui
+Description = É claro que este homem não é um cidadão modelo, mas não vigarista merece ser torturado. Se realmente se opõem ao uso da tortura em princípio, então, apesar da história do homem, é preciso garantir que não esta disposta a participar de tortura, enviando-o de volta para casa. Se deportá-lo, ele poderia se tornar efetivamente uma sentença de morte.
+OnImplement = CreateGrudge(Torture Deportation,TortureDeportation,Patriot,-0.08,0.9f);CreateGrudge(Torture Deportation,TortureDeportation,Liberal,0.02,0.9f);
+
+
+

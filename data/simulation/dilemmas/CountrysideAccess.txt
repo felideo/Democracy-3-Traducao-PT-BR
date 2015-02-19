@@ -1,0 +1,19 @@
+[dilemma]
+name=CountrysideAccessLaw
+guiname=Lei de Acesso pelo Campo
+description=Grande parte da nossa paisagem é ainda de propriedade privada, com acesso ao andar sobre a terra restrita pelos latifundiários. Há uma forte campanha para trazer leis obrigando os proprietários a fazerem da sua terra acessível para caminhantes e caminhantes para desfrutar da paisagem dentro de certas diretrizes.
+
+[influences]
+0 = _default_,0.8+(0*x)
+1 = Equality,-0.4+(0.4*x)
+
+[option0]
+Name = Bloquear lei
+Description = Terreno privado é terras privadas. Esta é a própria base da propriedade privada e do capitalismo. Se os proprietários desejam restringir o acesso à sua terra, depende inteiramente de eles. Isto nada mais é do que uma tentativa de guerra de classes dissimulado pelos socialistas descontentes.
+OnImplement = CreateGrudge(Countryside Access Law,CountrysideAccessLaw,Farmers,0.1,0.9f);CreateGrudge(Countryside Access Law,CountrysideAccessLaw,Socialist,-0.12,0.9f);
+
+[option1]
+Name = Apoiar a lei
+Description = É uma loucura ter tanta terra aberta e muitas vezes não utilizado inteiramente em mãos privadas, enquanto as nossas cidades são tão superlotadas. Esta lei vai permitir que todos os cidadãos a desfrutar da beleza do nosso campo, mantendo a final direitos de propriedade e privilégios de propriedade do proprietário do terreno. É um bom compromisso.
+OnImplement = CreateGrudge(Countryside Access Law,CountrysideAccessLaw,Equality,0.05,0.9f);CreateGrudge(Countryside Access Law,CountrysideAccessLaw,Socialist,0.11,0.9f);CreateGrudge(Countryside Access Law,CountrysideAccessLaw,Farmers,-0.15,0.9f);
+
