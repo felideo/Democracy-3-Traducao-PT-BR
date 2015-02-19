@@ -24,7 +24,7 @@ Eventos = 0%
 
 ------------------------------------------------------------------------------------
 
-Inclusão do Brasil = 50% (falta coletar dados confiáveis para maior fidelidade a realidade brasileira)
+Inclusão do Brasil = 60% (alteração dos dados para maior fidelidade a realidade brasileira)
 
 ------------------------------------------------------------------------------------
 
