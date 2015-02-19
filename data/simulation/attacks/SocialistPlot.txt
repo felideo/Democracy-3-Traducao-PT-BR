@@ -1,0 +1,13 @@
+[config]
+Name = SocialistPlot
+GUIName = Conspiração Socialista!
+UsedBy = RevolutionaryArmy
+MinStrength = 12
+Type = PLOT
+Cost = 0
+MinSize = 4
+SuccessChance = 1.0
+SuccessText = "A insatisfação com as políticas de governos, entre alguns socialistas extremos está a empurrar mais e mais deles para os braços do grupo extremista conhecido como 'Exército Revolucionário'. Esta organização tem o compromisso de garantir um estado socialista por qualquer meio necessário, e ouvimos rumores de que eles estão atualmente obtendo armas de simpatizantes estrangeiros. Esta é uma verdadeira ameaça material que precisa estar ciente."
+OnSuccess = 
+FailureText = ""
+OnFailure = 

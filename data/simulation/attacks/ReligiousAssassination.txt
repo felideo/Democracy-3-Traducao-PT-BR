@@ -1,0 +1,19 @@
+[config]
+Name = ReligiousAssassination
+GUIName = Assassinato!
+UsedBy = CrusadersOfTheLord
+Type = ASSASSINATION
+MinStrength = 40
+Cost = 30
+MinSize = 8
+SuccessChance = 0.5
+SuccessText = "Hoje é um dia negro para a Democracia, como um grupo extremista religioso autodenominando-se 'Cruzados do Senhor' conseguiu assassinar o presidente deste país eleito democraticamente. Um ataque combinado envolvendo uma dúzia de atiradores, e um poderoso carro bomba, oprimindo nossos serviços de segurança em um recente discurso publico. Doze pessoas morreram, incluindo você. Fim de Jogo."
+OnSuccess = GameOver(ReligiousAssassination);
+protaginist_texture = voter_religious.dds
+GUISound = d3_gameover_bombandguns.ogg
+FailureText = ""
+OnFailure = CreateGrudge(ReligiousAssassination,Assassination attempt,_All_,0.06,0.8);TriggerEvent(FailedReligiousAssassination);
+
+[prereqs]
+ReligiousPlot
+

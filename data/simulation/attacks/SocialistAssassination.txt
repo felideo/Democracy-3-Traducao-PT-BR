@@ -1,0 +1,19 @@
+[config]
+Name = SocialistAssassination
+GUIName = Assassinato!
+UsedBy = RevolutionaryArmy
+Type = ASSASSINATION
+MinStrength = 40
+Cost = 30
+MinSize = 8
+SuccessChance = 0.5
+SuccessText = "Hoje, o cãozinho capitalista do mal responsável por este país (que era você) foi heroicamente assassinado por um time de companheiros do 'Exército Revolucionário'. Nossos bravos soldados atacaram o coração da máquina capitalista, abrindo fogo no meio de um discurso para a comunidade bancária. Um número de fascistas malignas foram mortos, assim como o chamado 'presidente' do nosso país. Infelizmente, todos os companheiros envolvidos nesta batalha heroica foram mortos por forças do governo. Esta é uma vitória para o homem comum, e ao longo do jogo para você."
+OnSuccess = GameOver(SocialistAssassination);
+GUISound = d3_gameover_shots.ogg
+protaginist_texture = voter_socialist.dds
+FailureText = ""
+OnFailure = CreateGrudge(SocialistAssassination,Assassination attempt,_All_,0.06,0.8);TriggerEvent(FailedSocialistAssassination);
+
+[prereqs]
+SocialistPlot
+

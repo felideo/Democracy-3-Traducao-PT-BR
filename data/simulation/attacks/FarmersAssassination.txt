@@ -1,0 +1,18 @@
+[config]
+Name = FarmersAssasination
+GUIName = Assassinato!
+UsedBy = TheLandArmy
+MinStrength = 40
+Type = ASSASSINATION
+Cost = 30
+MinSize = 8
+SuccessChance = 0.5
+SuccessText = "Ninguem pode acreditar como eles conseguiram isso, mas de certa forma um grupo de extremistas que afirmam ser 'Exercito da Terra' transformou-se em uma coletiva de imprensa hoje e conseguiu entrar na reunião com uma espingarda. Eles so conseguram disparar um tiro antes de ser tratado, mas isso e tudo o que eles precisavam. Tenho certeza de que cabecas vao rolar nos servicos de seguranca, uma vez que descobrir como essa coisa foi possivel, mas nao havera consolo para si. Game Over ... "
+OnSuccess = GameOver(FarmersAssasination);
+protaginist_texture = voter_farmers.dds
+GUISound = d3_gameover_shotgun.ogg
+FailureText = 
+OnFailure = CreateGrudge(FarmersAssasination,Assassination attempt,0.06,0.8);TriggerEvent(FailedFarmersAssassination);
+
+[prereqs]
+FarmersPlot

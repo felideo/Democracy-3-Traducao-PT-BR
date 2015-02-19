@@ -1,0 +1,13 @@
+[config]
+Name = EthnicPlot
+GUIName = Ameaça Etnica!
+UsedBy = BlackPowerGroup
+MinStrength = 12
+Type = PLOT
+Cost = 0
+MinSize = 4
+SuccessChance = 1.0
+SuccessText = "Nossos relatorios de segurança mais recentes indicam que indica uma ameaça crescente de organizacao extremista conhecido como o "Grupo Black Power '. ele se parece com um numero de pessoas estao revoltados com a forma como a politica do governo esta afetando as minorias etnicas, e ver Eliminando o atual governo pela força como e a unica maneira de mudar as coisas. Voce pode querer ser cuidadoso sobre irritar as minorias etnicas se nao quer sofrer no ataque na sua pessoa. "
+OnSuccess = 
+FailureText = ""
+OnFailure = 

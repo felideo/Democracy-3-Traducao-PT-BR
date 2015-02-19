@@ -1,0 +1,13 @@
+[config]
+Name = CapitalistPlot
+GUIName = Lote Capitalista!
+UsedBy = BattenburgGroup
+MinStrength = 12
+Type = PLOT
+Cost = 0
+MinSize = 4
+SuccessChance = 1.0
+SuccessText = "Nossa rede de inteligencia identificou um enredo potencialmente grave por um numero de ricos industriais  para forçar o derrubade do governo. O plano parece estar em estagios iniciais, e nao estamos numa posicao para fazer prisoes ainda, mas e claro que alguns capitalistas consideram desejavel para projetar um substituto para o atual governo. Voce deve ser cauteloso. "
+OnSuccess = 
+FailureText = ""
+OnFailure = 

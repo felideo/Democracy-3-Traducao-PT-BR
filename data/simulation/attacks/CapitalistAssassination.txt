@@ -1,0 +1,18 @@
+[config]
+Name = CapitalistAssassination
+GUIName = Assassinato!
+UsedBy = BattenburgGroup
+MinStrength = 40
+Type = ASSASSINATION
+Cost = 30
+MinSize = 4
+SuccessChance = 0.5
+SuccessText = "Voce foi vítima de um atendimento totalmente planejado assassinato. Um atirador altamente qualificados colocar uma bala na sua cabeça usando um rifle sniper oi-tech quando voce apareceu no evento para abrir  uma nova escola. Todas as pistas levam ao assassino de ser contratado por um grupo secreto conhecido como "O grupo Battenburg", pensado para ser controlado por um número de capitalistas hiper-ricos. Parece que as suas politicas eram erradas para alguns homens muito poderosos e ricos, e voce pagou o preco final."
+protaginist_texture = voter_capitalist.dds
+GUISound = d3_gameover_sniper.ogg
+OnSuccess = GameOver("CapitalistAssassination");
+FailureText = ""
+OnFailure = CreateGrudge(CapitalistAssassination,Assassination attempt,_All_,0.06,0.8);TriggerEvent(FailedCapitalistAssassination);
+
+[prereqs]
+CapitalistPlot
