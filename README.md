@@ -10,28 +10,32 @@ Para utilizar a tradução, basta efetuar o download e colar a pasta data no dir
 
 O jogo utiliza a codificação de texto ASCI, por isso ainda não encontrei forma de aparecerem caracteres acentuados, que não são exibidos no jogo. Caso eu não encontre maneira de acentuar as palavras, removerei os caracteres especiais quando terminar a transposição de todos os textos.
 
-
+------------------------------------------------------------------------------------
 
 Interface Geral do Jogo = 100%
 
 Ataques = 100%
 
-Dilemas = 50%
+Dilemas = 100%
+
+Nomes Brasileiros = 100%
 
 Eventos = 0%
 
+------------------------------------------------------------------------------------
 
 Inclusão do Brasil = 50% (falta coletar dados confiáveis para maior fidelidade a realidade brasileira)
 
-Nomes Brasileiros = 0%
-
+------------------------------------------------------------------------------------
 
 Mods Tradusidos: Greece, Circa 2011;
 
+------------------------------------------------------------------------------------
 
 Agradecimento ao Volt85 usuário do fórum tribo gamer por compartilhar o inicio do seu projeto de tradução independente, o qual estou utilizando os arquivos referentes a inclusão do Brasil no jogo.
 
 Agradecimento aos voluntários da transifex pela tradução do jogo, a qual estou utilizando para implementar nos arquivos.
 
+------------------------------------------------------------------------------------
 
 Quaisquer dúvidas ou sugestões, podem me contatar por email: felideo@gmail.com
