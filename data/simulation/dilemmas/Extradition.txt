@@ -1,17 +1,24 @@
 [dilemma]
 name=EXTRADITE TERROR SUSPECT
-guiname=Extradite terror Suspect?
-description=A middle east country with which we have no formal extradition treaty has requested that we extradite an immigrant living here to them to face charges of terrorism. They accuse him of being responsible for car bombings in their capital city, but the only evidence they have of this is the confessions of other terror suspects, which may have been made under 'duress'.
+guiname=Extraditar o Suspeito de terrorismo?
+description=Um país do Oriente Médio com o qual não temos um tratado formal de extradição requeriu que extraditemos um imigrante que reside aqui para lá, para que ele possa ser julgado por acusações de terrorismo. O país o acusa de ser responsável por carros-bomba na capital de lá, mas a única prova que têm disso são confissões de outros suspeitos de terrorismo, que podem ter sido 'forçadas.'
 
 [influences]
 0 = _random_,0.2,0.9
 
 [option0]
-Name = Extradite suspect
-Description = We should send this terrorist back to his home country immediately. There may be some minor concerns about the justice system in his home country, but they are fighting terrorists, and if the situation were reversed we would be outraged at any refusal to send terrorists to face trial. This is no time to be squeamish about interrogation methods.
+Name = Extraditar suspeito
+Description = Devemos enviar esta terrorista de volta para seu país de origem imediatamente. Pode haver algumas preocupações menores sobre o sistema de justiça em seu país de origem, mas eles estão combatendo terroristas, e se a situação fosse invertida estaríamos indignados com a recusa de enviar terroristas para enfrentar o julgamento. Não é hora de ser reticente sobre métodos de interrogatório.
 OnImplement = CreateGrudge(Extradite terror Suspect?,EXTRADITE TERROR SUSPECT,Patriot,0.09,0.9f);CreateGrudge(Extradite terror Suspect?,EXTRADITE TERROR SUSPECT,Liberal,-0.13,0.9f);
 
 [option1]
-Name = Keep him here
-Description = If we extradite this man there is a chance he will face the death penalty. We have no way of knowing if he will get a fair trial, and we cannot be sure that he is the right man. We cannot extradite people just on the say-so of foreign governments, we need to see evidence of criminal activity before we possibly send a man to his death.
+Name = Mantê-lo aqui
+Description = Se extraditar este homem há uma chance de que ele vai enfrentar a pena de morte. Nós não temos nenhuma maneira de saber se ele vai ter um julgamento justo, e não podemos ter certeza de que ele é o homem certo. Não podemos extraditar pessoas só na palavra de governos estrangeiros, precisamos ver a evidência de atividade criminosa antes de, eventualmente, mandar um homem para a morte.
 OnImplement = CreateGrudge(Extradite terror Suspect?,EXTRADITE TERROR SUSPECT,Patriot,-0.12,0.9f);CreateGrudge(Extradite terror Suspect?,EXTRADITE TERROR SUSPECT,Liberal,0.10,0.9f);
+
+
+
+
+
+
+

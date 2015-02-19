@@ -1,18 +1,24 @@
 [dilemma]
-name=Freedomofinformation
+name=Liberdade de Informação
 guiname=Freedom of information
-description=There have been calls for a law to increase the availability of information held on databases about citizens without their knowledge. These include the records held by private medical companies, insurance companies and debt collection agencies, as well as information held by government departments.
+description=Houve apelos para uma lei para aumentar a disponibilidade de informações mantidas em bancos de dados sobre os cidadãos sem o seu conhecimento. Estes incluem os registros mantidos por empresas médicas privadas, companhias de seguros e agências de cobrança de dívidas, bem como informações detidas pelos órgãos governamentais.
 
 [influences]
 0 = _default_,0.5+(0*x)
 1 = _random_,0,0.5
 
 [option0]
-Name = Reject proposal
-Description = Nobody likes the idea of the government holding information about them, but in some circumstances this needs to be done. The government isn't out to spy on everyone, but passing this law will just make it harder for the intelligence services to keep a watch on serious criminals and terrorists. It will also affect a large number of businesses who have customer databases, who will be swamped with yet more bureaucracy.
+Name = Rejeitar a proposta
+Description = Ninguém gosta da idéia de que o governo segurando informações sobre eles, mas em algumas circunstâncias, isso precisa ser feito. O governo não está a fim de espionar todos, mas passando essa lei só vai tornar mais difícil para os serviços de inteligência para manter uma vigilância sobre os criminosos graves e terroristas. Ele também irá afetar um grande número de empresas que têm bases de dados de clientes, que serão inundados com ainda mais burocracia.
 OnImplement = CreateGrudge(Freedom of information,Freedomofinformation,Liberal,-0.13,1.0);CreateGrudge(Freedom of information,Freedomofinformation,StateEmployees,0.05,1.0);CreateGrudge(Freedom of information,Freedomofinformation,_security_,0.10,1.0);
 
 [option1]
-Name = Propose freedom act
-Description = It's essential that we have this law passed as it is one of the checks and balances required in any truly free society. The average law abiding citizen should not be spied on or monitored by multinational corporations with computer databases, and the potential for abuse by government agencies if the citizens cannot view what data is being stored is huge.
+Name = Propor acao de liberdade
+Description = É essencial que tenhamos essa lei aprovada, uma vez que é um dos freios e contrapesos necessários em qualquer sociedade verdadeiramente livre. O cidadão cumpridor da lei comum não deve ser espionado ou monitorados por empresas multinacionais com bases de dados de computador, e do potencial de abuso por parte de órgãos do governo se os cidadãos não podem ver o que os dados estão sendo armazenados é enorme.
 OnImplement = CreateGrudge(Freedom of information,Freedomofinformation,Liberal,0.10,1.0);CreateGrudge(Freedom of information,Freedomofinformation,StateEmployees,-0.07,1.0);CreateGrudge(Freedom of information,Freedomofinformation,_security_,-0.04,1.0);
+
+
+
+
+
+

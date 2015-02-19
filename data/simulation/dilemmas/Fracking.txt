@@ -1,17 +1,24 @@
 [dilemma]
 name=Fracking
 guiname=Fracking
-description=Hydraulic fracturing, better known as 'fracking' is a new drilling technology that allows energy companies to exploit previously unreachable deposits of shale gas. The technique is relatively new, and requires the government to give permission to use. On the one hand it opens up potentially huge supplies of energy, on the other hand, there are serious environmental concerns about the process.
+description=A Fraturação Hidráulica, mais conhecido como 'fracking' é uma nova tecnologia de perfuração que permite que as empresas de energia para explorar depósitos antes inacessíveis de gás de xisto. A técnica é relativamente nova, e exige que o governo dê permissão para usar. Por um lado, ele abre potencialmente enormes fontes de energia, por outro lado, há preocupações ambientais sérias sobre o processo.
 
 [influences]
 0 = _random_,0.3,0.9
 
 [option0]
-Name = Allow Fracking
-Description = This bill will give the go-ahead to energy companies to carry out commercial level fracking operations on our soil. This is great news for consumers as it will drive energy prices down, and will reduce our dependence on foreign imports of oil and gas. Plus it will be a boost for the economy. what's not to like?
+Name = Permitir Fracking
+Description = Este projeto de lei vai dar o sinal verde para as empresas de energia para realizar operações de fracking de nível comercial em nosso solo. Esta é uma grande notícia para os consumidores, uma vez que irá conduzir os preços da energia para baixo, e vai reduzir nossa dependência das importações estrangeiras de petróleo e gás. Além disso, vai ser um impulso para a economia. o que há para não gostar?
 OnImplement = CreateGrudge(Fracking,Fracking,Environmentalist,-0.10,1.0);CreateGrudge(Fracking,Fracking,Capitalist,0.05,1.0);CreateGrudge(Fracking,Fracking,OilSupply,0.10,1.0);CreateGrudge(Fracking,Fracking,GDP,0.04,1.0);
 
 [option1]
-Name = Ban fracking
-Description = Fracking poses a number of dangers, not least the possibility that it is linked to earthquakes, and the very real danger of contaminating the water supply, as it involves pumping huge quantities of dangerous chemicals into the rock at very high pressures. Plus, this is just another way to perpetuate our reliance on ever dwindling supplies of climate-damaging fossil fuels.
+Name = Proibir franking
+Description = Fracking coloca uma série de perigos, não menos importante, a possibilidade de que ela está ligada a terremotos, e o perigo muito real de contaminação do abastecimento de água, já que envolve bombear grandes quantidades de produtos químicos perigosos na rocha a pressões muito altas. Além disso, esta é apenas mais uma maneira de perpetuar a nossa dependência de sempre diminuindo abastecimento de combustíveis fósseis prejudiciais ao clima.
 OnImplement = CreateGrudge(Fracking,Fracking,Environmentalist,0.08,1.0);CreateGrudge(Fracking,Fracking,Capitalist,-0.05,1.0);
+
+
+
+
+
+
+

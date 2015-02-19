@@ -1,18 +1,24 @@
 [dilemma]
 name=HousingExpansion
-guiname=Housing Expansion
-description=There is a shortage of homes in our country, and the government is under pressure to relax planning laws and allow previously restricted 'green-belt' land to be built on.
+guiname=Expansão Habitacional 
+description=Há uma escassez de casas em nosso país, e o governo está sob pressão para relaxar as leis de planejamento e permitir que anteriormente restrito terra '-cinturão verde a ser construído.
 
 [influences]
 0 = _random_,0.2,0.6
 1 = GDP,0+(0.6*x)
 
 [option0]
-Name = Relax planning law
-Description = House prices  are rising far faster than earnings, due mainly to the shortage of supply. In the long term, the only solution is to build more housing. It's no good providing housing where there are no jobs, and if that means building on a small proportion of 'green-belt' land then that's a price we have to pay.
+Name = Relaxar lei de planejamento
+Description = Os preços das casas estão subindo mais rápido do que ganhos, principalmente devido à escassez de oferta. No longo prazo, a única solução é a construção de mais moradias. Isso não é bom habitação fornecendo onde não há postos de trabalho, e se isso significa a construção de uma pequena parcela de terra '-cinturão verde', então esse é um preço que temos de pagar.
 OnImplement = CreateGrudge(Housing Expansion,HousingExpansion,Environmentalist,-0.09,0.9f);CreateGrudge(Housing Expansion,HousingExpansion,Farmers,-0.13,0.9f);CreateGrudge(Housing Expansion,HousingExpansion,Capitalist,0.06,0.9f);CreateGrudge(Housing Expansion,HousingExpansion,GDP,0.02,0.9f);CreateGrudge(Housing Expansion,HousingExpansion,Homelessness,-0.08,0.9f);
 
 [option1]
-Name = Keep planning restrictions
-Description = There is always pressure to build new homes on 'green field sites', because housing companies find it cheaper and easier to build on them. There are plenty of urban sites that should be reused before we resort to carving up the countryside. A sudden expansion into the green belt would have a dreadful impact on the rural communities.
+Name = Manter restrições de planejamento
+Description = Há sempre pressão para construir novas casas em locais de campo 'verde', porque as empresas de habitação encontrá-lo mais barato e mais fácil de construir sobre eles. Há uma abundância de locais urbanos que devem ser reutilizados antes de recorrer ao desmembramento do campo. A súbita expansão no cinturão verde teria um impacto terrível sobre as comunidades rurais.
 OnImplement = CreateGrudge(Housing Expansion,HousingExpansion,Environmentalist,0.07,0.9f);CreateGrudge(Housing Expansion,HousingExpansion,Farmers,0.09,0.9f);CreateGrudge(Housing Expansion,HousingExpansion,Capitalist,-0.04,0.9f);CreateGrudge(Housing Expansion,HousingExpansion,Homelessness,0.08,0.9f);
+
+
+
+
+
+

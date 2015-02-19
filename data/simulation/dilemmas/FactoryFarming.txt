@@ -1,17 +1,24 @@
 [dilemma]
 name=FactoryFarming
-guiname=Factory Farming Law
-description=A campaign for the tightening of animal welfare standards on farms is gaining momentum. A law has been proposed that would set higher minimum standards for the space, food and access to outdoors that is available to animals in intensive farming establishments.
+guiname=Lei da Pecuária Industrial
+description=Uma campanha para tornar mais rígidos os padrões do bem-estar de animais nas fazendas está ganhando popularidade. Foi proposta uma lei que aumentaria os padrões de espaço, alimentação e acesso ao ar livre que são disponibilizados a animais em estabelecimentos de pecuária intensiva.
 
 [influences]
 0 = _random_,0.1,0.9
 
 [option0]
-Name = Set tougher standards
-Description = It's about time we did something to ensure animals are not suffering in intensive farming. Most people would be horrified if they saw the conditions some animals are kept in. These standards would lead to more expensive food, but people would be happy to pay more if they knew the conditions in which animals are currently kept.
+Name = Definir padrões mais rígidos
+Description = Já era hora de fazermos algo para garantir que animais não sofram na pecuária intensiva. A maioria das pessoas ficariam horrorizadas se vissem as condições em que alguns animais estão vivendo. Esses padrões podem levar ao encarecimento da comida, mas as pessoas ficariam felizes em pagar mais se soubessem das condições em que os animais são mantidos atualmente.
 OnImplement = CreateGrudge(Factory Farming Law,FactoryFarming,Farmers,-0.23,0.9f);CreateGrudge(Factory Farming Law,FactoryFarming,Capitalist,-0.03,0.9f);CreateGrudge(Factory Farming Law,FactoryFarming,Environmentalist,0.08,0.9f);CreateGrudge(Factory Farming Law,FactoryFarming,Liberal,0.05,0.9f);CreateGrudge(Factory Farming Law,FactoryFarming,GDP,-0.03,0.9f);CreateGrudge(Factory Farming Law,FactoryFarming,MadCowEpidemic,-0.20,0.9f);
 
 [option1]
-Name = Leave unchanged
-Description = Nobody forces people to buy processed meat from the cheapest source. There are organic and free range foods, but the free market shows clearly that people aren't prepared to pay more for a change in animal welfare. This is the government interfering in the market to appease a few campaigners.
+Name = Deixar inalterado
+Description = Ninguém força as pessoas a comprar comida processada do fornecedor mais barato. Há comida orgânica e de animais criados em locais abertos, mas o livre mercado claramente mostra que as pessoas não estão preparadas para uma mudança no bem-estar animal. Isso seria o governo interferindo no mercado para agradar só algumas campanhas.
 OnImplement = CreateGrudge(Factory Farming Law,FactoryFarming,Farmers,0.08,0.9f);CreateGrudge(Factory Farming Law,FactoryFarming,Capitalist,0.01,0.9f);CreateGrudge(Factory Farming Law,FactoryFarming,Environmentalist,-0.04,0.9f);CreateGrudge(Factory Farming Law,FactoryFarming,Liberal,-0.02,0.9f);CreateGrudge(Factory Farming Law,FactoryFarming,MadCowEpidemic,0.10,0.9f);
+
+
+
+
+
+
+
