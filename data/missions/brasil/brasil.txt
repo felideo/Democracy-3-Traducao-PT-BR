@@ -1,0 +1,82 @@
+[config]
+currency = "R$"
+population = 158334
+economic_cycle_start = 0.28
+min_income = 8000
+max_income = 150000
+min_gdp = 2021093
+max_gdp = 6063280
+wealth_mod = 23.41
+starting_debt = 3120000
+name  = brasil
+guiname = "Brasil"
+names_file = "data\names\brasilnames.txt"
+term_length = 16
+max_terms = 2
+details_image = "brasil_details.jpg"
+description = " Brasil, oficialmente Republica Federativa do Brasil, e o maior pais da America do Sul e da regiao da America latina, sendo o quinto maior do mundo em area territorial e população. A Federacao Brasileira e formada pela uniao indissoluvel de tres entidades políticas distintas: os estados, os municípios e o Distrito Federal. A Uniao, os estados, o Distrito Federal e os municipios sao as esferas do governo. A Federacao esta definida em cinco principios fundamentais: soberania, cidadania, dignidade da pessoa humana, os valores sociais do trabalho e da livre iniciativa e o pluralismo politico. 
+flag = "flag_brasil.jpg"
+apathy = 0.58
+jobtitle = "Presidente"
+GUID = 4
+
+[options]
+EARTHQUAKES
+HURRICANES
+
+[stats]
+Populacao: = "198.700.000 (Junho 2013)"
+Tamanho: = "8 515 767,049 km"
+Esperanca M.Vida: = "78.62 anos"
+Gini: = "33.7.7"
+PIB: = "R$23,047"
+Pluviosidade: = "16% (2006)"
+Etenia: = "79.9% Misto"
+Religiao: = "Cristianismo(78.3%)"
+Taxa Obesidade: = "30.6%"
+Indice Big Mac: = "R$8.2"
+Consumo de Carne Anual: = "42 kg/pessoa"
+
+[policies]
+CorporationTax = 0.30
+SalesTax = 0.31
+PetrolTax = 0.04
+UnemployedBenefit = 0.12
+StateHealthService = 0.1
+StateSchools = 0.35
+PropertyTax = 0.11
+RailSubsidies = 0.45
+TobaccoTax = 0.15
+ArmedPolice = 0.58
+StatePensions = 0.51
+PollutionControls = 0.33
+LabourLaws = 0.1
+MilitarySpending = 1.0
+FoodStamps = 0.82
+PrivatePrisons = 0.12
+TechnologyColleges = 0.82
+TechnologyGrants = 0.75
+SpaceProgram = 0.75
+SchoolBuses = 0.75
+LegalAid = 0.5
+JuryTrial = 0.73
+HybridCarsInitiative = 0.25
+GatedCommunities = 0.6
+ForeignAid = 0.22
+DeathPenalty = 0.05
+HandgunLaws = 0.2
+BiofuelSubsidies = 0.75
+IncomeTax = 0.34
+AlcoholLaw = 0.6
+CapitalGainsTax = 0.33
+CarTax = 0.2
+InheritanceTax = 0.2
+BorderControls = 0.4
+PoliceForce = 0.55
+IntelligenceServices = 0.78
+PrisonerTagging = 0.55
+SmallBusinessGrants = 0.6
+CitizenshipTests = 0.22
+SchoolVouchers = 0.2
+Narcotics = 0.1
+FoodStandards = 0.52
