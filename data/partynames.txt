@@ -1,119 +1,15 @@
-[report_election_time]
-0 = 	"A eleição não acontecerá por um bom tempo. <PARTYNAME> atualmente possui <PARTYSIZE> membros."
-1 = 	"A eleição irá demorar um tempo. Atualmente existe <PARTYSIZE> pessoas no <PARTYNAME>."
-2 = 	"Você está no meio do seu mandato, e o tamanho atual do <PARTYNAME> é <PARTYSIZE>."
-3 = 	"A eleição se aproxima, e temos atualmente um total de <PARTYSIZE> membros no <PARTYNAME>"
-4 = 	"A eleição está se aproximando. Temos atualmente <PARTYSIZE> membros em <PARTYNAME>."
-
-[REPORT_SUMMARY_LOWAPPROVAL]
-0 = 	"O governo não é popular entre a população, Apenas <PERCENT> pretende votar em você na próxima eleição."
-1 = 	"A sua taxa de aprovação é desapontante. Segundo as pesquisas, você irá receber apenas <PERCENT> dos votos. "
-2 = 	"As pesquisas não vão bem. Pela nossa ultima pesquisa, teremos apenas <PERCENT> dos votos na eleição."
-
-[REPORT_SUMMARY_AVERAGEAPPROVAL]
-0 = 	"As pessoas estão indiferentes em relação ao seu governo, estimamos receber <PERCENT> dos votos em uma eleição."
-
-[REPORT_SUMMARY_HIGHAPPROVAL]
-0 = 	"Seu governo é popular entre o eleitorado, estimamos uma pesquisa em <PERCENT>"
-1 = 	"Vocé é popular entre a maioria dos eleitores. Prevemos receber <PERCENT> dos votos na eleição."
-2 = 	"As pesquisas são otimistas. Se uma eleição ocorresse amanha, suspeitamos que receberíamos <PERCENT> dos votos."
-
-[REPORT_SUMMARY_DEFICIT]
-0 = 	"Temos um déficit financeiro de <DEFICIT>. Precisamos reduzir nossos gastos, ou aumentar alguns impostos."
-1 = 	"O governo está atualmente com um déficit financeiro de <DEFICIT>. Devemos tomar medidas para reduzir o problema."
-
-[REPORT_SUMMARY_DEFICIT_SMALL]
-0 = 	"Temos atualmente um pequeno déficit financeiro de <DEFICIT>, mas não existe motivo para nos preocuparmos."
-1 = 	"Temos um pequeno déficit financeiro de <DEFICIT>, o qual teremos que nos preocupar cedo ou tarde."
-
-[REPORT_SUMMARY_SURPLUS]
-0 = 	"Nossas economias possuem um superávit de <SURPLUS> todo trimestre, o que são ótimas noticias. "
-1 = 	"As finanças estão em bom estado. Atualmente temos um superávit de <SURPLUS> e podemos considerar diminuir os impostos."
-
-[REPORT_SUMMARY_SURPLUS_SMALL]
-0 = 	"Nossas finanças estão com um pequeno superávit de <SURPLUS>, mas é um pequeno valor comparado com todo o gasto governamental."
-1 = 	"O superávit financeiro é de <SURPLUS>, mas é um valor muito pequeno para pensarmos em aumentar os gastos ou reduzir os impostos."
-
-[REPORT_SUMMARYCREDITRATING]
-0 = 	"Agências de risco de crédito internacionais avaliam nosso governo em <RATING>. Este é um mal sinal, e está elevando a taxa de juros que pagamos sobre nosso débito. Devemos tratar disto."
-1 = 	"Nosso risco de crédito é preocupantemente <RATING>. Devemos consertar isto, aumentando o PIB, diminuindo os gastos ou com maiores impostos."
-
-[report_global_economy]
-0 = 	"Infelizmente parece que a economia global está em uma profunda recessão, e como resultado nosso PIB está seriamente reduzido. "
-1 = 	"A economia global está em recessão e isto está tendo um impacto negativo no nosso PIB."
-2 = 	"A economia global está indo bem, não estamos nem crescendo nem em queda."
-3 = 	"Boas notícias! A economia global está indo bem, e isso está tendo um efeito positivo em nosso PIB."
-4 = 	"Ótimas noticias! A economia global está em crescimento, o que está causando um efeito noticiável na nossa economia."
-
-[opinion_of_government]
-0=	"Oposição Fanática"
-1=	"Oposição Agressiva"
-2=	"Oposição Furiosa"
-3=	"Oposição Forte"
-4=	"Oposição Moderada"
-5=	"Muito Infeliz"
-6=	"irritado"
-7=	"Bastante Infeliz"
-8=	"Moderadamente Infeliz"
-9=	"Infeliz"
-10=	"Levemente Infeliz"
-11=	"Pouco Infeliz"
-12=	"Pouco Feliz"
-13=	"Moderadamente Satisfeito"
-14=	"Satisfeito"
-15=	"Leve Apoio"
-16=	"Geral Apoio"
-17=	"Moderado Apoio"
-18=	"Muito Apoio"
-19=	"leal"
-20=	"Muito Leal"
-21=	"Esmagador Apoio"
-22=	"Extremo Apoio"
-23=	"Fanático Apoio"
-
-[security effectiveness]
-0 = 	"Inútil"
-1 = 	"Ineficaz"
-2 = 	"Pobres"
-3 = 	"adequado"
-4 = 	"bom"
-5 = 	"Eficaz"
-6 = 	"Alto"
-
-[cynicism]
-0 = 	"Confiando muito"
-1 = 	"Confiando"
-2 = 	"Realista"
-3 = 	"Levemente cínico"
-4 = 	"Moderadamente cínico"
-5 = 	"Muito cínico"
-6 = Extremely cynical
-
-[loading_messages]
-0 = 	"Comprando votos..."
-1 = 	"Ministros lobistas..."
-2 = 	"Mascarando o número de desempregados..."
-3 = 	"Calibrando corrupção..."
-4 = 	"Montando grupos acadêmicos tendenciosos..."
-5 = 	"Informando erroneamente o eleitorado..."
-6 = 	"Subornando as grandes mídias internacionais..."
-7 = 	"Fazendo vista grossa para a sonegação de impostos..."
-8 = 	"Recalculando votos..."
-9 = 	"Modificando as despesas ministeriais..."
-10 = 	"Instruindo contra colegas..."
-11 = 	"Coletando estatísticas mentirosas... "
-12 = 	"Criando intriga nos meios de comunicação..."
-13 = 	"Desfrutando de hospitalidade lobista ..."
-14 = 	"Fraudando Eleições"
-15 = 	"Interpretando mal a constituição..."
-16 = 	"Calculando desconhecidos que não se sabe..."
-17 = 	"Inventando a internet..."
-18 = 	"Complicando o código fiscal"
-19 = 	"Patrocinando o eleitorado..."
-20 = 	"Fazendo promessas impossíveis..."
-21 = 	"Preparando pedaços de som..."
-22 = 	"Agendamento de oportunidades de fotos..."
-23 = 	"Postura com relação à política exterma"
-24 = 	"Evitando debates reais..."
-25 = 	"Apontando amigos para cargos altos..."
-26 = 	"Alinhando directorias de aposentadoria ..."
+[names]
+Liberais Democratas
+Social Democratas
+Partido Jeova
+Democraticos Conservadores
+Partido Liberal
+Partido Conservador
+Republicanos
+Democratas
+Partido da Justica
+Partido da Liberdade
+Partido da Uniao Nacional
+Partido Ecologista - Os Verdes
+Colicacao Liberal
+Partido Popular
