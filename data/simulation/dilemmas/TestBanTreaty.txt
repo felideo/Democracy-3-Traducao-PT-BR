@@ -1,17 +1,17 @@
 [dilemma]
 name=TestBanTreaty
-guiname=Tratado de Proibicao de Testes Nucleares
-description=As nacoes unidas esta empurrando para o seu pais para assinar um tratado que nos proibem de realizar todos os testes de armas nucleares para fins de investigacao. Muitas outras nacoes ja assinaram o tratado e estao nos pressionando para assinar por via diplomatica.
+guiname=Tratado de Proibição de Testes Nucleares
+description=As nações unidas está empurrando para o seu país para assinar um tratado que nos proíbem de realizar todos os testes de armas nucleares para fins de investigação. Muitas outras nações já assinaram o tratado e estão nos pressionando para assinar por via diplomática.
 
 [influences]
 0 = _random_,0.3,0.9
 
 [option0]
 Name = Assinar tratado
-Description = Nos nao temos nenhuma necessidade real de realizar mais testes, nao e como se a geracao atual de armas nao funcionam, ou nao sao poderosos o suficiente. A assinatura do tratado vai manter ativistas ambientais feliz e vai aumentar a nossa popularidade no cenario internacional.
+Description = Nós não temos nenhuma necessidade real de realizar mais testes, não é como se a geração atual de armas não funcionam, ou não são poderosos o suficiente. A assinatura do tratado vai manter ativistas ambientais feliz e vai aumentar a nossa popularidade no cenário internacional.
 OnImplement = CreateGrudge(Nuclear Test Ban Treaty,TestBanTreaty,Patriot,-0.03,0.9f);CreateGrudge(Nuclear Test Ban Treaty,TestBanTreaty,Environmentalist,0.06,0.9f);
 
 [option1]
-Name = Nao assinar o tratado
-Description = E fundamental que manter o direito de realizar testes limitados. Vivemos em um mundo perigoso e nossa dissuasao nuclear e vital para a nossa defesa. Nao e para outros paises para nos dizer como nos defender. Alem disso, sao necessarios ensaios para garantir as nossas armas continuam a ser utilizavel.
+Name = Não assinar o tratado
+Description = É fundamental que manter o direito de realizar testes limitados. Vivemos em um mundo perigoso e nossa dissuasão nuclear é vital para a nossa defesa. Não é para outros países para nos dizer como nos defender. Além disso, são necessários ensaios para garantir as nossas armas continuam a ser utilizável.
 OnImplement = CreateGrudge(Nuclear Test Ban Treaty,TestBanTreaty,Patriot,0.07,0.9f);CreateGrudge(Nuclear Test Ban Treaty,TestBanTreaty,Environmentalist,-0.04,0.9f);

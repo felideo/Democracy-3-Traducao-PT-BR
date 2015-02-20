@@ -1,7 +1,7 @@
 [dilemma]
 name=HUNGER STRIKE
 guiname=Greve de fome
-description=Um terrorista condenado entrou em greve de fome exigindo ele seja autorizado a receber a visita de pessoas que estariam associados a grupos terroristas. Nos nao temos evidencias para prender os seus colegas, e atualmente estao proibidas todas as visitas para este prisioneiro, Parece que ele vai continuar com sua ameaca de greve de fome e pode morrer em sua cela.
+description=Um terrorista condenado entrou em greve de fome exigindo ele seja autorizado a receber a visita de pessoas que estariam associados a grupos terroristas. Nós não temos evidências para prender os seus colegas, e atualmente estão proibidas todas as visitas para este prisioneiro, Parece que ele vai continuar com sua ameaça de greve de fome e pode morrer em sua cela.
 
 [influences]
 0 = _default_,0.3+(0*x)
@@ -9,12 +9,12 @@ description=Um terrorista condenado entrou em greve de fome exigindo ele seja au
 
 [option0]
 Name = Permitir visitas
-Description = Podemos nao gostar deste homem ou o que ele representa, mas nao podemos permitir que ele morra em uma cela. Fazer isso so iria reduzir-nos ao nivel dos terroristas, e tambem certamente ele se tornara um martir. Devemos deixar que ele tenha visitantes, enquanto na prisao.
+Description = Podemos não gostar deste homem ou o que ele representa, mas não podemos permitir que ele morra em uma cela. Fazer isso só iria reduzir-nos ao nível dos terroristas, e também certamente ele se tornará um mártir. Devemos deixar que ele tenha visitantes, enquanto na prisão.
 OnImplement = CreateGrudge(Hunger strike,HUNGER STRIKE,Religious,0.15,0.9f);CreateGrudge(Hunger strike,HUNGER STRIKE,Liberal,0.22,0.9f);
 
 [option1]
 Name = Evitar visitas
-Description = Voce nao negociar com terroristas. E tao simples como isso. Eles so vao perceber qualquer negociacao ou relaxamento das regras de nossa parte como um sinal de fraqueza. Se ele morrer na prisao, entao essa e a sua decisao e nao devemos estar preocupados.
+Description = Você não negociar com terroristas. É tão simples como isso. Eles só vão perceber qualquer negociação ou relaxamento das regras de nossa parte como um sinal de fraqueza. Se ele morrer na prisão, então essa é a sua decisão e não devemos estar preocupados.
 OnImplement = CreateGrudge(Hunger strike,HUNGER STRIKE,Religious,-0.15,0.9f);CreateGrudge(Hunger strike,HUNGER STRIKE,Liberal,-0.15,0.9f);
 
 

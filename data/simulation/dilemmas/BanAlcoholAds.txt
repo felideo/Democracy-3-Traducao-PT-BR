@@ -1,7 +1,7 @@
 [dilemma]
 name=BAN ALCOHOL ADVERTS
-guiname=Proibir Anuncios de Alcool
-description=Ha uma proposta de lei para proibir a publicidade de bebidas alcoolicas na televisao. Embora ele permaneceria legal para anunciar em radio, outdoors e outros meios, a proibicao TV e vista como uma forma potencial de reduzir o consumo de alcool pelos nossos cidadaos.
+guiname=Proibir Anúncios de Álcool
+description=Há uma proposta de lei para proibir a publicidade de bebidas alcoólicas na televisão. Embora ele permaneceria legal para anunciar em rádio, outdoors e outros meios, a proibição TV é vista como uma forma potencial de reduzir o consumo de álcool pelos nossos cidadãos.
 
 [influences]
 0 = _default_,0.7+(0*x)
@@ -10,11 +10,11 @@ description=Ha uma proposta de lei para proibir a publicidade de bebidas alcooli
 3 = AlcoholConsumption,0+(0.4*x)
 
 [option0]
-Name = Rejeitar Proibicao
-Description = Esta lei e uma loucura. Ou voce tem uma proibicao de um produto ou nao. O alcool e perfeitamente legal e apreciado por milhoes de cidadaos sem efeito doente. Proibir a publicidade de um produto em um determinado meio e um gesto simbolico para os fanaticos anti-alcool que nao faz nada, mas interferir no livre mercado.
+Name = Rejeitar Proibição
+Description = Esta lei é uma loucura. Ou você tem uma proibição de um produto ou não. O álcool é perfeitamente legal e apreciado por milhões de cidadãos sem efeito doente. Proibir a publicidade de um produto em um determinado meio é um gesto simbólico para os fanáticos anti-álcool que não faz nada, mas interferir no livre mercado.
 OnImplement = CreateGrudge(Ban Alcohol Adverts,BAN ALCOHOL ADVERTS,Liberal,0.13,0.9f);
 
 [option1]
-Name = Aprovar Proibicao
-Description = Ela pode nao parar o alcoolismo durante a noite, mas um anuncio de proibicao TV e um passo na direcao certa. Os anunciantes tem sido cada vez mais agressivo em sua publicidade, com uma tendencia preocupante para a comercializacao dos seus produtos no mercado jovem. Tudo o que podemos fazer para reduzir o consumo de alcool e a pena tentar.
+Name = Aprovar Proibição
+Description = Ela pode não parar o alcoolismo durante a noite, mas um anúncio de proibição TV é um passo na direção certa. Os anunciantes têm sido cada vez mais agressivo em sua publicidade, com uma tendência preocupante para a comercialização dos seus produtos no mercado jovem. Tudo o que podemos fazer para reduzir o consumo de álcool é a pena tentar.
 OnImplement = CreateGrudge(Ban Alcohol Adverts,BAN ALCOHOL ADVERTS,Liberal,-0.19,0.9f);CreateGrudge(Ban Alcohol Adverts,BAN ALCOHOL ADVERTS,AlcoholConsumption,-0.19,1.0f);

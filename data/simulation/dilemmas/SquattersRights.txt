@@ -1,7 +1,7 @@
 [dilemma]
 name=SQUATTERS RIGHTS
 guiname=Direito de posseiros
-guiname=Uma grande casa vazia em um dos melhores bairros da capital foi tomado por moradores de rua. A casa nao tiver sido utilizada e vazio ha anos, e os advogados estao agora discutindo sobre se os posseiros tem ou nao o direito de permanecer na propriedade. O senhorio quer despeja-los.
+guiname=Uma grande casa vazia em um dos melhores bairros da capital foi tomado por moradores de rua. A casa não tiver sido utilizada e vazio há anos, e os advogados estão agora discutindo sobre se os posseiros têm ou não o direito de permanecer na propriedade. O senhorio quer despejá-los.
 
 [influences]
 0 = _random_,0.3,0.9
@@ -10,11 +10,11 @@ guiname=Uma grande casa vazia em um dos melhores bairros da capital foi tomado p
 
 [option0]
 Name = Dar propriedades aos posseiros
-Description = Algumas pessoas se tornam tao ricas que conseguem ser proprietarias de varias casas e deixar algumas vazias, mas ao mesmo tempo existem pessoas que nao tem onde morar, entao deve-se usar essas casas de maneira mais produtiva. O proprietario obviamente nao precisou da propriedade por varios anos entao deve ser direito de dar essas casas legalmente aos ocupantes.
+Description = Algumas pessoas se tornam tão ricas que conseguem ser proprietárias de várias casas e deixar algumas vazias, mas ao mesmo tempo existem pessoas que não tem onde morar, então deve-se usar essas casas de maneira mais produtiva. O proprietário obviamente não precisou da propriedade por vários anos então deve ser direito de dar essas casas legalmente aos ocupantes.
 OnImplement = CreateGrudge(Squatters rights,SQUATTERS RIGHTS,Socialist,0.16,0.9f);CreateGrudge(Squatters rights,SQUATTERS RIGHTS,Capitalist,-0.13,0.9f);CreateGrudge(Squatters rights,SQUATTERS RIGHTS,Wealthy,-0.27,0.9f);CreateGrudge(Squatters rights,SQUATTERS RIGHTS,Poor,0.09,0.9f);
 
 [option1]
 Name = Expulsar os posseiros
-Description = E um precedente perigoso voce dar propriedade privada para ladroes. Se o dono e rico o bastante para ter propriedades vazias, entao e um direito dele. Ninguem esta impedindo esses invasores de economizar e comprar casas legalmente, assim como esse proprietario fez. Mande a policia e tire essas pessoas de la.
+Description = É um precedente perigoso você dar propriedade privada para ladrões. Se o dono é rico o bastante para ter propriedades vazias, então é um direito dele. Ninguém está impedindo esses invasores de economizar e comprar casas legalmente, assim como esse proprietário fez. Mande a polícia e tire essas pessoas de lá.
 OnImplement = CreateGrudge(Squatters rights,SQUATTERS RIGHTS,Socialist,-0.12,0.9f);CreateGrudge(Squatters rights,SQUATTERS RIGHTS,Capitalist,0.03,0.9f);CreateGrudge(Squatters rights,SQUATTERS RIGHTS,Wealthy,0.17,0.9f);CreateGrudge(Squatters rights,SQUATTERS RIGHTS,Poor,-0.08,0.9f);
 

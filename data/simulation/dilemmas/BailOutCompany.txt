@@ -1,7 +1,7 @@
 [dilemma]
 name=BAILOUTCOMPANY
 guiname=Socorrer Empresa
-description=Inter-Speed Autos Inc, uma das maiores empresas de automoveis no pais se deparou com serias dificuldades financeiras e esta a beira de ir a falencia. Os executivos da empresa acham que podem obter novas encomendas e manter a empresa se o governo fornecer um emprestimo sem juros para mante-los funcionando para os proximos meses. O custo final e estimado em <SPENDADJUST_600>.
+description=Inter-Speed Autos Inc, uma das maiores empresas de automóveis no país se deparou com serias dificuldades financeiras e esta a beira de ir a falencia. Os executivos da empresa acham que podem obter novas encomendas e manter a empresa se o governo fornecer um emprestimo sem juros para mante-los funcionando para os proximos meses. O custo final e estimado em <SPENDADJUST_600>.
 
 [influences]
 0 = _default_,0.9+(0*x)
@@ -9,10 +9,10 @@ description=Inter-Speed Autos Inc, uma das maiores empresas de automoveis no pai
 2 = WorkerProductivity,0-(0.15*x)
 
 [option0]
-Name = Ajudar a empresaEsta empresa emprega milhares de pessoas e ha um monte de outras empresas que fabricam componentes para eles que tambem serao afetados se a empresa vai abaixo. Basta pensar no efeito que isso tera sobre a economia local se deixarmos esta empresa fechar. Devemos fornecer um emprestimo livre de impostos.
+Name = Ajudar a empresaEsta empresa emprega milhares de pessoas e há um monte de outras empresas que fabricam componentes para eles que também serão afetados se a empresa vai abaixo. Basta pensar no efeito que isso terá sobre a economia local se deixarmos esta empresa fechar. Devemos fornecer um empréstimo livre de impostos.
 OnImplement = CreateGrudge(Bail Out Company,BAILOUTCOMPANY,Capitalist,-0.08,0.9f);CreateGrudge(Bail Out Company,BAILOUTCOMPANY,TradeUnionist,0.12,0.9f);SpendAdjusted(600);
 
 [option1]
-Name = Nao fazer nada
-Description = Isso e chamado de mercado livre. A Companhia esta afundando, porque nao e rentavel. Se fosse sensato para emprestar-lhes dinheiro o setor privado estaria fazendo. Isto e apenas jogar dinheiro fora. Claro que havera desemprego a curto prazo, mas voce nao pode lutar contra o mercado livre.
+Name = Não fazer nada
+Description = Isso é chamado de mercado livre. A Companhia está afundando, porque não é rentável. Se fosse sensato para emprestar-lhes dinheiro o setor privado estaria fazendo. Isto é apenas jogar dinheiro fora. Claro que haverá desemprego a curto prazo, mas você não pode lutar contra o mercado livre.
 OnImplement = CreateGrudge(Bail Out Company,BAILOUTCOMPANY,Capitalist,0.06,0.9f);CreateGrudge(Bail Out Company,BAILOUTCOMPANY,TradeUnionist,-0.18,0.9f);CreateGrudge(Bail Out Company,BAILOUTCOMPANY,Unemployment,0.13,0.9f);

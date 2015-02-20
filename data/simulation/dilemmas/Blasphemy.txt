@@ -1,7 +1,7 @@
 [dilemma]
 name=BLASPHEMY
-guiname=Blasfemia
-description=Um livro foi publicado, que e altamente critico de uma religiao seguida por uma secao transversal da nossa sociedade. Os lideres religiosos tem descrito o livro como blasfemico e exigiu que ele seja removido da venda. Houve protestos violentos fora de livrarias onde copias do livro foram queimadas.
+guiname=Blasfêmia
+description=Um livro foi publicado, que é altamente crítico de uma religião seguida por uma seção transversal da nossa sociedade. Os líderes religiosos têm descrito o livro como blasfêmico e exigiu que ele seja removido da venda. Houve protestos violentos fora de livrarias onde cópias do livro foram queimadas.
 
 
 [influences]
@@ -9,11 +9,11 @@ description=Um livro foi publicado, que e altamente critico de uma religiao segu
 
 [option0]
 Name = Banir livro
-Description = Este livro e altamente ofensiva e devemos levar em conta a opiniao das nossas minorias etnicas. Sua perfeitamente razoavel restringir a venda de material como este que provavelmente pode provocar uma perturbacao na ordem publica. Banir o livro.
+Description = Este livro é altamente ofensiva e devemos levar em conta a opinião das nossas minorias étnicas. Sua perfeitamente razoável restringir a venda de material como este que provavelmente pode provocar uma perturbação na ordem pública. Banir o livro.
 OnImplement = CreateGrudge(Blasphemy,BLASPHEMY,Liberal,-0.13,0.9);CreateGrudge(Blasphemy,BLASPHEMY,Religious,0.13,0.9);
 
 [option1]
-Name = Nao tomar atitudes
-Description = Voce nao pode ceder as exigencias de um pequeno grupo de extremistas que exigem que nos proibir um livro. Antes de saber que nao havera capitalistas que querem proibir as obras de Karl Marx. Liberdade de expressao dos povos opinioes, mesmo que essas opinioes sao controversas e uma das liberdades fundamentais da nossa sociedade.
+Name = Não tomar atitudes
+Description = Você não pode ceder às exigências de um pequeno grupo de extremistas que exigem que nós proibir um livro. Antes de saber que não haverá capitalistas que querem proibir as obras de Karl Marx. Liberdade de expressão dos povos opiniões, mesmo que essas opiniões são controversas é uma das liberdades fundamentais da nossa sociedade.
 OnImplement = CreateGrudge(Blasphemy,BLASPHEMY,Liberal,0.10,0.9);CreateGrudge(Blasphemy,BLASPHEMY,Religious,-0.21,0.9);
 

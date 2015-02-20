@@ -1,13 +1,13 @@
 [config]
 Name = LiberalPlot
-GUIName = Conspiracao Liberal!
+GUIName = Conspiração Liberal!
 UsedBy = FreedomLeague
 MinStrength = 12
 Type = PLOT
 Cost = 0
 MinSize = 4
 SuccessChance = 1.0
-SuccessText = "Nosso departamento de informacoes descobriu motivos de preocupacao. Aparentemente, um ramo incondicional da Companhia de Direitos Humanos chamado de Liga da Liberdade pode estar levando a sua agenda liberal um pouco longe demais. Eles aparentemente estao procurando maneiras de derrubar o governo, e eles nao vao utilizar somente os meios pacificos, alguns destes extremistas tem armas e os nossos agentes secretos sugerem que eles possam estar falando serio. Seja cauteloso."
+SuccessText = "Nosso departamento de informações descobriu motivos de preocupação. Aparentemente, um ramo incondicional da Companhia de Direitos Humanos chamado de Liga da Liberdade pode estar levando a sua agenda liberal um pouco longe demais. Eles aparentemente estão procurando maneiras de derrubar o governo, e eles não vão utilizar somente os meios pacíficos, alguns destes extremistas têm armas e os nossos agentes secretos sugerem que eles possam estar falando sério. Seja cauteloso."
 OnSuccess = 
 FailureText = ""
 OnFailure = 

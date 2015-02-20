@@ -1,19 +1,19 @@
 [dilemma]
 name=LAND MINE BAN
-guiname=Proibicao de minas terrestres
-description=Uma empresa de engenharia em nosso pais acaba de ganhar um contrato para fabricar e fornecer minas terrestres para paises estrangeiros. No momento nao ha nenhuma lei especifica que proibe a empresa de fazer estes produtos, mas ha um debate publico generalizado que devemos proibir a producao de minas terrestres dentro de nossas fronteiras.
+guiname=Proibição de minas terrestres
+description=Uma empresa de engenharia em nosso país acaba de ganhar um contrato para fabricar e fornecer minas terrestres para países estrangeiros. No momento não há nenhuma lei específica que proíbe a empresa de fazer estes produtos, mas há um debate público generalizado que devemos proibir a produção de minas terrestres dentro de nossas fronteiras.
 
 [influences]
 0 = _random_,0,0.9
 
 [option0]
 Name = Proibir minas terrestres
-Description = As minas terrestres causam tantas mortes de civis que nao ha realmente nenhuma maneira que nos devemos perdoar a fabricacao de tais armas. Eles sao uma arma bruta que remonta a primeira guerra mundial e nao ha justificativa para o seu uso hoje. Se a proibicao destas armas nos custa um punhado de empregos, em seguida, que e um preco que deve ser feliz a pagar.
+Description = As minas terrestres causam tantas mortes de civis que não há realmente nenhuma maneira que nós devemos perdoar a fabricação de tais armas. Eles são uma arma bruta que remonta à primeira guerra mundial e não há justificativa para o seu uso hoje. Se a proibição destas armas nos custa um punhado de empregos, em seguida, que é um preço que deve ser feliz a pagar.
 OnImplement = CreateGrudge(Land mine ban,LAND MINE BAN,Liberal,0.11,0.9f);CreateGrudge(Land mine ban,LAND MINE BAN,GDP,-0.01,0.9f);CreateGrudge(Land mine ban,LAND MINE BAN,Patriot,-0.09,0.9f);
 
 [option1]
 Name = Rejeitar lei
-Description = E muito facil dizer que deveriamos proibir a fabricacao de minas terrestres, mas o que vem depois? parar de fazer armas? algemas? Este seria um passo para desmantelar toda a nossa industria de armas que iria custar empregos e prejudicar a confianca dos investidores. Nao e o trabalho do Estado para interferir no que uma empresa fabrica produtos.
+Description = É muito fácil dizer que deveríamos proibir a fabricação de minas terrestres, mas o que vem depois? parar de fazer armas? algemas? Este seria um passo para desmantelar toda a nossa indústria de armas que iria custar empregos e prejudicar a confiança dos investidores. Não é o trabalho do Estado para interferir no que uma empresa fabrica produtos.
 OnImplement = CreateGrudge(Land mine ban,LAND MINE BAN,Liberal,-0.11,0.9f);CreateGrudge(Land mine ban,LAND MINE BAN,Capitalist,0.08,0.9f);
 
 
