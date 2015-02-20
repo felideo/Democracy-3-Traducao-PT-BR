@@ -1,20 +1,20 @@
 [dilemma]
 name=HOSTAGE SITUATION
-guiname=Situação de Reféns
-description=Um grupo de extremistas religiosos tomaram alguns reféns por homens armados e ameaçam matá-los a menos que as exigências em matéria de política externa não são cumpridas. As demandas que eles fazem não são tão extremo, mas pode ser perigoso para ser visto a negociar.
+guiname=Situaçao de Refens
+description=Um grupo de extremistas religiosos tomaram alguns refens por homens armados e ameaçam mata-los a menos que as exigencias em materia de politica externa nao sao cumpridas. As demandas que eles fazem nao sao tao extremo, mas pode ser perigoso para ser visto a negociar.
 
 [influences]
 0 = _default_,0.3+(0*x)
 1 = CrimeRate,0+(0.6*x)
 
 [option0]
-Name = Ceder às exigências
-Description = A melhor coisa que podemos fazer aqui é ser razoável e dar-nos pelo menos parcialmente às suas demandas. Dessa forma, podemos garantir que ninguém se machuque, e que a situação não sair do controle. Tomar medidas extremas contra essas pessoas só podem provocar tensão racial.
+Name = Ceder as exigencias
+Description = A melhor coisa que podemos fazer aqui e ser razoavel e dar-nos pelo menos parcialmente as suas demandas. Dessa forma, podemos garantir que ninguem se machuque, e que a situaçao nao sair do controle. Tomar medidas extremas contra essas pessoas so podem provocar tensao racial.
 OnImplement = CreateGrudge(hostage situation,HOSTAGE SITUATION,Religious,0.15,0.9f);CreateGrudge(hostage situation,HOSTAGE SITUATION,_Terrorism,0.3,0.9f);
 
 [option1]
-Name = Enviar polícia
-Description = Não há negociação com sequestradores. Fazê-lo seria abrir as comportas para o caos total. Sua infeliz para os cidadãos tomados como reféns, mas precisamos invadir o prédio agora e tentar obter essas pessoas libertados. Se isso significa atirar os seqüestradores e perder alguns reféns, esse é o preço que temos de pagar. ação contra essas pessoas só podem provocar tensão racial.
+Name = Enviar policia
+Description = Nao ha negociaçao com sequestradores. Faze-lo seria abrir as comportas para o caos total. Sua infeliz para os cidadaos tomados como refens, mas precisamos invadir o predio agora e tentar obter essas pessoas libertados. Se isso significa atirar os seqüestradores e perder alguns refens, esse e o preço que temos de pagar. açao contra essas pessoas so podem provocar tensao racial.
 OnImplement = CreateGrudge(hostage situation,HOSTAGE SITUATION,Religious,-0.15,0.9f);CreateGrudge(hostage situation,HOSTAGE SITUATION,Liberal,-0.15,0.9f);
 
 

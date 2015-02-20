@@ -1,19 +1,19 @@
 [dilemma]
 name=Fracking
 guiname=Fracking
-description=A Fraturação Hidráulica, mais conhecido como 'fracking' é uma nova tecnologia de perfuração que permite que as empresas de energia para explorar depósitos antes inacessíveis de gás de xisto. A técnica é relativamente nova, e exige que o governo dê permissão para usar. Por um lado, ele abre potencialmente enormes fontes de energia, por outro lado, há preocupações ambientais sérias sobre o processo.
+description=A Fraturaçao Hidraulica, mais conhecido como 'fracking' e uma nova tecnologia de perfuraçao que permite que as empresas de energia para explorar depositos antes inacessiveis de gas de xisto. A tecnica e relativamente nova, e exige que o governo de permissao para usar. Por um lado, ele abre potencialmente enormes fontes de energia, por outro lado, ha preocupaçoes ambientais serias sobre o processo.
 
 [influences]
 0 = _random_,0.3,0.9
 
 [option0]
 Name = Permitir Fracking
-Description = Este projeto de lei vai dar o sinal verde para as empresas de energia para realizar operações de fracking de nível comercial em nosso solo. Esta é uma grande notícia para os consumidores, uma vez que irá conduzir os preços da energia para baixo, e vai reduzir nossa dependência das importações estrangeiras de petróleo e gás. Além disso, vai ser um impulso para a economia. o que há para não gostar?
+Description = Este projeto de lei vai dar o sinal verde para as empresas de energia para realizar operaçoes de fracking de nivel comercial em nosso solo. Esta e uma grande noticia para os consumidores, uma vez que ira conduzir os preços da energia para baixo, e vai reduzir nossa dependencia das importaçoes estrangeiras de petroleo e gas. Alem disso, vai ser um impulso para a economia. o que ha para nao gostar?
 OnImplement = CreateGrudge(Fracking,Fracking,Environmentalist,-0.10,1.0);CreateGrudge(Fracking,Fracking,Capitalist,0.05,1.0);CreateGrudge(Fracking,Fracking,OilSupply,0.10,1.0);CreateGrudge(Fracking,Fracking,GDP,0.04,1.0);
 
 [option1]
 Name = Proibir franking
-Description = Fracking coloca uma série de perigos, não menos importante, a possibilidade de que ela está ligada a terremotos, e o perigo muito real de contaminação do abastecimento de água, já que envolve bombear grandes quantidades de produtos químicos perigosos na rocha a pressões muito altas. Além disso, esta é apenas mais uma maneira de perpetuar a nossa dependência de sempre diminuindo abastecimento de combustíveis fósseis prejudiciais ao clima.
+Description = Fracking coloca uma serie de perigos, nao menos importante, a possibilidade de que ela esta ligada a terremotos, e o perigo muito real de contaminaçao do abastecimento de agua, ja que envolve bombear grandes quantidades de produtos quimicos perigosos na rocha a pressoes muito altas. Alem disso, esta e apenas mais uma maneira de perpetuar a nossa dependencia de sempre diminuindo abastecimento de combustiveis fosseis prejudiciais ao clima.
 OnImplement = CreateGrudge(Fracking,Fracking,Environmentalist,0.08,1.0);CreateGrudge(Fracking,Fracking,Capitalist,-0.05,1.0);
 
 

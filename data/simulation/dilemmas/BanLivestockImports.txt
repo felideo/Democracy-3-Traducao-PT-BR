@@ -1,19 +1,19 @@
 [dilemma]
 name=BanLivestockImports
-guiname=Banir Importação de Gado
-description=Um dos nossos países vizinhos teve um caso anunciado publicamente da doença febre aftosa em seu gado. Embora as chances de a doença se espalhando para nós é muito baixo, você está sendo pressionada por grupos de agricultores para proibir a importação de gado do país que, por precaução.
+guiname=Banir Importaçao de Gado
+description=Um dos nossos paises vizinhos teve um caso anunciado publicamente da doença febre aftosa em seu gado. Embora as chances de a doença se espalhando para nos e muito baixo, voce esta sendo pressionada por grupos de agricultores para proibir a importaçao de gado do pais que, por precauçao.
 
 [influences]
 0 = _random_,0.2,0.9
 
 [option0]
-Name = Rejeitar Proibição
-Description = Não há nenhuma base estatística ou científica para uma proibição geral de importação de gado do país. O surto é altamente contido e representa pouco risco real. Este será um movimento impopular no exterior, o que será visto como o protecionismo descarado. Este seria um embargo injusto e injustificado de mercadorias estrangeiras.
+Name = Rejeitar Proibiçao
+Description = Nao ha nenhuma base estatistica ou cientifica para uma proibiçao geral de importaçao de gado do pais. O surto e altamente contido e representa pouco risco real. Este sera um movimento impopular no exterior, o que sera visto como o protecionismo descarado. Este seria um embargo injusto e injustificado de mercadorias estrangeiras.
 OnImplement = CreateGrudge(Ban livestock Imports,BanLivestockImports,Farmers,-0.11,0.9);
 
 [option1]
-Name = Aprovar Proibição
-Description = Não é apenas o risco, por menor que seja, de importar essa doença em nosso país. A única maneira de lidar com isso é a matança em massa de animais, é a nossa indústria agrícola não poderiam sobreviver a isso. Isto pode parecer mais cauteloso, mas é melhor prevenir do que remediar. Se a situação se inverteu, eles iriam fazer o mesmo para nós.
+Name = Aprovar Proibiçao
+Description = Nao e apenas o risco, por menor que seja, de importar essa doença em nosso pais. A unica maneira de lidar com isso e a matança em massa de animais, e a nossa industria agricola nao poderiam sobreviver a isso. Isto pode parecer mais cauteloso, mas e melhor prevenir do que remediar. Se a situaçao se inverteu, eles iriam fazer o mesmo para nos.
 OnImplement = CreateGrudge(Ban livestock Imports,BanLivestockImports,Farmers,0.16,0.9);CreateGrudge(Ban livestock Imports,BanLivestockImports,ForeignRelations,-0.13,0.74);CreateGrudge(Ban livestock Imports,BanLivestockImports,InternationalTrade,-0.05,0.75);
 
 

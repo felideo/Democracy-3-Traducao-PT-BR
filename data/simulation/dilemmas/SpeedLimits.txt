@@ -1,19 +1,19 @@
 [dilemma]
 name=SpeedLimits
 guiname=Limites de Velocidade
-description=Um grande grupo de pressão de motorista pressionou o governo para obter os limites de velocidade maiores nas nossas estradas principais. Estes limites de velocidade foram estabelecidos há muitos anos e ambas as velocidades do carro e desempenho de frenagem melhorou desde então.
+description=Um grande grupo de pressao de motorista pressionou o governo para obter os limites de velocidade maiores nas nossas estradas principais. Estes limites de velocidade foram estabelecidos ha muitos anos e ambas as velocidades do carro e desempenho de frenagem melhorou desde entao.
 
 [influences]
 0 = _random_,0.4,0.9
 
 [option0]
 Name = Elevar limites de velocidade
-Description = Nós mudamos desde os tempos em que os homens caminharam com bandeiras vermelhas na frente de automóveis. Os limites de velocidade nacionais são estupidamente baixa, e os limites são amplamente ignorados. Não podemos impor os limites de forma eficaz, e até os limites são estabelecidos valores como sensatas seu povo apenas incentivando a violar a lei. Precisamos aumentar os limites de imediato.
+Description = Nos mudamos desde os tempos em que os homens caminharam com bandeiras vermelhas na frente de automoveis. Os limites de velocidade nacionais sao estupidamente baixa, e os limites sao amplamente ignorados. Nao podemos impor os limites de forma eficaz, e ate os limites sao estabelecidos valores como sensatas seu povo apenas incentivando a violar a lei. Precisamos aumentar os limites de imediato.
 OnImplement = CreateGrudge(Speed Limits,SpeedLimits,Motorist,0.08,0.9f);CreateGrudge(Speed Limits,SpeedLimits,Parents,-0.08,0.9f);CreateGrudge(Speed Limits,SpeedLimits,CO2Emissions,0.02,0.9f);
 
 [option1]
-Name = Não mudar
-Description = Existem limites de velocidade por um motivo. Número suficiente de pessoas morrem nas nossas estradas do jeito que ela é, e a velocidade é muitas vezes um fator na sobrevivência de acidentes de carro. É verdade que povo não respeita o limite, mas elevando-o agora só vai incentivar condução mais rápida e perigosa. Deixe-o inalterado.
+Name = Nao mudar
+Description = Existem limites de velocidade por um motivo. Numero suficiente de pessoas morrem nas nossas estradas do jeito que ela e, e a velocidade e muitas vezes um fator na sobrevivencia de acidentes de carro. E verdade que povo nao respeita o limite, mas elevando-o agora so vai incentivar conduçao mais rapida e perigosa. Deixe-o inalterado.
 OnImplement = CreateGrudge(Speed Limits,SpeedLimits,Motorist,-0.08,0.9f);CreateGrudge(Speed Limits,SpeedLimits,Parents,0.03,0.9f);
 
 

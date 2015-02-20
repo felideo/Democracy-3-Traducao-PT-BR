@@ -1,7 +1,7 @@
 [dilemma]
 name=DNADatabase
 guiname=Banco de Dados de DNA
-description=Os chefes da polícia estão pedindo que eles sejam autorizados a construir uma base de dados global de DNA de todo mundo para ajudá-los na luta contra o crime. Provas de DNA permite que muitos crimes anteriormente insolúveis a ser rastreado para os autores, embora existam preocupações com a privacidade.
+description=Os chefes da policia estao pedindo que eles sejam autorizados a construir uma base de dados global de DNA de todo mundo para ajuda-los na luta contra o crime. Provas de DNA permite que muitos crimes anteriormente insoluveis a ser rastreado para os autores, embora existam preocupaçoes com a privacidade.
 
 [influences]
 0 = _default_,0.5+(0*x)
@@ -9,12 +9,12 @@ description=Os chefes da polícia estão pedindo que eles sejam autorizados a co
 
 [option0]
 Name = Permitir Bando de Dados
-Description = Este é provável que seja uma arma valiosa na luta contra o crime. Por muito tempo, os criminosos foram capazes de negar a responsabilidade por seus crimes, e com provas de DNA podemos reduzir substancialmente o tempo da polícia usado para localizar os criminosos, como assassinos e estupradores. A menos que as pessoas têm algo a esconder, eles não podem opor-se a tal medida.
+Description = Este e provavel que seja uma arma valiosa na luta contra o crime. Por muito tempo, os criminosos foram capazes de negar a responsabilidade por seus crimes, e com provas de DNA podemos reduzir substancialmente o tempo da policia usado para localizar os criminosos, como assassinos e estupradores. A menos que as pessoas tem algo a esconder, eles nao podem opor-se a tal medida.
 OnImplement = CreateGrudge(DNA Database,DNADatabase,Conservatives,0.09,0.9f);CreateGrudge(DNA Database,DNADatabase,Liberal,-0.10,0.9f);CreateGrudge(DNA Database,DNADatabase,CrimeRate,-0.03,0.9f);CreateGrudge(DNA Database,DNADatabase,ViolentCrimeRate,-0.05,0.9f);
 
 [option1]
 Name = Prevenir Banco de Dados
-Description = Esta é uma violação fundamental dos nossos cidadãos de direitos humanos. Temos que manter uma presunção de inocência até que os indivíduos se prove sua culpa, e construir um banco de dados estilo big brother de todo mundo faz-nos sentir como criminosos. Será que estamos realmente indo para 'forçar' os nossos cidadãos para fornecer amostras de DNA para o estado ou o rosto cadeia?
+Description = Esta e uma violaçao fundamental dos nossos cidadaos de direitos humanos. Temos que manter uma presunçao de inocencia ate que os individuos se prove sua culpa, e construir um banco de dados estilo big brother de todo mundo faz-nos sentir como criminosos. Sera que estamos realmente indo para 'forçar' os nossos cidadaos para fornecer amostras de DNA para o estado ou o rosto cadeia?
 OnImplement = CreateGrudge(DNA Database,DNADatabase,Conservatives,-0.09,0.9f);CreateGrudge(DNA Database,DNADatabase,Liberal,0.10,0.9f);
 
 

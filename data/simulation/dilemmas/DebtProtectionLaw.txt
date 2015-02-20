@@ -1,7 +1,7 @@
 [dilemma]
 name=DebtProtectionLaw
-guiname=Lei de Proteção da dívida
-description=Agências de cobrança da dívida foram notícia por causa dos métodos agressivos que eles estão usando para extrair o pagamento de pessoas que devem grandes somas de dinheiro. Estas agências de cobrança de dívidas fornecem crédito para as pessoas que não teriam crédito aprovado pelas maiores e mais respeitáveis empresas. A lei propõe-se limitar as maneiras pelas quais essas agências podem operar.
+guiname=Lei de Proteçao da divida
+description=Agencias de cobrança da divida foram noticia por causa dos metodos agressivos que eles estao usando para extrair o pagamento de pessoas que devem grandes somas de dinheiro. Estas agencias de cobrança de dividas fornecem credito para as pessoas que nao teriam credito aprovado pelas maiores e mais respeitaveis empresas. A lei propoe-se limitar as maneiras pelas quais essas agencias podem operar.
 
 [influences]
 0 = _default_,0.9+(0*x)
@@ -9,12 +9,12 @@ description=Agências de cobrança da dívida foram notícia por causa dos méto
 
 [option0]
 Name = Limitar atividade de agencia
-Description = Estas agências estão caçando os mais fracos e os mais pobres em nossa sociedade, muitas vezes induzi-los a pedir dinheiro emprestado a taxas exorbitantes que nunca pode ser reembolsado. Isto é pouco mais do que a extorsão e o governo deve agir imediatamente para limitar severamente as atividades de tais empresas sem escrúpulos.
+Description = Estas agencias estao caçando os mais fracos e os mais pobres em nossa sociedade, muitas vezes induzi-los a pedir dinheiro emprestado a taxas exorbitantes que nunca pode ser reembolsado. Isto e pouco mais do que a extorsao e o governo deve agir imediatamente para limitar severamente as atividades de tais empresas sem escrupulos.
 OnImplement = CreateGrudge(Debt Protection Law,DebtProtectionLaw,Socialist,0.09,0.9f);CreateGrudge(Debt Protection Law,DebtProtectionLaw,Poor,0.19,0.9f);CreateGrudge(Debt Protection Law,DebtProtectionLaw,SelfEmployed,-0.08,0.9f);CreateGrudge(Debt Protection Law,DebtProtectionLaw,Capitalist,-0.06,0.9f);
 
 [option1]
-Name = Permitir agências a operar
-Description = Ninguém obriga as pessoas a pedir dinheiro emprestado que não podem pagar, e para restringir os direitos das agências de dívida para recuperar dívidas legítimas seria contra produtivo. As pessoas precisam aprender a viver dentro de suas possibilidades e não esperar que o Estado os salve de problemas, se eles não podem aprender a fazê-lo.
+Name = Permitir agencias a operar
+Description = Ninguem obriga as pessoas a pedir dinheiro emprestado que nao podem pagar, e para restringir os direitos das agencias de divida para recuperar dividas legitimas seria contra produtivo. As pessoas precisam aprender a viver dentro de suas possibilidades e nao esperar que o Estado os salve de problemas, se eles nao podem aprender a faze-lo.
 OnImplement = CreateGrudge(Debt Protection Law,DebtProtectionLaw,Socialist,-0.09,0.9f);CreateGrudge(Debt Protection Law,DebtProtectionLaw,Poor,-0.13,0.9f);CreateGrudge(Debt Protection Law,DebtProtectionLaw,SelfEmployed,0.04,0.9f);CreateGrudge(Debt Protection Law,DebtProtectionLaw,Capitalist,0.04,0.9f);
 
 

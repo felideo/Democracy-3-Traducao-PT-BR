@@ -1,17 +1,17 @@
 [dilemma]
 name=TRAVELLERS RIGHTS
 guiname=Direitos dos Viajantes
-description=Um conselho legal recentemente demoliu algumas casas abandonadas, deixando espaço vazio para viajantes estacionarem suas caravanas, as pessoas estão bravas e querem eles removidos de lá, o conselho não tem certeza sobre quais direitos essas pessoas tem então ele repassou esssa situação para definir qual será a política nacional.
+description=Um conselho legal recentemente demoliu algumas casas abandonadas, deixando espaço vazio para viajantes estacionarem suas caravanas, as pessoas estao bravas e querem eles removidos de la, o conselho nao tem certeza sobre quais direitos essas pessoas tem entao ele repassou esssa situaçao para definir qual sera a politica nacional.
 
 [influences]
 0 = PovertyRate,0+(0.92*x)
 
 [option0]
 Name = Permitir os viajantes ficarem
-Description = Todos tem o direito de morar em algum lugar, incuindo esses viajantes. Não existe evidência de que eles estão causando problemas, esse é só um caso de pessoas não entendendo o estilo de vida de viajantes.
+Description = Todos tem o direito de morar em algum lugar, incuindo esses viajantes. Nao existe evidencia de que eles estao causando problemas, esse e so um caso de pessoas nao entendendo o estilo de vida de viajantes.
 OnImplement = CreateGrudge(Travelers Rights,TRAVELLERS RIGHTS,Conservatives,-0.10,0.9f);CreateGrudge(Travelers Rights,TRAVELLERS RIGHTS,Poor,0.09,0.9f);CreateGrudge(Travelers Rights,TRAVELLERS RIGHTS,Liberal,0.11,0.9f);
 
 [option1]
 Name = Expulsar os viajantes
-Description = Você deve apoiar a população local. Esses viajantes invadiram propriedade privada e chatearam as famílias locais. Isso é inaceitável. Você não deve permitir que um grupo pequeno de pessoas cause tanta perturbação em comunidades pacíficas.
+Description = Voce deve apoiar a populaçao local. Esses viajantes invadiram propriedade privada e chatearam as familias locais. Isso e inaceitavel. Voce nao deve permitir que um grupo pequeno de pessoas cause tanta perturbaçao em comunidades pacificas.
 OnImplement = CreateGrudge(Travelers Rights,TRAVELLERS RIGHTS,Liberal,-0.09,0.9f);CreateGrudge(Travelers Rights,TRAVELLERS RIGHTS,Conservatives,0.10,0.9f);CreateGrudge(Travelers Rights,TRAVELLERS RIGHTS,Poor,-0.09,0.9f);

@@ -1,19 +1,19 @@
 [dilemma]
 name=SameSexmarriage
 guiname=Proibir casamento do mesmo sexo
-description=Até recentemente, isso não tem sido um problema, o casamento tem sido uma questão simples e uma cerimônia reservada para casais heterossexuais, mas cada vez mais os ministros mais liberais vêm realizando casamentos do mesmo sexo. Deveríamos proibir isso no nível constitucional?
+description=Ate recentemente, isso nao tem sido um problema, o casamento tem sido uma questao simples e uma cerimonia reservada para casais heterossexuais, mas cada vez mais os ministros mais liberais vem realizando casamentos do mesmo sexo. Deveriamos proibir isso no nivel constitucional?
 
 [influences]
 0 = _random_,0,1.0
 
 [option0]
 Name = Proibir isto
-Description = É uma loucura para permitir que essa farsa de uma cerimônia religiosa a ter lugar. Ao ficar parado e não fazer nada, estamos silenciosamente apologia da prática. A igreja será indignado se não agir rapidamente para pôr um fim a isso.
+Description = E uma loucura para permitir que essa farsa de uma cerimonia religiosa a ter lugar. Ao ficar parado e nao fazer nada, estamos silenciosamente apologia da pratica. A igreja sera indignado se nao agir rapidamente para por um fim a isso.
 OnImplement = CreateGrudge(Ban same sex marriage,SameSexmarriage,Religious,0.21,0.9f);CreateGrudge(Ban same sex marriage,SameSexmarriage,Conservatives,0.12,0.9f);CreateGrudge(Ban same sex marriage,SameSexmarriage,Liberal,-0.17,0.9f);
 
 [option1]
 Name = Permitir casamentos
-Description = Não há boas razões para proibir tais casamentos. Não é serviço do Estado para interferir nas relações entre casais apaixonados, independentemente do seu sexo. Colocar uma proibição sobre os tipos de relacionamentos nossos cidadãos podem formar é uma intromissão imperdoável nas vidas privadas das pessoas.
+Description = Nao ha boas razoes para proibir tais casamentos. Nao e serviço do Estado para interferir nas relaçoes entre casais apaixonados, independentemente do seu sexo. Colocar uma proibiçao sobre os tipos de relacionamentos nossos cidadaos podem formar e uma intromissao imperdoavel nas vidas privadas das pessoas.
 OnImplement = CreateGrudge(Ban same sex marriage,SameSexmarriage,Religious,-0.16,0.9f);CreateGrudge(Ban same sex marriage,SameSexmarriage,Conservatives,-0.12,0.9f);CreateGrudge(Ban same sex marriage,SameSexmarriage,Liberal,0.10,0.9f);
 
 

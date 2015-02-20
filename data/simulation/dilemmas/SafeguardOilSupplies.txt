@@ -1,19 +1,19 @@
 [dilemma]
 name=SafeguardOilSupplies
-guiname=Salvaguardar Suprimentos de Petróleo
-description=Representantes de empresas de petróleo com base no nosso país pediram que o governo implantar tropas no exterior em nossas refinarias de petróleo no Oriente Médio, para protegê-los contra ataques de terroristas. Os governos envolvidos estão felizes por nossas tropas para ser estacionados em seu solo para esta finalidade.
+guiname=Salvaguardar Suprimentos de Petroleo
+description=Representantes de empresas de petroleo com base no nosso pais pediram que o governo implantar tropas no exterior em nossas refinarias de petroleo no Oriente Medio, para protege-los contra ataques de terroristas. Os governos envolvidos estao felizes por nossas tropas para ser estacionados em seu solo para esta finalidade.
 
 [influences]
 0 = _random_,0.2,0.9
 
 [option0]
 Name = Enviar tropas
-Description = É por isso que temos um militar, e não devemos ter medo de usá-lo. Terroristas estrangeiros precisam entender que estamos preparados para agir determinados a salvaguardar os nossos abastecimentos de petróleo. Esta não é uma 'invasão estrangeira', mas apenas a prestação de segurança extra para as partes vitais da nossa indústria que venham a ser no exterior. Se não enviar tropas, o fornecimento de óleo vai sofrer.
+Description = E por isso que temos um militar, e nao devemos ter medo de usa-lo. Terroristas estrangeiros precisam entender que estamos preparados para agir determinados a salvaguardar os nossos abastecimentos de petroleo. Esta nao e uma 'invasao estrangeira', mas apenas a prestaçao de segurança extra para as partes vitais da nossa industria que venham a ser no exterior. Se nao enviar tropas, o fornecimento de oleo vai sofrer.
 OnImplement = CreateGrudge(Safeguard Oil Supplies,SafeguardOilSupplies,Patriot,0.13,0.96);CreateGrudge(Safeguard Oil Supplies,SafeguardOilSupplies,Liberal,-0.19,0.96);CreateGrudge(Safeguard Oil Supplies,SafeguardOilSupplies,ForeignRelations,-0.14,0.88);CreateGrudge(Safeguard Oil Supplies,SafeguardOilSupplies,_Terrorism,0.06,0.96);CreateGrudge(Safeguard Oil Supplies,SafeguardOilSupplies,Capitalist,0.13,0.96);PlaySound(march.ogg);CreateGrudge(Safeguard Oil Supplies,SafeguardOilSupplies,EthnicMinorities,-0.16,0.92);
 
 [option1]
-Name = Não implemente tropas
-Description = Não importa o que a nossa motivação é, o simbolismo das nossas tropas que aterram em solo estrangeiro, fortemente armados e preparados para usar a força mortal, vai causar um grande retrocesso em alguns países. Sua provável isso vai levar a problemas com as relações internacionais ea possibilidade de aumento do terrorismo. Nossas tropas não são a ala das empresas petrolíferas de segurança, e isso não é trabalho para eles.
+Name = Nao implemente tropas
+Description = Nao importa o que a nossa motivaçao e, o simbolismo das nossas tropas que aterram em solo estrangeiro, fortemente armados e preparados para usar a força mortal, vai causar um grande retrocesso em alguns paises. Sua provavel isso vai levar a problemas com as relaçoes internacionais ea possibilidade de aumento do terrorismo. Nossas tropas nao sao a ala das empresas petroliferas de segurança, e isso nao e trabalho para eles.
 OnImplement = CreateGrudge(Safeguard Oil Supplies,SafeguardOilSupplies,Patriot,-0.12,0.85);CreateGrudge(Safeguard Oil Supplies,SafeguardOilSupplies,Liberal,0.10,0.96);CreateGrudge(Safeguard Oil Supplies,SafeguardOilSupplies,OilSupply,-0.17,0.92);CreateGrudge(Safeguard Oil Supplies,SafeguardOilSupplies,EthnicMinorities,0.1,0.92);
 
 

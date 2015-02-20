@@ -1,19 +1,19 @@
 [dilemma]
 name=Euthanasia
-guiname=Eutanásia
-description=Um cidadão uma vez famoso com 66 anos de idade sofre de uma doença terminal e vivem em dor constante. Embora as técnicas médicas modernas pode mantê-lo vivo por muitos mais anos, ele expressou o desejo repetido para ser autorizado a tirar sua própria vida.
+guiname=Eutanasia
+description=Um cidadao uma vez famoso com 66 anos de idade sofre de uma doença terminal e vivem em dor constante. Embora as tecnicas medicas modernas pode mante-lo vivo por muitos mais anos, ele expressou o desejo repetido para ser autorizado a tirar sua propria vida.
 
 [influences]
 0 = _random_,0.2,0.9
 
 [option0]
-Name = Legalizar Eutanásia
-Description = É incrivelmente cruel manter as pessoas que vivem em dor permanente, quando não há esperança de recuperação e que já manifestaram a vontade de não continuar com sua vida. Como modernos avanços da tecnologia médica é que isto vai ser mais comuns à medida que são capazes de manter as pessoas vivas em dor ou em coma por muitos anos.
+Name = Legalizar Eutanasia
+Description = E incrivelmente cruel manter as pessoas que vivem em dor permanente, quando nao ha esperança de recuperaçao e que ja manifestaram a vontade de nao continuar com sua vida. Como modernos avanços da tecnologia medica e que isto vai ser mais comuns a medida que sao capazes de manter as pessoas vivas em dor ou em coma por muitos anos.
 OnImplement = CreateGrudge(Euthanasia,Euthanasia,Liberal,0.05,0.9f);CreateGrudge(Euthanasia,Euthanasia,Conservatives,-0.05,0.9f);CreateGrudge(Euthanasia,Euthanasia,Religious,-0.10,0.9f);
 
 [option1]
 Name = Deixar lei inalterada
-Description = Todo mundo tem simpatia por aqueles que estão envolvidos nestas situações, mas mudar a lei é a decisão errada. Esta seria o início do fim, uma vez que o princípio de ajudar as pessoas a morrer está na lei a pressão vai estar em qualquer pessoa com uma doença terminal, especialmente onde a assistência médica é caro. Não mude a lei. 
+Description = Todo mundo tem simpatia por aqueles que estao envolvidos nestas situaçoes, mas mudar a lei e a decisao errada. Esta seria o inicio do fim, uma vez que o principio de ajudar as pessoas a morrer esta na lei a pressao vai estar em qualquer pessoa com uma doença terminal, especialmente onde a assistencia medica e caro. Nao mude a lei. 
 OnImplement = CreateGrudge(Euthanasia,Euthanasia,Liberal,-0.05,0.9f);CreateGrudge(Euthanasia,Euthanasia,Conservatives,0.05,0.9f);CreateGrudge(Euthanasia,Euthanasia,Religious,0.05,0.9f);
 
 

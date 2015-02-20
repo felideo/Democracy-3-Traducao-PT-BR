@@ -1,13 +1,13 @@
 [config]
 Name = ReligiousPlot
-GUIName = Conspiração Religiosa!
+GUIName = Conspiraçao Religiosa!
 UsedBy = CrusadersOfTheLord
 MinStrength = 12
 Type = PLOT
 Cost = 0
 MinSize = 4
 SuccessChance = 1.0
-SuccessText = "Nossos serviços de segurança tem observado o grupo extremista religioso conhecidos como 'Cruzados do Senhor' por algum tempo, e recentes declarações do líder tem nos preocupado. A organização vem se tornando mais militante, em muitos casos defendem a violência e ataques diretos contra os inimigos de deus, e especificamente, seu governo. Nós acreditamos que isto representa uma ameaça real a nossa segurança, e nós devemos manter uma vigilância atenta sobre eles."
+SuccessText = "Nossos serviços de segurança tem observado o grupo extremista religioso conhecidos como 'Cruzados do Senhor' por algum tempo, e recentes declaraçoes do lider tem nos preocupado. A organizaçao vem se tornando mais militante, em muitos casos defendem a violencia e ataques diretos contra os inimigos de deus, e especificamente, seu governo. Nos acreditamos que isto representa uma ameaça real a nossa segurança, e nos devemos manter uma vigilancia atenta sobre eles."
 OnSuccess = 
 FailureText = ""
 OnFailure = 
