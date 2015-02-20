@@ -3,5 +3,5 @@ name = "Greece_Xietanu"
 path = "Greece_Xietanu"
 guiname = "Grecia, por volta de 2011"
 author = "Xietanu"
-description = "Grecia, por volta de 2011. Voce pode gerenciar um pais com uma divida dora de controle, desemprego em massa e onde sonegaçao fiscal e o esporte nacional? Voce pode virar o destino deste pais do Mediterraneo, ou voce sera expulso do cargo na primeira oportunidade? Ou talvez voce nem sobrevivera tanto tempo..."
+description = "Grecia, por volta de 2011. Voce pode gerenciar um pais com uma divida dora de controle, desemprego em massa e onde sonegacao fiscal e o esporte nacional? Voce pode virar o destino deste pais do Mediterraneo, ou voce sera expulso do cargo na primeira oportunidade? Ou talvez voce nem sobrevivera tanto tempo..."
 

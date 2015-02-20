@@ -13,7 +13,7 @@ OnImplement = CreateGrudge(Ban same sex marriage,SameSexmarriage,Religious,0.21,
 
 [option1]
 Name = Permitir casamentos
-Description = Nao ha boas razoes para proibir tais casamentos. Nao e serviço do Estado para interferir nas relaçoes entre casais apaixonados, independentemente do seu sexo. Colocar uma proibiçao sobre os tipos de relacionamentos nossos cidadaos podem formar e uma intromissao imperdoavel nas vidas privadas das pessoas.
+Description = Nao ha boas razoes para proibir tais casamentos. Nao e servico do Estado para interferir nas relacoes entre casais apaixonados, independentemente do seu sexo. Colocar uma proibicao sobre os tipos de relacionamentos nossos cidadaos podem formar e uma intromissao imperdoavel nas vidas privadas das pessoas.
 OnImplement = CreateGrudge(Ban same sex marriage,SameSexmarriage,Religious,-0.16,0.9f);CreateGrudge(Ban same sex marriage,SameSexmarriage,Conservatives,-0.12,0.9f);CreateGrudge(Ban same sex marriage,SameSexmarriage,Liberal,0.10,0.9f);
 
 

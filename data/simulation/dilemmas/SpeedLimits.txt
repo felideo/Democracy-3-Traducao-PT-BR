@@ -13,7 +13,7 @@ OnImplement = CreateGrudge(Speed Limits,SpeedLimits,Motorist,0.08,0.9f);CreateGr
 
 [option1]
 Name = Nao mudar
-Description = Existem limites de velocidade por um motivo. Numero suficiente de pessoas morrem nas nossas estradas do jeito que ela e, e a velocidade e muitas vezes um fator na sobrevivencia de acidentes de carro. E verdade que povo nao respeita o limite, mas elevando-o agora so vai incentivar conduçao mais rapida e perigosa. Deixe-o inalterado.
+Description = Existem limites de velocidade por um motivo. Numero suficiente de pessoas morrem nas nossas estradas do jeito que ela e, e a velocidade e muitas vezes um fator na sobrevivencia de acidentes de carro. E verdade que povo nao respeita o limite, mas elevando-o agora so vai incentivar conducao mais rapida e perigosa. Deixe-o inalterado.
 OnImplement = CreateGrudge(Speed Limits,SpeedLimits,Motorist,-0.08,0.9f);CreateGrudge(Speed Limits,SpeedLimits,Parents,0.03,0.9f);
 
 

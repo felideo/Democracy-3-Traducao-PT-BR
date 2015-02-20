@@ -1,13 +1,13 @@
 [config]
 Name = GreenAction
-GUIName = Açao Eco-Ativista
+GUIName = Acao Eco-Ativista
 UsedBy = WarriorsOfGaia
 MinStrength = 6
 Type = ACTION
 Cost = 0
 MinSize = 4
 SuccessChance = 1.0
-SuccessText = "Um grupo de ativistas que se autodenominam o 'Guerreiro de Gaia' participou de uma subita tentativa de invasao ao predio do Parlamento, nas primeiras horas da manha. O protesto era barulhento e agressivo e varios deles foram presos em tentativas de escalar cercas e violaçao da segurança. Esta nao foi uma manifestaçao politica normal, mas um movimento extremista que acredita na açao direta violenta. Desta vez, a manifestaçao foi contida pela policia, mas devemos manter um olho em novas ameaças de grupos ainda mais extremas."
+SuccessText = "Um grupo de ativistas que se autodenominam o 'Guerreiro de Gaia' participou de uma subita tentativa de invasao ao predio do Parlamento, nas primeiras horas da manha. O protesto era barulhento e agressivo e varios deles foram presos em tentativas de escalar cercas e violacao da seguranca. Esta nao foi uma manifestacao politica normal, mas um movimento extremista que acredita na acao direta violenta. Desta vez, a manifestacao foi contida pela policia, mas devemos manter um olho em novas ameacas de grupos ainda mais extremas."
 OnSuccess = CreateNamedGrudge(Green protest,Environmentalist_freq,0.08,0.9);PlaySound(crowd_angry.ogg);
 FailureText = ""
 OnFailure = 

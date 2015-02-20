@@ -1,7 +1,7 @@
 [dilemma]
 name=CONTROVERSIAL MARCH
 guiname=Marcha Controversa
-description=Um grupo politico extrema direita esta planejando uma marcha atraves de nossa capital. O grupo tem fortes tendencias racistas e os policiais estao convencidos de que, se a marcha for adiante, havera confrontos violentos entre os manifestantes e as pessoas que irao aparecer para se opor a eles. A policia recomendar a proibiçao da marcha.
+description=Um grupo politico extrema direita esta planejando uma marcha atraves de nossa capital. O grupo tem fortes tendencias racistas e os policiais estao convencidos de que, se a marcha for adiante, havera confrontos violentos entre os manifestantes e as pessoas que irao aparecer para se opor a eles. A policia recomendar a proibicao da marcha.
 
 [influences]
 0 = _default_,0.3+(0*x)
@@ -9,10 +9,10 @@ description=Um grupo politico extrema direita esta planejando uma marcha atraves
 
 [option0]
 Name = Proibir a marcha
-Description = A policia nos deu um bom motivo para proibir esta marcha. Devemos levar em consideraçao as opinioes da grande maioria da nossa sociedade que nao quer ou precisa a violencia e problemas que esta marcha ira causar. A liberdade de expressao nao significa liberdade de motim. Proiba esta marcha.
+Description = A policia nos deu um bom motivo para proibir esta marcha. Devemos levar em consideracao as opinioes da grande maioria da nossa sociedade que nao quer ou precisa a violencia e problemas que esta marcha ira causar. A liberdade de expressao nao significa liberdade de motim. Proiba esta marcha.
 OnImplement = CreateGrudge(Controversial march,CONTROVERSIAL MARCH,Liberal,-0.23,0.9f);
 
 [option1]
 Name = Permitir a marcha
-Description = Uma das liberdades fundamentais em nossa sociedade deve ser o direito de se reunir livremente e apresentar uma visao politica, mesmo que seja uma visao impopular ou minoria. Os manifestantes so estao expressando seus pontos de vista, e os oponentes sao livres para fazer um protesto pacifico. E uma situaçao estranha, mas a proibiçao de uma manifestaçao politica e uma coisa muito ditatorial que fazer.
+Description = Uma das liberdades fundamentais em nossa sociedade deve ser o direito de se reunir livremente e apresentar uma visao politica, mesmo que seja uma visao impopular ou minoria. Os manifestantes so estao expressando seus pontos de vista, e os oponentes sao livres para fazer um protesto pacifico. E uma situacao estranha, mas a proibicao de uma manifestacao politica e uma coisa muito ditatorial que fazer.
 OnImplement = CreateGrudge(Controversial march,CONTROVERSIAL MARCH,CrimeRate,0.07,0.9f);CreateGrudge(Controversial march,CONTROVERSIAL MARCH,Liberal,0.15,0.9f);CreateGrudge(Controversial march,CONTROVERSIAL MARCH,RacialTension,0.31,0.85f);

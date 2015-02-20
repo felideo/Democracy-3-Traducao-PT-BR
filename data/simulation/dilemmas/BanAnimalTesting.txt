@@ -1,17 +1,17 @@
 [dilemma]
 name=BanAnimalTesting
 guiname=Proibir Testes com Animais
-description=A proposta de proibir toda experimentaçao animal foi colocado antes do governo por grupos de pressao. Atualmente, temos algumas pessoas que trabalham em industrias que utilizam testes em animais, mas e tambem uma pratica altamente impopular.
+description=A proposta de proibir toda experimentacao animal foi colocado antes do governo por grupos de pressao. Atualmente, temos algumas pessoas que trabalham em industrias que utilizam testes em animais, mas e tambem uma pratica altamente impopular.
 
 [influences]
 0 = _random_,0.42,0.9
 
 [option0]
 Name = Proibir isto
-Description = Nos dias atuais nao ha nenhuma boa razao para testar todos os produtos em animais, especialmente de cosmeticos. As praticas utilizadas sao muitas vezes extremamente cruel, e uma proibiçao teria amplo apoio publico e pouco impacto real na industria. 
+Description = Nos dias atuais nao ha nenhuma boa razao para testar todos os produtos em animais, especialmente de cosmeticos. As praticas utilizadas sao muitas vezes extremamente cruel, e uma proibicao teria amplo apoio publico e pouco impacto real na industria. 
 OnImplement = CreateGrudge(Ban Animal Testing,BanAnimalTesting,Environmentalist,0.08,0.9f);CreateGrudge(Ban Animal Testing,BanAnimalTesting,GDP,-0.02,0.9f);CreateGrudge(Ban Animal Testing,BanAnimalTesting,Unemployment,0.01,0.9f);
 
 [option1]
 Name = Nao mudar
-Description = Os produtos so sao testados em animais, a fim de garantir que nao ha nenhuma chance de perigo aos seres humanos, e e feito apenas como ultimo recurso, sob condiçoes controladas. Se impor uma proibiçao tao drastica que vai prejudicar nossas industrias de cosmeticos e farmaceuticas. 
+Description = Os produtos so sao testados em animais, a fim de garantir que nao ha nenhuma chance de perigo aos seres humanos, e e feito apenas como ultimo recurso, sob condicoes controladas. Se impor uma proibicao tao drastica que vai prejudicar nossas industrias de cosmeticos e farmaceuticas. 
 OnImplement = CreateGrudge(Ban Animal Testing,BanAnimalTesting,Environmentalist,-0.07,0.9f);CreateGrudge(Ban Animal Testing,BanAnimalTesting,Liberal,-0.02,0.9f);

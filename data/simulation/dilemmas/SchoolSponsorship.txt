@@ -1,7 +1,7 @@
 [dilemma]
 name=SchoolSponsorship
 guiname=Patrocinio Escolar
-description=Um certo numero de grandes empresas manifestaram interesse em investir no nosso sistema escolar. Tudo a partir de livros escolares gratuitos a centros esportivos inteiras e oferecido em troca de algum esposiçao da marca e oportunidades promocionais.
+description=Um certo numero de grandes empresas manifestaram interesse em investir no nosso sistema escolar. Tudo a partir de livros escolares gratuitos a centros esportivos inteiras e oferecido em troca de algum esposicao da marca e oportunidades promocionais.
 
 [influences]
 0 = _random_,0,1.0
@@ -9,13 +9,13 @@ description=Um certo numero de grandes empresas manifestaram interesse em invest
 
 [option0]
 Name = Permitir patrocinio
-Description = Ele seria louco de recusar a oferta de materiais educativos livres. O governo nao pode fornecer a instrutura das instalaçoes de arte que estas empresas estao preparadas para construir em nossas escolas. Tendo logotipos de empresas em livros escolares e um preço insignificante a pagar por tal grande investimento em educaçao.
+Description = Ele seria louco de recusar a oferta de materiais educativos livres. O governo nao pode fornecer a instrutura das instalacoes de arte que estas empresas estao preparadas para construir em nossas escolas. Tendo logotipos de empresas em livros escolares e um preco insignificante a pagar por tal grande investimento em educacao.
 OnImplement = CreateGrudge(School Sponsorship,SchoolSponsorship,Liberal,-0.08,0.9f);CreateGrudge(School Sponsorship,SchoolSponsorship,Education,0.04
 ,0.9f);CreateGrudge(School Sponsorship,SchoolSponsorship,Socialist,-0.05,0.9f);CreateGrudge(School Sponsorship,SchoolSponsorship,Capitalist,0.05,0.9f);
 
 [option1]
 Name = Prevenir patrocinio
-Description = Nossas escolas sao lugares para as crianças a ser educadas, nao para ser uma lavagem cerebral em comprar esta ou aquela marca de cola. Publicidade esta em toda parte na sociedade e as escolas sao um dos ultimos lugares que podemos escapar dela. Mantenha grandes empresas para fora da educaçao!
+Description = Nossas escolas sao lugares para as criancas a ser educadas, nao para ser uma lavagem cerebral em comprar esta ou aquela marca de cola. Publicidade esta em toda parte na sociedade e as escolas sao um dos ultimos lugares que podemos escapar dela. Mantenha grandes empresas para fora da educacao!
 OnImplement = CreateGrudge(School Sponsorship,SchoolSponsorship,Liberal,0.05,0.9f);CreateGrudge(School Sponsorship,SchoolSponsorship,Socialist,0.02,0.9f);
 
 

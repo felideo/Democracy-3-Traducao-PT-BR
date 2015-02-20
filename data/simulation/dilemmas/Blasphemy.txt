@@ -1,7 +1,7 @@
 [dilemma]
 name=BLASPHEMY
 guiname=Blasfemia
-description=Um livro foi publicado, que e altamente critico de uma religiao seguida por uma seçao transversal da nossa sociedade. Os lideres religiosos tem descrito o livro como blasfemico e exigiu que ele seja removido da venda. Houve protestos violentos fora de livrarias onde copias do livro foram queimadas.
+description=Um livro foi publicado, que e altamente critico de uma religiao seguida por uma secao transversal da nossa sociedade. Os lideres religiosos tem descrito o livro como blasfemico e exigiu que ele seja removido da venda. Houve protestos violentos fora de livrarias onde copias do livro foram queimadas.
 
 
 [influences]
@@ -9,7 +9,7 @@ description=Um livro foi publicado, que e altamente critico de uma religiao segu
 
 [option0]
 Name = Banir livro
-Description = Este livro e altamente ofensiva e devemos levar em conta a opiniao das nossas minorias etnicas. Sua perfeitamente razoavel restringir a venda de material como este que provavelmente pode provocar uma perturbaçao na ordem publica. Banir o livro.
+Description = Este livro e altamente ofensiva e devemos levar em conta a opiniao das nossas minorias etnicas. Sua perfeitamente razoavel restringir a venda de material como este que provavelmente pode provocar uma perturbacao na ordem publica. Banir o livro.
 OnImplement = CreateGrudge(Blasphemy,BLASPHEMY,Liberal,-0.13,0.9);CreateGrudge(Blasphemy,BLASPHEMY,Religious,0.13,0.9);
 
 [option1]

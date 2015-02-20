@@ -1,7 +1,7 @@
 [dilemma]
 name=ChildLabourLaw
 guiname=Lei de trabalho infantil
-description=Muitos de nossos cidadaos mais jovens estao deixando a escola precocemente, a fim de ocupar empregos com baixa remuneraçao. Alguns estao mesmo a faltar a escola para trabalhar a tempo inteiro, quando deveriam estar aprendendo. A lei e actualmente muito fraco com relaçao a prevençao de empresas de empregar menores de 16 anos em posiçoes de tempo integral. Esta proposta de lei que tornaria crime a empregar intencionalmente alguem com menos de 16 para mais de 5 horas por semana.
+description=Muitos de nossos cidadaos mais jovens estao deixando a escola precocemente, a fim de ocupar empregos com baixa remuneracao. Alguns estao mesmo a faltar a escola para trabalhar a tempo inteiro, quando deveriam estar aprendendo. A lei e actualmente muito fraco com relacao a prevencao de empresas de empregar menores de 16 anos em posicoes de tempo integral. Esta proposta de lei que tornaria crime a empregar intencionalmente alguem com menos de 16 para mais de 5 horas por semana.
 
 [influences]
 0 = _random_,0,0.85
@@ -9,12 +9,12 @@ description=Muitos de nossos cidadaos mais jovens estao deixando a escola precoc
 
 [option0]
 Name = Criminalzar trabalho infantil
-Description = Nos podemos fazer discursos sobre como as crianças devem estar na escola ate perdemos o folego, mas a menos que fazemos de nossas palavras em legislaçao e a ameaça de açao penal, os nossos filhos vao continuar a faltar a escola para ganhar dinheiro. Temos que apoiar essa lei por causa das crianças!
+Description = Nos podemos fazer discursos sobre como as criancas devem estar na escola ate perdemos o folego, mas a menos que fazemos de nossas palavras em legislacao e a ameaca de acao penal, os nossos filhos vao continuar a faltar a escola para ganhar dinheiro. Temos que apoiar essa lei por causa das criancas!
 OnImplement = CreateGrudge(Child labor law,ChildLabourLaw,Liberal,0.1,0.9);CreateGrudge(Child labor law,ChildLabourLaw,Socialist,0.09,0.9);CreateGrudge(Child labor law,ChildLabourLaw,Parents,0.13,0.9);CreateGrudge(Child labor law,ChildLabourLaw,GDP,-0.01,0.9f);CreateGrudge(Child labor law,ChildLabourLaw,TradeUnionist,0.08,0.9);CreateGrudge(Child labor law,ChildLabourLaw,Education,0.04
 ,0.9);
 
 [option1]
 Name = Deixar lei inalterada
-Description = Esta lei e desnecessaria. As crianças que estao saltando a escola nao sao susceptiveis de ser aqueles que prestam atençao na aula de qualquer maneira, e eles estao contribuindo para a economia trabalhando em seu lugar. Tambem estamos correndo o risco de criminalizar pequenos empresarios que podem nao saber a idade das pessoas que empregam de forma casual.
+Description = Esta lei e desnecessaria. As criancas que estao saltando a escola nao sao susceptiveis de ser aqueles que prestam atencao na aula de qualquer maneira, e eles estao contribuindo para a economia trabalhando em seu lugar. Tambem estamos correndo o risco de criminalizar pequenos empresarios que podem nao saber a idade das pessoas que empregam de forma casual.
 OnImplement = CreateGrudge(Child labor law,ChildLabourLaw,Liberal,-0.02,0.9);CreateGrudge(Child labor law,ChildLabourLaw,Socialist,-0.06,0.9);CreateGrudge(Child labor law,ChildLabourLaw,Parents,-0.11,0.9);CreateGrudge(Child labor law,ChildLabourLaw,TradeUnionist,-0.05,0.9);
 

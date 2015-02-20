@@ -1,7 +1,7 @@
 [dilemma]
 name=HUNGER STRIKE
 guiname=Greve de fome
-description=Um terrorista condenado entrou em greve de fome exigindo ele seja autorizado a receber a visita de pessoas que estariam associados a grupos terroristas. Nos nao temos evidencias para prender os seus colegas, e atualmente estao proibidas todas as visitas para este prisioneiro, Parece que ele vai continuar com sua ameaça de greve de fome e pode morrer em sua cela.
+description=Um terrorista condenado entrou em greve de fome exigindo ele seja autorizado a receber a visita de pessoas que estariam associados a grupos terroristas. Nos nao temos evidencias para prender os seus colegas, e atualmente estao proibidas todas as visitas para este prisioneiro, Parece que ele vai continuar com sua ameaca de greve de fome e pode morrer em sua cela.
 
 [influences]
 0 = _default_,0.3+(0*x)
@@ -14,7 +14,7 @@ OnImplement = CreateGrudge(Hunger strike,HUNGER STRIKE,Religious,0.15,0.9f);Crea
 
 [option1]
 Name = Evitar visitas
-Description = Voce nao negociar com terroristas. E tao simples como isso. Eles so vao perceber qualquer negociaçao ou relaxamento das regras de nossa parte como um sinal de fraqueza. Se ele morrer na prisao, entao essa e a sua decisao e nao devemos estar preocupados.
+Description = Voce nao negociar com terroristas. E tao simples como isso. Eles so vao perceber qualquer negociacao ou relaxamento das regras de nossa parte como um sinal de fraqueza. Se ele morrer na prisao, entao essa e a sua decisao e nao devemos estar preocupados.
 OnImplement = CreateGrudge(Hunger strike,HUNGER STRIKE,Religious,-0.15,0.9f);CreateGrudge(Hunger strike,HUNGER STRIKE,Liberal,-0.15,0.9f);
 
 

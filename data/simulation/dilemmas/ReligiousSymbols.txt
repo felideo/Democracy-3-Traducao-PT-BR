@@ -1,19 +1,19 @@
 [dilemma]
 name=ReligiousSymbols
 guiname=Simbolos Religiosos Nas Escolas
-description=Existe uma pressao para nos apresentar uma lei para proibir o uso de simbolos religiosos nas escolas publicas pelos alunos. Isso inclui usar o hijab por estudantes muçulmanos femininos, e o uso de uma cruz por estudantes cristaos.
+description=Existe uma pressao para nos apresentar uma lei para proibir o uso de simbolos religiosos nas escolas publicas pelos alunos. Isso inclui usar o hijab por estudantes muculmanos femininos, e o uso de uma cruz por estudantes cristaos.
 
 [influences]
 0 = _random_,0.3,0.9
 
 [option0]
-Name = Introduzir proibiçao
-Description = A escola e um lugar para as crianças a aprender, nao para mostrar fidelidade religiosa. Ao assegurar que todos os alunos vestem da mesma forma, podemos garantir que ha igualdade e integraçao de todas as religioes, sem nenhuma discriminaçao. Esta e a extensao logica da separaçao entre religiao e Estado. As pessoas sao livres para se vestir como eles gostam em igrejas e mesquitas, mas nao nas escolas estaduais.
+Name = Introduzir proibicao
+Description = A escola e um lugar para as criancas a aprender, nao para mostrar fidelidade religiosa. Ao assegurar que todos os alunos vestem da mesma forma, podemos garantir que ha igualdade e integracao de todas as religioes, sem nenhuma discriminacao. Esta e a extensao logica da separacao entre religiao e Estado. As pessoas sao livres para se vestir como eles gostam em igrejas e mesquitas, mas nao nas escolas estaduais.
 OnImplement = CreateGrudge(Religious Symbols In Schools,ReligiousSymbols,Religious,-0.08,0.9f);CreateGrudge(Religious Symbols In Schools,ReligiousSymbols,Liberal,0.02,0.9f);
 
 [option1]
-Name = Rejeitar proibiçao
-Description = Esta e nada menos que a discriminaçao contra os muçulmanos. Ninguem realmente espera que essa lei a ser usado para evitar o uso de cruzes cristas, ele existe apenas como uma desculpa para proibir estudantes muçulmanos de se vestir como quiserem. Isso fara com que a divisao ea segregaçao, e e uma receita para a tensao religiosa nas escolas.
+Name = Rejeitar proibicao
+Description = Esta e nada menos que a discriminacao contra os muculmanos. Ninguem realmente espera que essa lei a ser usado para evitar o uso de cruzes cristas, ele existe apenas como uma desculpa para proibir estudantes muculmanos de se vestir como quiserem. Isso fara com que a divisao ea segregacao, e e uma receita para a tensao religiosa nas escolas.
 OnImplement = CreateGrudge(Religious Symbols In Schools,ReligiousSymbols,Liberal,-0.02,0.9f);CreateGrudge(Religious Symbols In Schools,ReligiousSymbols,Religious,0.03,0.9f);
 
 

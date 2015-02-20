@@ -1,7 +1,7 @@
 [dilemma]
 name=DNADatabase
 guiname=Banco de Dados de DNA
-description=Os chefes da policia estao pedindo que eles sejam autorizados a construir uma base de dados global de DNA de todo mundo para ajuda-los na luta contra o crime. Provas de DNA permite que muitos crimes anteriormente insoluveis a ser rastreado para os autores, embora existam preocupaçoes com a privacidade.
+description=Os chefes da policia estao pedindo que eles sejam autorizados a construir uma base de dados global de DNA de todo mundo para ajuda-los na luta contra o crime. Provas de DNA permite que muitos crimes anteriormente insoluveis a ser rastreado para os autores, embora existam preocupacoes com a privacidade.
 
 [influences]
 0 = _default_,0.5+(0*x)
@@ -14,7 +14,7 @@ OnImplement = CreateGrudge(DNA Database,DNADatabase,Conservatives,0.09,0.9f);Cre
 
 [option1]
 Name = Prevenir Banco de Dados
-Description = Esta e uma violaçao fundamental dos nossos cidadaos de direitos humanos. Temos que manter uma presunçao de inocencia ate que os individuos se prove sua culpa, e construir um banco de dados estilo big brother de todo mundo faz-nos sentir como criminosos. Sera que estamos realmente indo para 'forçar' os nossos cidadaos para fornecer amostras de DNA para o estado ou o rosto cadeia?
+Description = Esta e uma violacao fundamental dos nossos cidadaos de direitos humanos. Temos que manter uma presuncao de inocencia ate que os individuos se prove sua culpa, e construir um banco de dados estilo big brother de todo mundo faz-nos sentir como criminosos. Sera que estamos realmente indo para 'forcar' os nossos cidadaos para fornecer amostras de DNA para o estado ou o rosto cadeia?
 OnImplement = CreateGrudge(DNA Database,DNADatabase,Conservatives,-0.09,0.9f);CreateGrudge(DNA Database,DNADatabase,Liberal,0.10,0.9f);
 
 

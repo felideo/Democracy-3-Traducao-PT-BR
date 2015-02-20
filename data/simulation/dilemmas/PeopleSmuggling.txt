@@ -10,7 +10,7 @@ description=Um grande numero de pessoas foram capturados entrando em nosso pais 
 
 [option0]
 Name = Permiti-los ficar
-Description = Ha fortes evidencias de que essas pessoas estavam desesperados para fugir da perseguiçao, pobreza ou mesmo a morte em seu proprio pais. Estas sao pessoas desesperadas como podemos ver a distancia que pecorreram para a fim de chegar aqui. Seria desumano deporta-los agora eles estao aqui. 
+Description = Ha fortes evidencias de que essas pessoas estavam desesperados para fugir da perseguicao, pobreza ou mesmo a morte em seu proprio pais. Estas sao pessoas desesperadas como podemos ver a distancia que pecorreram para a fim de chegar aqui. Seria desumano deporta-los agora eles estao aqui. 
 OnImplement = CreateGrudge(People Smuggling,PeopleSmuggling,Liberal,0.05,0.9f);CreateGrudge(People Smuggling,PeopleSmuggling,Conservatives,-0.05,0.9f);CreateGrudge(People Smuggling,PeopleSmuggling,Patriot,-0.08,0.9f);CreateGrudge(People Smuggling,PeopleSmuggling,EthnicMinorities,0.08,0.09);
 
 [option1]

@@ -1,7 +1,7 @@
 [dilemma]
 name=SoftwarePatents
 guiname=Patentes de Software
-description=As patentes de software sao uma forma de lei de propriedade intelectual que permite as empresas proteger algoritmos (pedaços de codigo de computador) que implementam uma nova tecnologia, como um novo tipo de software de traduçao, ou de um sistema de compras on-line. Eles geralmente sao populares entre grandes empresas, mas impopular entre aqueles que lutam por um 'liberdade' na internet e aqueles que pensam que as patentes em geral sufocam a inovaçao.
+description=As patentes de software sao uma forma de lei de propriedade intelectual que permite as empresas proteger algoritmos (pedacos de codigo de computador) que implementam uma nova tecnologia, como um novo tipo de software de traducao, ou de um sistema de compras on-line. Eles geralmente sao populares entre grandes empresas, mas impopular entre aqueles que lutam por um 'liberdade' na internet e aqueles que pensam que as patentes em geral sufocam a inovacao.
 
 [influences]
 0 = _random_,0.0,0.5
@@ -9,10 +9,10 @@ description=As patentes de software sao uma forma de lei de propriedade intelect
 
 [option0]
 Name = Permitir patente de Softwares
-Description = E essencial para a nossa economia digital que promulguem leis que incentivem o investimento em novos produtos e tecnologias. Sem permitir as patentes de software, estaremos abrindo as portas para as pequenas empresas, incluindo as de outros paises para intervir e colher os beneficios de investimentos grandes e caros feitos por nossas empresas de tecnologia. Ninguem vai investir em tecnologia aqui sem esse tipo de proteçao.
+Description = E essencial para a nossa economia digital que promulguem leis que incentivem o investimento em novos produtos e tecnologias. Sem permitir as patentes de software, estaremos abrindo as portas para as pequenas empresas, incluindo as de outros paises para intervir e colher os beneficios de investimentos grandes e caros feitos por nossas empresas de tecnologia. Ninguem vai investir em tecnologia aqui sem esse tipo de protecao.
 OnImplement = CreateGrudge(Software Patents,SoftwarePatents,Liberal,-0.10,1.0);CreateGrudge(Software Patents,SoftwarePatents,Capitalist,0.05,1.0);CreateGrudge(Software Patents,SoftwarePatents,GDP,0.02,1.0);CreateGrudge(Software Patents,SoftwarePatents,Technology,0.04,1.0);
 
 [option1]
 Name = Rejeitar patentes de software
-Description = As patentes de software parece razoavel, ate que voce percebe que eles podem ser usados ​​para sufocar a concorrencia e inovaçao. Poucas das ideias que estao sendo patenteados sao verdadeiramente descobertas originais, mas simplesmente uma apropriaçao de terras por advogados para patentear o obvio e garantir um monopolio virtual para as empresas de tecnologia com mais advogados. Isso nao e nada, mas o protecionismo grande negocio.
+Description = As patentes de software parece razoavel, ate que voce percebe que eles podem ser usados ​​para sufocar a concorrencia e inovacao. Poucas das ideias que estao sendo patenteados sao verdadeiramente descobertas originais, mas simplesmente uma apropriacao de terras por advogados para patentear o obvio e garantir um monopolio virtual para as empresas de tecnologia com mais advogados. Isso nao e nada, mas o protecionismo grande negocio.
 OnImplement = CreateGrudge(Software Patents,SoftwarePatents,Liberal,0.04,1.0);CreateGrudge(Software Patents,SoftwarePatents,Capitalist,-0.07,1.0);CreateGrudge(Software Patents,SoftwarePatents,GDP,-0.02,1.0);CreateGrudge(Software Patents,SoftwarePatents,Technology,-0.05,1.0);

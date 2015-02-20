@@ -1,7 +1,7 @@
 [dilemma]
 name=ViolentVideoGames
 guiname=Jogos Violentos
-description= Preocupaçoes tem sido levantadas na imprensa sobre o impacto que os videogames violentos tem sobre os jovens da naçoes. Alguns desses jogos estao sendo descritos como 'simuladores de assassinato', e ligaçoes foram sugeridos entre os jogos e os crimes violentos. Ha uma proposta para proibir certos jogos e restringir a venda de outros para aqueles com mais de 18 anos de idade.
+description= Preocupacoes tem sido levantadas na imprensa sobre o impacto que os videogames violentos tem sobre os jovens da nacoes. Alguns desses jogos estao sendo descritos como 'simuladores de assassinato', e ligacoes foram sugeridos entre os jogos e os crimes violentos. Ha uma proposta para proibir certos jogos e restringir a venda de outros para aqueles com mais de 18 anos de idade.
 
 [influences]
 0 = _default_,0+(0.2*x)
@@ -10,10 +10,10 @@ description= Preocupaçoes tem sido levantadas na imprensa sobre o impacto que o
 
 [option0]
 Name = Manter inalterado
-Description = Nao existem provas concretas que video games causam violencia. Na verdade, existe a possibilidade de eles prevenirem pessoas jovens de se tornarem violentas. Isso e uma maneira da sociedade procurar uma soluçao simples para a violencia, violencia essa que existia muito tempo antes da criaçao de video games.
+Description = Nao existem provas concretas que video games causam violencia. Na verdade, existe a possibilidade de eles prevenirem pessoas jovens de se tornarem violentas. Isso e uma maneira da sociedade procurar uma solucao simples para a violencia, violencia essa que existia muito tempo antes da criacao de video games.
 OnImplement = CreateGrudge(Violent Video Games,ViolentVideoGames,Liberal,0.1,0.9f);CreateGrudge(Violent Video Games,ViolentVideoGames,Conservatives,-0.12,0.9f);CreateGrudge(Violent Video Games,ViolentVideoGames,Young,0.1,0.9f);
 
 [option1]
 Name = Censurar jogos
-Description = Nao pode haver nenhuma relaçao comprovada direto, mas voce nao tem que jogar muitos desses jogos para ver como a influencia que tem sobre os jovens impressionaveis ​​deve ter um impacto negativo na sociedade. Os videogames sao uma midia interativa e sao susceptiveis de ter um efeito muito mais direto sobre as mentes impressionaveis ​​que o entretenimento passivo, tais como livros, televisao ou filmes. Algo precisa ser feito.
+Description = Nao pode haver nenhuma relacao comprovada direto, mas voce nao tem que jogar muitos desses jogos para ver como a influencia que tem sobre os jovens impressionaveis ​​deve ter um impacto negativo na sociedade. Os videogames sao uma midia interativa e sao susceptiveis de ter um efeito muito mais direto sobre as mentes impressionaveis ​​que o entretenimento passivo, tais como livros, televisao ou filmes. Algo precisa ser feito.
 OnImplement = CreateGrudge(Violent Video Games,ViolentVideoGames,Liberal,-0.08,0.9f);CreateGrudge(Violent Video Games,ViolentVideoGames,Conservatives,0.1,0.9f);CreateGrudge(Violent Video Games,ViolentVideoGames,Young,-0.12,0.9f);

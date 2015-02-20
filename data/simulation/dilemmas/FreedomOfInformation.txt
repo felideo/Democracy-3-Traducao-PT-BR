@@ -1,7 +1,7 @@
 [dilemma]
-name=Liberdade de Informaçao
+name=Liberdade de Informacao
 guiname=Freedom of information
-description=Houve apelos para uma lei para aumentar a disponibilidade de informaçoes mantidas em bancos de dados sobre os cidadaos sem o seu conhecimento. Estes incluem os registros mantidos por empresas medicas privadas, companhias de seguros e agencias de cobrança de dividas, bem como informaçoes detidas pelos orgaos governamentais.
+description=Houve apelos para uma lei para aumentar a disponibilidade de informacoes mantidas em bancos de dados sobre os cidadaos sem o seu conhecimento. Estes incluem os registros mantidos por empresas medicas privadas, companhias de seguros e agencias de cobranca de dividas, bem como informacoes detidas pelos orgaos governamentais.
 
 [influences]
 0 = _default_,0.5+(0*x)
@@ -9,7 +9,7 @@ description=Houve apelos para uma lei para aumentar a disponibilidade de informa
 
 [option0]
 Name = Rejeitar a proposta
-Description = Ninguem gosta da ideia de que o governo segurando informaçoes sobre eles, mas em algumas circunstancias, isso precisa ser feito. O governo nao esta a fim de espionar todos, mas passando essa lei so vai tornar mais dificil para os serviços de inteligencia para manter uma vigilancia sobre os criminosos graves e terroristas. Ele tambem ira afetar um grande numero de empresas que tem bases de dados de clientes, que serao inundados com ainda mais burocracia.
+Description = Ninguem gosta da ideia de que o governo segurando informacoes sobre eles, mas em algumas circunstancias, isso precisa ser feito. O governo nao esta a fim de espionar todos, mas passando essa lei so vai tornar mais dificil para os servicos de inteligencia para manter uma vigilancia sobre os criminosos graves e terroristas. Ele tambem ira afetar um grande numero de empresas que tem bases de dados de clientes, que serao inundados com ainda mais burocracia.
 OnImplement = CreateGrudge(Freedom of information,Freedomofinformation,Liberal,-0.13,1.0);CreateGrudge(Freedom of information,Freedomofinformation,StateEmployees,0.05,1.0);CreateGrudge(Freedom of information,Freedomofinformation,_security_,0.10,1.0);
 
 [option1]

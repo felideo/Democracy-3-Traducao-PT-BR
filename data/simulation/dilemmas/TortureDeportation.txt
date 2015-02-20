@@ -1,5 +1,5 @@
 [dilemma]
-name=Deportaçao para Tortura
+name=Deportacao para Tortura
 guiname=Os agentes da policia prenderam um vigarista que tem uma estadia em nosso pais de forma ilegal. Em circunstancias normais, ele seria elegivel para ser deportado de volta ao seu pais de origem. O homem afirma que, se enviado de volta a sua terra natal, e provavel que ele sera torturado pelo governo.
 
 [influences]
@@ -7,12 +7,12 @@ guiname=Os agentes da policia prenderam um vigarista que tem uma estadia em noss
 
 [option0]
 Name = Deporta-lo
-Description = Este homem tem ninguem para culpar por sua situaçao, mas a si mesmo. Ele chegou aqui ilegalmente, e tem operado como um criminoso desde que ele chegou aqui. Se ele tivesse pedido asilo politico quando ele chegou e nao começado uma vida de crime, seria uma questao diferente. Nas circunstancias devemos tomar suas alegaçoes de ameaças de tortura com uma pitada de sal.
+Description = Este homem tem ninguem para culpar por sua situacao, mas a si mesmo. Ele chegou aqui ilegalmente, e tem operado como um criminoso desde que ele chegou aqui. Se ele tivesse pedido asilo politico quando ele chegou e nao comecado uma vida de crime, seria uma questao diferente. Nas circunstancias devemos tomar suas alegacoes de ameacas de tortura com uma pitada de sal.
 OnImplement = CreateGrudge(Torture Deportation,TortureDeportation,Patriot,0.04,0.9f);CreateGrudge(Torture Deportation,TortureDeportation,Liberal,-0.08,0.9f);
 
 [option1]
 Name = Mante-lo aqui
-Description = E claro que este homem nao e um cidadao modelo, mas nao vigarista merece ser torturado. Se realmente se opoem ao uso da tortura em principio, entao, apesar da historia do homem, e preciso garantir que nao esta disposta a participar de tortura, enviando-o de volta para casa. Se deporta-lo, ele poderia se tornar efetivamente uma sentença de morte.
+Description = E claro que este homem nao e um cidadao modelo, mas nao vigarista merece ser torturado. Se realmente se opoem ao uso da tortura em principio, entao, apesar da historia do homem, e preciso garantir que nao esta disposta a participar de tortura, enviando-o de volta para casa. Se deporta-lo, ele poderia se tornar efetivamente uma sentenca de morte.
 OnImplement = CreateGrudge(Torture Deportation,TortureDeportation,Patriot,-0.08,0.9f);CreateGrudge(Torture Deportation,TortureDeportation,Liberal,0.02,0.9f);
 
 
