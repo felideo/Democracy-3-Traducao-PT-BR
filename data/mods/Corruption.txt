@@ -1,0 +1,6 @@
+[config]
+name = "Corruption"
+path = "Corruption"
+guiname = "Corrupcao"
+author = "joaco335"
+description = "Corrupcao Mod"
