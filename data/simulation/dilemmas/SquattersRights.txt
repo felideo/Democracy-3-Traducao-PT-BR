@@ -15,6 +15,6 @@ OnImplement = CreateGrudge(Squatters rights,SQUATTERS RIGHTS,Socialist,0.16,0.9f
 
 [option1]
 Name = Expulsar os posseiros
-Description = E um precedente perigoso voce dar propriedade privada para ladroes. Se o dono e rico o bastante para ter propriedades vazias, entao e um direito dele. Ninguem esta impedindo esses invasores de economizar e comprar casas legalmente, assim como esse proprietario fez. Mande a polIcia e tire essas pessoas de la.
+Description = E um precedente perigoso voce dar propriedade privada para ladroes. Se o dono e rico o bastante para ter propriedades vazias, entao e um direito dele. Ninguem esta impedindo esses invasores de economizar e comprar casas legalmente, assim como esse proprietario fez. Mande a policia e tire essas pessoas de la.
 OnImplement = CreateGrudge(Squatters rights,SQUATTERS RIGHTS,Socialist,-0.12,0.9f);CreateGrudge(Squatters rights,SQUATTERS RIGHTS,Capitalist,0.03,0.9f);CreateGrudge(Squatters rights,SQUATTERS RIGHTS,Wealthy,0.17,0.9f);CreateGrudge(Squatters rights,SQUATTERS RIGHTS,Poor,-0.08,0.9f);
 

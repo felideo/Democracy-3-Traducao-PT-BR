@@ -1,17 +1,17 @@
 [dilemma]
 name=GMFood
 guiname=Proposta Comida Transgenica 
-description=Um certo numero de grandes empresas agrIcolas estao interessados no crescimento de alimentos geneticamente modificado (GM) em nosso solo. Alguns alimentos podem ser geneticamente manipulados para permitir maior tempo de armazenamento e ambas as doencas e resistencia a herbicidas. Os adversarios estao preocupados com os riscos potenciais associados com a alteracao da cadeia alimentar. Os agricultores estao divididos sobre a questao.
+description=Um certo numero de grandes empresas agricolas estao interessados no crescimento de alimentos geneticamente modificado (GM) em nosso solo. Alguns alimentos podem ser geneticamente manipulados para permitir maior tempo de armazenamento e ambas as doencas e resistencia a herbicidas. Os adversarios estao preocupados com os riscos potenciais associados com a alteracao da cadeia alimentar. Os agricultores estao divididos sobre a questao.
 
 [influences]
 0 = _random_,0,1.0
 
 [option0]
 Name = Permitir cultivar comida transgenica
-Description = Culturas geneticamente modificadas tem enormes benefIcios potenciais. Nao so eles aumentam prazo de validade e, assim, reduzir os custos para os vendedores, mas tambem pode reduzir a necessidade de pesticidas, o que significa, portanto, produtos quImicos menos nocivos em uso durante a sua producao. Tambem e possIvel para os alimentos a serem criados com outros benefIcios como melhor teor de vitamina.
+Description = Culturas geneticamente modificadas tem enormes beneficios potenciais. Nao so eles aumentam prazo de validade e, assim, reduzir os custos para os vendedores, mas tambem pode reduzir a necessidade de pesticidas, o que significa, portanto, produtos quimicos menos nocivos em uso durante a sua producao. Tambem e possivel para os alimentos a serem criados com outros beneficios como melhor teor de vitamina.
 OnImplement = CreateGrudge(GM Food proposal,GMFood,Environmentalist,-0.14,0.9f);CreateGrudge(GM Food proposal,GMFood,GDP,0.01,0.9f);CreateGrudge(GM Food proposal,GMFood,Capitalist,0.03,0.9f);
 
 [option1]
 Name = Proibir venda de comida transgenica
-Description = Nao ha necessidade de alimentos GM. Os benefIcios sao grandes para os produtores, mas nao para os consumidores. Nos simplesmente nao sabemos o suficiente sobre os efeitos a longo prazo de modificar geneticamente a cadeia alimentar. A pesquisa cientIfica e tudo muito bem, mas uma vez libertados no ambiente, estes organismos nao podem ser recuperados. Devemos agir agora para proteger a cadeia alimentar, desde a GM.
+Description = Nao ha necessidade de alimentos GM. Os beneficios sao grandes para os produtores, mas nao para os consumidores. Nos simplesmente nao sabemos o suficiente sobre os efeitos a longo prazo de modificar geneticamente a cadeia alimentar. A pesquisa cientifica e tudo muito bem, mas uma vez libertados no ambiente, estes organismos nao podem ser recuperados. Devemos agir agora para proteger a cadeia alimentar, desde a GM.
 OnImplement = CreateGrudge(GM Food proposal,GMFood,Environmentalist,0.13,0.9f);CreateGrudge(GM Food proposal,GMFood,GDP,-0.03,0.9f);CreateGrudge(GM Food proposal,GMFood,Capitalist,-0.03,0.9f);

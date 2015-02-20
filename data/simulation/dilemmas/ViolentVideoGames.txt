@@ -15,5 +15,5 @@ OnImplement = CreateGrudge(Violent Video Games,ViolentVideoGames,Liberal,0.1,0.9
 
 [option1]
 Name = Censurar jogos
-Description = Nao pode haver nenhuma relacao comprovada direto, mas voce nao tem que jogar muitos desses jogos para ver como a influencia que tem sobre os jovens impressionaveis ​​deve ter um impacto negativo na sociedade. Os videogames sao uma mIdia interativa e sao susceptIveis de ter um efeito muito mais direto sobre as mentes impressionaveis ​​que o entretenimento passivo, tais como livros, televisao ou filmes. Algo precisa ser feito.
+Description = Nao pode haver nenhuma relacao comprovada direto, mas voce nao tem que jogar muitos desses jogos para ver como a influencia que tem sobre os jovens impressionaveis ​​deve ter um impacto negativo na sociedade. Os videogames sao uma midia interativa e sao susceptiveis de ter um efeito muito mais direto sobre as mentes impressionaveis ​​que o entretenimento passivo, tais como livros, televisao ou filmes. Algo precisa ser feito.
 OnImplement = CreateGrudge(Violent Video Games,ViolentVideoGames,Liberal,-0.08,0.9f);CreateGrudge(Violent Video Games,ViolentVideoGames,Conservatives,0.1,0.9f);CreateGrudge(Violent Video Games,ViolentVideoGames,Young,-0.12,0.9f);

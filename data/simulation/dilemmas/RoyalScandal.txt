@@ -1,7 +1,7 @@
 [dilemma]
 name=RoyalScandal
 guiname=Escandalo Real
-description=Um proeminente membro da famIlia real, infelizmente, fez um comentario que poderia ser considerado racista, se tomado fora do contexto. O comentario foi ouvido por fotografos da imprensa e esta causando um escandalo. Como sera o seu governo reagiu?
+description=Um proeminente membro da familia real, infelizmente, fez um comentario que poderia ser considerado racista, se tomado fora do contexto. O comentario foi ouvido por fotografos da imprensa e esta causando um escandalo. Como sera o seu governo reagiu?
 
 [influences]
 0 = _random_,0.2,0.9
@@ -11,12 +11,12 @@ MONARCHY
 
 [option0]
 Name = Apoiar o Monarca
-Description = Ninguem espera que o governo atual critique abertamente o monarca. Ele ira provavelmente provocar maiores 'dificuldades' constitucionais e seria considerado profundamente antipatriotico. Devemos emitir uma declaracao no sentido de que a frase foi tirada do contexto, era fora do registro e claramente nao representam as opinioes da famIlia real.
+Description = Ninguem espera que o governo atual critique abertamente o monarca. Ele ira provavelmente provocar maiores 'dificuldades' constitucionais e seria considerado profundamente antipatriotico. Devemos emitir uma declaracao no sentido de que a frase foi tirada do contexto, era fora do registro e claramente nao representam as opinioes da familia real.
 OnImplement = CreateGrudge(Royal Scandal,RoyalScandal,Patriot,0.07,0.9f);CreateGrudge(Royal Scandal,RoyalScandal,Liberal,-0.07,0.9f);CreateGrudge(Royal Scandal,RoyalScandal,Conservatives,0.06,0.9f);
 
 [option1]
 Name = Criticar o Mornaca
-Description = Como podemos ficar parados e deixar que isso aconteca sem comentario? Ninguem espera que o seu governo para pedir a abolicao das famIlias reais, mas, no mInimo, uma declaracao contundente no sentido de que tais comentarios sao 'inuteis e 'fora de sintonia com os tempos'seria adequado, independentemente do que os monarquistas e patriotas pode pensar.
+Description = Como podemos ficar parados e deixar que isso aconteca sem comentario? Ninguem espera que o seu governo para pedir a abolicao das familias reais, mas, no minimo, uma declaracao contundente no sentido de que tais comentarios sao 'inuteis e 'fora de sintonia com os tempos'seria adequado, independentemente do que os monarquistas e patriotas pode pensar.
 OnImplement = CreateGrudge(Royal Scandal,RoyalScandal,Patriot,-0.17,0.9f);CreateGrudge(Royal Scandal,RoyalScandal,Liberal,0.10,0.9f);CreateGrudge(Royal Scandal,RoyalScandal,Conservatives,-0.12,0.9f);
 
 

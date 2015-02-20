@@ -1,7 +1,7 @@
 [dilemma]
 name=AppointAmbassador
 guiname=Nomear o Embaixador da ONU
-description=O nosso embaixador na ONU se aposenta este ano e precisamos nomear um sucessor, o mais rapidamente possIvel. Muita coisa vai ser feita se nos nomear-mos um linha-dura que adere-se para o paIs ou alguem mais capaz de comprometer.
+description=O nosso embaixador na ONU se aposenta este ano e precisamos nomear um sucessor, o mais rapidamente possivel. Muita coisa vai ser feita se nos nomear-mos um linha-dura que adere-se para o pais ou alguem mais capaz de comprometer.
 
 [influences]
 0 = _random_,0,1.0
@@ -13,5 +13,5 @@ OnImplement = CreateGrudge(Appoint UN Ambassador,AppointAmbassador,Socialist,-0.
 
 [option1]
 Name = Nomear <MaleName>
-Description = <MaleName> is a popular figure on the international stage with a reputation for solving difficult problems through compromise and understanding. A true internationalist, he is popular with the liberals and socialists in our society, as well as foreign leaders.<MaleName> E uma figura popular no cenario internacional com uma reputacao de resolver problemas difIceis atraves de compromisso e compreensao. Um verdadeiro internacionalista, ele e popular entre os liberais e os socialistas em nossa sociedade, bem como os lIderes estrangeiros.
+Description = <MaleName> is a popular figure on the international stage with a reputation for solving difficult problems through compromise and understanding. A true internationalist, he is popular with the liberals and socialists in our society, as well as foreign leaders.<MaleName> E uma figura popular no cenario internacional com uma reputacao de resolver problemas dificeis atraves de compromisso e compreensao. Um verdadeiro internacionalista, ele e popular entre os liberais e os socialistas em nossa sociedade, bem como os lideres estrangeiros.
 OnImplement = CreateGrudge(Appoint UN Ambassador,AppointAmbassador,Socialist,0.04,0.9);CreateGrudge(Appoint UN Ambassador,AppointAmbassador,Liberal,0.05,0.9);CreateGrudge(Appoint UN Ambassador,AppointAmbassador,Patriot,-0.09,0.9);CreateGrudge(Appoint UN Ambassador,AppointAmbassador,ForeignRelations,0.1,0.9);

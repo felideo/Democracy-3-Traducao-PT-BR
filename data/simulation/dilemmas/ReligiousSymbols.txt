@@ -1,7 +1,7 @@
 [dilemma]
 name=ReligiousSymbols
-guiname=SImbolos Religiosos Nas Escolas
-description=Existe uma pressao para nos apresentar uma lei para proibir o uso de sImbolos religiosos nas escolas publicas pelos alunos. Isso inclui usar o hijab por estudantes muculmanos femininos, e o uso de uma cruz por estudantes cristaos.
+guiname=Simbolos Religiosos Nas Escolas
+description=Existe uma pressao para nos apresentar uma lei para proibir o uso de simbolos religiosos nas escolas publicas pelos alunos. Isso inclui usar o hijab por estudantes muculmanos femininos, e o uso de uma cruz por estudantes cristaos.
 
 [influences]
 0 = _random_,0.3,0.9

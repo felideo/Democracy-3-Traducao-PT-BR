@@ -15,6 +15,6 @@ OnImplement = CreateGrudge(Child labor law,ChildLabourLaw,Liberal,0.1,0.9);Creat
 
 [option1]
 Name = Deixar lei inalterada
-Description = Esta lei e desnecessaria. As criancas que estao saltando a escola nao sao susceptIveis de ser aqueles que prestam atencao na aula de qualquer maneira, e eles estao contribuindo para a economia trabalhando em seu lugar. Tambem estamos correndo o risco de criminalizar pequenos empresarios que podem nao saber a idade das pessoas que empregam de forma casual.
+Description = Esta lei e desnecessaria. As criancas que estao saltando a escola nao sao susceptiveis de ser aqueles que prestam atencao na aula de qualquer maneira, e eles estao contribuindo para a economia trabalhando em seu lugar. Tambem estamos correndo o risco de criminalizar pequenos empresarios que podem nao saber a idade das pessoas que empregam de forma casual.
 OnImplement = CreateGrudge(Child labor law,ChildLabourLaw,Liberal,-0.02,0.9);CreateGrudge(Child labor law,ChildLabourLaw,Socialist,-0.06,0.9);CreateGrudge(Child labor law,ChildLabourLaw,Parents,-0.11,0.9);CreateGrudge(Child labor law,ChildLabourLaw,TradeUnionist,-0.05,0.9);
 

@@ -1,7 +1,7 @@
 [dilemma]
 name=HOSTAGE SITUATION
 guiname=Situacao de Refens
-description=Um grupo de extremistas religiosos tomaram alguns refens por homens armados e ameacam mata-los a menos que as exigencias em materia de polItica externa nao sao cumpridas. As demandas que eles fazem nao sao tao extremo, mas pode ser perigoso para ser visto a negociar.
+description=Um grupo de extremistas religiosos tomaram alguns refens por homens armados e ameacam mata-los a menos que as exigencias em materia de politica externa nao sao cumpridas. As demandas que eles fazem nao sao tao extremo, mas pode ser perigoso para ser visto a negociar.
 
 [influences]
 0 = _default_,0.3+(0*x)
@@ -13,7 +13,7 @@ Description = A melhor coisa que podemos fazer aqui e ser razoavel e dar-nos pel
 OnImplement = CreateGrudge(hostage situation,HOSTAGE SITUATION,Religious,0.15,0.9f);CreateGrudge(hostage situation,HOSTAGE SITUATION,_Terrorism,0.3,0.9f);
 
 [option1]
-Name = Enviar polIcia
+Name = Enviar policia
 Description = Nao ha negociacao com sequestradores. Faze-lo seria abrir as comportas para o caos total. Sua infeliz para os cidadaos tomados como refens, mas precisamos invadir o predio agora e tentar obter essas pessoas libertados. Se isso significa atirar os sequestradores e perder alguns refens, esse e o preco que temos de pagar. acao contra essas pessoas so podem provocar tensao racial.
 OnImplement = CreateGrudge(hostage situation,HOSTAGE SITUATION,Religious,-0.15,0.9f);CreateGrudge(hostage situation,HOSTAGE SITUATION,Liberal,-0.15,0.9f);
 

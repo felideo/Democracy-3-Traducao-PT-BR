@@ -1,7 +1,7 @@
 [dilemma]
 name=HousingExpansion
 guiname=Expansao Habitacional 
-description=Ha uma escassez de casas em nosso paIs, e o governo esta sob pressao para relaxar as leis de planejamento e permitir que anteriormente restrito terra '-cinturao verde a ser construIdo.
+description=Ha uma escassez de casas em nosso pais, e o governo esta sob pressao para relaxar as leis de planejamento e permitir que anteriormente restrito terra '-cinturao verde a ser construido.
 
 [influences]
 0 = _random_,0.2,0.6
@@ -14,7 +14,7 @@ OnImplement = CreateGrudge(Housing Expansion,HousingExpansion,Environmentalist,-
 
 [option1]
 Name = Manter restricoes de planejamento
-Description = Ha sempre pressao para construir novas casas em locais de campo 'verde', porque as empresas de habitacao encontra-lo mais barato e mais facil de construir sobre eles. Ha uma abundancia de locais urbanos que devem ser reutilizados antes de recorrer ao desmembramento do campo. A subita expansao no cinturao verde teria um impacto terrIvel sobre as comunidades rurais.
+Description = Ha sempre pressao para construir novas casas em locais de campo 'verde', porque as empresas de habitacao encontra-lo mais barato e mais facil de construir sobre eles. Ha uma abundancia de locais urbanos que devem ser reutilizados antes de recorrer ao desmembramento do campo. A subita expansao no cinturao verde teria um impacto terrivel sobre as comunidades rurais.
 OnImplement = CreateGrudge(Housing Expansion,HousingExpansion,Environmentalist,0.07,0.9f);CreateGrudge(Housing Expansion,HousingExpansion,Farmers,0.09,0.9f);CreateGrudge(Housing Expansion,HousingExpansion,Capitalist,-0.04,0.9f);CreateGrudge(Housing Expansion,HousingExpansion,Homelessness,0.08,0.9f);
 
 

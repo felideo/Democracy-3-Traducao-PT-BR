@@ -142,7 +142,7 @@ Thiago
 Thomas
 Vagner
 Vicente
-VIctor
+Victor
 Vinicius
 Vitor
 Wellington
@@ -300,7 +300,7 @@ Serena
 Sofia
 Stella
 Sthefany
-ThaIs
+Thais
 Thalita
 Thauany
 Thayna
@@ -338,7 +338,7 @@ Dias
 Estevam
 Estevao
 Evaristo
-FabrIcio
+Fabricio
 Falcao
 Fantin
 Feitosa

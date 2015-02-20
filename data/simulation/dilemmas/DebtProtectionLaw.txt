@@ -1,7 +1,7 @@
 [dilemma]
 name=DebtProtectionLaw
-guiname=Lei de Protecao da dIvida
-description=Agencias de cobranca da dIvida foram notIcia por causa dos metodos agressivos que eles estao usando para extrair o pagamento de pessoas que devem grandes somas de dinheiro. Estas agencias de cobranca de dIvidas fornecem credito para as pessoas que nao teriam credito aprovado pelas maiores e mais respeitaveis empresas. A lei propoe-se limitar as maneiras pelas quais essas agencias podem operar.
+guiname=Lei de Protecao da divida
+description=Agencias de cobranca da divida foram noticia por causa dos metodos agressivos que eles estao usando para extrair o pagamento de pessoas que devem grandes somas de dinheiro. Estas agencias de cobranca de dividas fornecem credito para as pessoas que nao teriam credito aprovado pelas maiores e mais respeitaveis empresas. A lei propoe-se limitar as maneiras pelas quais essas agencias podem operar.
 
 [influences]
 0 = _default_,0.9+(0*x)
@@ -14,7 +14,7 @@ OnImplement = CreateGrudge(Debt Protection Law,DebtProtectionLaw,Socialist,0.09,
 
 [option1]
 Name = Permitir agencias a operar
-Description = Ninguem obriga as pessoas a pedir dinheiro emprestado que nao podem pagar, e para restringir os direitos das agencias de dIvida para recuperar dIvidas legItimas seria contra produtivo. As pessoas precisam aprender a viver dentro de suas possibilidades e nao esperar que o Estado os salve de problemas, se eles nao podem aprender a faze-lo.
+Description = Ninguem obriga as pessoas a pedir dinheiro emprestado que nao podem pagar, e para restringir os direitos das agencias de divida para recuperar dividas legitimas seria contra produtivo. As pessoas precisam aprender a viver dentro de suas possibilidades e nao esperar que o Estado os salve de problemas, se eles nao podem aprender a faze-lo.
 OnImplement = CreateGrudge(Debt Protection Law,DebtProtectionLaw,Socialist,-0.09,0.9f);CreateGrudge(Debt Protection Law,DebtProtectionLaw,Poor,-0.13,0.9f);CreateGrudge(Debt Protection Law,DebtProtectionLaw,SelfEmployed,0.04,0.9f);CreateGrudge(Debt Protection Law,DebtProtectionLaw,Capitalist,0.04,0.9f);
 
 

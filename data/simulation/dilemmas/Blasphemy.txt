@@ -1,7 +1,7 @@
 [dilemma]
 name=BLASPHEMY
 guiname=Blasfemia
-description=Um livro foi publicado, que e altamente crItico de uma religiao seguida por uma secao transversal da nossa sociedade. Os lIderes religiosos tem descrito o livro como blasfemico e exigiu que ele seja removido da venda. Houve protestos violentos fora de livrarias onde copias do livro foram queimadas.
+description=Um livro foi publicado, que e altamente critico de uma religiao seguida por uma secao transversal da nossa sociedade. Os lideres religiosos tem descrito o livro como blasfemico e exigiu que ele seja removido da venda. Houve protestos violentos fora de livrarias onde copias do livro foram queimadas.
 
 
 [influences]

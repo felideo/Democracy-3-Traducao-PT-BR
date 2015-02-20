@@ -1,7 +1,7 @@
 [dilemma]
 name=SafeguardOilSupplies
 guiname=Salvaguardar Suprimentos de Petroleo
-description=Representantes de empresas de petroleo com base no nosso paIs pediram que o governo implantar tropas no exterior em nossas refinarias de petroleo no Oriente Medio, para protege-los contra ataques de terroristas. Os governos envolvidos estao felizes por nossas tropas para ser estacionados em seu solo para esta finalidade.
+description=Representantes de empresas de petroleo com base no nosso pais pediram que o governo implantar tropas no exterior em nossas refinarias de petroleo no Oriente Medio, para protege-los contra ataques de terroristas. Os governos envolvidos estao felizes por nossas tropas para ser estacionados em seu solo para esta finalidade.
 
 [influences]
 0 = _random_,0.2,0.9
@@ -13,7 +13,7 @@ OnImplement = CreateGrudge(Safeguard Oil Supplies,SafeguardOilSupplies,Patriot,0
 
 [option1]
 Name = Nao implemente tropas
-Description = Nao importa o que a nossa motivacao e, o simbolismo das nossas tropas que aterram em solo estrangeiro, fortemente armados e preparados para usar a forca mortal, vai causar um grande retrocesso em alguns paIses. Sua provavel isso vai levar a problemas com as relacoes internacionais ea possibilidade de aumento do terrorismo. Nossas tropas nao sao a ala das empresas petrolIferas de seguranca, e isso nao e trabalho para eles.
+Description = Nao importa o que a nossa motivacao e, o simbolismo das nossas tropas que aterram em solo estrangeiro, fortemente armados e preparados para usar a forca mortal, vai causar um grande retrocesso em alguns paises. Sua provavel isso vai levar a problemas com as relacoes internacionais ea possibilidade de aumento do terrorismo. Nossas tropas nao sao a ala das empresas petroliferas de seguranca, e isso nao e trabalho para eles.
 OnImplement = CreateGrudge(Safeguard Oil Supplies,SafeguardOilSupplies,Patriot,-0.12,0.85);CreateGrudge(Safeguard Oil Supplies,SafeguardOilSupplies,Liberal,0.10,0.96);CreateGrudge(Safeguard Oil Supplies,SafeguardOilSupplies,OilSupply,-0.17,0.92);CreateGrudge(Safeguard Oil Supplies,SafeguardOilSupplies,EthnicMinorities,0.1,0.92);
 
 

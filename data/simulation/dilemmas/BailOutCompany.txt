@@ -1,7 +1,7 @@
 [dilemma]
 name=BAILOUTCOMPANY
 guiname=Socorrer Empresa
-description=Inter-Speed Autos Inc, uma das maiores empresas de automoveis no paIs se deparou com serias dificuldades financeiras e esta a beira de ir a falencia. Os executivos da empresa acham que podem obter novas encomendas e manter a empresa se o governo fornecer um emprestimo sem juros para mante-los funcionando para os proximos meses. O custo final e estimado em <SPENDADJUST_600>.
+description=Inter-Speed Autos Inc, uma das maiores empresas de automoveis no pais se deparou com serias dificuldades financeiras e esta a beira de ir a falencia. Os executivos da empresa acham que podem obter novas encomendas e manter a empresa se o governo fornecer um emprestimo sem juros para mante-los funcionando para os proximos meses. O custo final e estimado em <SPENDADJUST_600>.
 
 [influences]
 0 = _default_,0.9+(0*x)

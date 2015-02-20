@@ -1,17 +1,17 @@
 [dilemma]
 name=ToxicWasteDump
 guiname=Aterro de lixo toxico
-description=Uma proposta foi apresentada para a construcao de um grande deposito de resIduos toxicos em nosso paIs. Esta instalacao sera muito grande, potencialmente criando muitos empregos na sua construcao, mas ha preocupacoes sobre seus efeitos sobre o meio ambiente.
+description=Uma proposta foi apresentada para a construcao de um grande deposito de residuos toxicos em nosso pais. Esta instalacao sera muito grande, potencialmente criando muitos empregos na sua construcao, mas ha preocupacoes sobre seus efeitos sobre o meio ambiente.
 
 [influences]
 0 = _random_,0.3,0.9
 
 [option0]
 Name = Aprovar construcao
-Description = Ninguem quer exatamente lixo toxico em seu jardim , mas serIamos idiotas para virar as costas para as vantagens economicas deste mecanismo, sem mencionar os empregos potenciais. Por outro lado, podemos colocar o lixo em outros paIses, onde sao necessarios os postos de trabalho e os riscos sao baixos.
+Description = Ninguem quer exatamente lixo toxico em seu jardim , mas seriamos idiotas para virar as costas para as vantagens economicas deste mecanismo, sem mencionar os empregos potenciais. Por outro lado, podemos colocar o lixo em outros paises, onde sao necessarios os postos de trabalho e os riscos sao baixos.
 OnImplement = CreateGrudge(Toxic Waste Dump,ToxicWasteDump,Environmentalist,-0.23,0.9f);CreateGrudge(Toxic Waste Dump,ToxicWasteDump,GDP,0.02,0.9f);CreateGrudge(Toxic Waste Dump,ToxicWasteDump,Unemployment,-0.01,0.9f);
 
 [option1]
 Name = Prevenir construcao
-Description = Nao importa quantos empregos e quanto dinheiro esta envolvido, nao podemos simplesmente tomar a atitude de alugar o nosso paIs como um poco de lixo para outras nacoes. Os efeitos desse lixo toxico pode durar por geracoes, isso e realmente o legado que queremos deixar para nossos filhos?
+Description = Nao importa quantos empregos e quanto dinheiro esta envolvido, nao podemos simplesmente tomar a atitude de alugar o nosso pais como um poco de lixo para outras nacoes. Os efeitos desse lixo toxico pode durar por geracoes, isso e realmente o legado que queremos deixar para nossos filhos?
 OnImplement = CreateGrudge(Toxic Waste Dump,ToxicWasteDump,Environmentalist,0.07,0.9f);

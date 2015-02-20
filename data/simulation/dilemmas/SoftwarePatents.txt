@@ -9,7 +9,7 @@ description=As patentes de software sao uma forma de lei de propriedade intelect
 
 [option0]
 Name = Permitir patente de Softwares
-Description = E essencial para a nossa economia digital que promulguem leis que incentivem o investimento em novos produtos e tecnologias. Sem permitir as patentes de software, estaremos abrindo as portas para as pequenas empresas, incluindo as de outros paIses para intervir e colher os benefIcios de investimentos grandes e caros feitos por nossas empresas de tecnologia. Ninguem vai investir em tecnologia aqui sem esse tipo de protecao.
+Description = E essencial para a nossa economia digital que promulguem leis que incentivem o investimento em novos produtos e tecnologias. Sem permitir as patentes de software, estaremos abrindo as portas para as pequenas empresas, incluindo as de outros paises para intervir e colher os beneficios de investimentos grandes e caros feitos por nossas empresas de tecnologia. Ninguem vai investir em tecnologia aqui sem esse tipo de protecao.
 OnImplement = CreateGrudge(Software Patents,SoftwarePatents,Liberal,-0.10,1.0);CreateGrudge(Software Patents,SoftwarePatents,Capitalist,0.05,1.0);CreateGrudge(Software Patents,SoftwarePatents,GDP,0.02,1.0);CreateGrudge(Software Patents,SoftwarePatents,Technology,0.04,1.0);
 
 [option1]

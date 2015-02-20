@@ -9,7 +9,7 @@ description=Um terrorista condenado entrou em greve de fome exigindo ele seja au
 
 [option0]
 Name = Permitir visitas
-Description = Podemos nao gostar deste homem ou o que ele representa, mas nao podemos permitir que ele morra em uma cela. Fazer isso so iria reduzir-nos ao nIvel dos terroristas, e tambem certamente ele se tornara um martir. Devemos deixar que ele tenha visitantes, enquanto na prisao.
+Description = Podemos nao gostar deste homem ou o que ele representa, mas nao podemos permitir que ele morra em uma cela. Fazer isso so iria reduzir-nos ao nivel dos terroristas, e tambem certamente ele se tornara um martir. Devemos deixar que ele tenha visitantes, enquanto na prisao.
 OnImplement = CreateGrudge(Hunger strike,HUNGER STRIKE,Religious,0.15,0.9f);CreateGrudge(Hunger strike,HUNGER STRIKE,Liberal,0.22,0.9f);
 
 [option1]

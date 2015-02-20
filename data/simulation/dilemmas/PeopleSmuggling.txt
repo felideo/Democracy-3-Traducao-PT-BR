@@ -1,7 +1,7 @@
 [dilemma]
 name=PeopleSmuggling
 guiname=Trafico de Pessoas
-description=Um grande numero de pessoas foram capturados entrando em nosso paIs escondidos dentro de containers de carga, em uma tentativa organizada de contrabandear pessoas. Os criminosos que planejaram o esquema foram presos, mas ha debate sobre se as pessoas que estao agora em nossas costas deve ser enviadas de volta ao seu paIs de origem.
+description=Um grande numero de pessoas foram capturados entrando em nosso pais escondidos dentro de containers de carga, em uma tentativa organizada de contrabandear pessoas. Os criminosos que planejaram o esquema foram presos, mas ha debate sobre se as pessoas que estao agora em nossas costas deve ser enviadas de volta ao seu pais de origem.
 
 [influences]
 0 = _random_,0.2,0.4
@@ -9,8 +9,8 @@ description=Um grande numero de pessoas foram capturados entrando em nosso paIs 
 2 = BorderControls,0+(0.7*x)
 
 [option0]
-Name = PermitI-los ficar
-Description = Ha fortes evidencias de que essas pessoas estavam desesperados para fugir da perseguicao, pobreza ou mesmo a morte em seu proprio paIs. Estas sao pessoas desesperadas como podemos ver a distancia que pecorreram para a fim de chegar aqui. Seria desumano deporta-los agora eles estao aqui. 
+Name = Permiti-los ficar
+Description = Ha fortes evidencias de que essas pessoas estavam desesperados para fugir da perseguicao, pobreza ou mesmo a morte em seu proprio pais. Estas sao pessoas desesperadas como podemos ver a distancia que pecorreram para a fim de chegar aqui. Seria desumano deporta-los agora eles estao aqui. 
 OnImplement = CreateGrudge(People Smuggling,PeopleSmuggling,Liberal,0.05,0.9f);CreateGrudge(People Smuggling,PeopleSmuggling,Conservatives,-0.05,0.9f);CreateGrudge(People Smuggling,PeopleSmuggling,Patriot,-0.08,0.9f);CreateGrudge(People Smuggling,PeopleSmuggling,EthnicMinorities,0.08,0.09);
 
 [option1]

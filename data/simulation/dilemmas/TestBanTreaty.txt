@@ -1,7 +1,7 @@
 [dilemma]
 name=TestBanTreaty
 guiname=Tratado de Proibicao de Testes Nucleares
-description=As nacoes unidas esta empurrando para o seu paIs para assinar um tratado que nos proIbem de realizar todos os testes de armas nucleares para fins de investigacao. Muitas outras nacoes ja assinaram o tratado e estao nos pressionando para assinar por via diplomatica.
+description=As nacoes unidas esta empurrando para o seu pais para assinar um tratado que nos proibem de realizar todos os testes de armas nucleares para fins de investigacao. Muitas outras nacoes ja assinaram o tratado e estao nos pressionando para assinar por via diplomatica.
 
 [influences]
 0 = _random_,0.3,0.9
@@ -13,5 +13,5 @@ OnImplement = CreateGrudge(Nuclear Test Ban Treaty,TestBanTreaty,Patriot,-0.03,0
 
 [option1]
 Name = Nao assinar o tratado
-Description = E fundamental que manter o direito de realizar testes limitados. Vivemos em um mundo perigoso e nossa dissuasao nuclear e vital para a nossa defesa. Nao e para outros paIses para nos dizer como nos defender. Alem disso, sao necessarios ensaios para garantir as nossas armas continuam a ser utilizavel.
+Description = E fundamental que manter o direito de realizar testes limitados. Vivemos em um mundo perigoso e nossa dissuasao nuclear e vital para a nossa defesa. Nao e para outros paises para nos dizer como nos defender. Alem disso, sao necessarios ensaios para garantir as nossas armas continuam a ser utilizavel.
 OnImplement = CreateGrudge(Nuclear Test Ban Treaty,TestBanTreaty,Patriot,0.07,0.9f);CreateGrudge(Nuclear Test Ban Treaty,TestBanTreaty,Environmentalist,-0.04,0.9f);

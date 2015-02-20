@@ -1,7 +1,7 @@
 [dilemma]
 name=TRAVELLERS RIGHTS
 guiname=Direitos dos Viajantes
-description=Um conselho legal recentemente demoliu algumas casas abandonadas, deixando espaco vazio para viajantes estacionarem suas caravanas, as pessoas estao bravas e querem eles removidos de la, o conselho nao tem certeza sobre quais direitos essas pessoas tem entao ele repassou esssa situacao para definir qual sera a polItica nacional.
+description=Um conselho legal recentemente demoliu algumas casas abandonadas, deixando espaco vazio para viajantes estacionarem suas caravanas, as pessoas estao bravas e querem eles removidos de la, o conselho nao tem certeza sobre quais direitos essas pessoas tem entao ele repassou esssa situacao para definir qual sera a politica nacional.
 
 [influences]
 0 = PovertyRate,0+(0.92*x)
@@ -13,5 +13,5 @@ OnImplement = CreateGrudge(Travelers Rights,TRAVELLERS RIGHTS,Conservatives,-0.1
 
 [option1]
 Name = Expulsar os viajantes
-Description = Voce deve apoiar a populacao local. Esses viajantes invadiram propriedade privada e chatearam as famIlias locais. Isso e inaceitavel. Voce nao deve permitir que um grupo pequeno de pessoas cause tanta perturbacao em comunidades pacIficas.
+Description = Voce deve apoiar a populacao local. Esses viajantes invadiram propriedade privada e chatearam as familias locais. Isso e inaceitavel. Voce nao deve permitir que um grupo pequeno de pessoas cause tanta perturbacao em comunidades pacificas.
 OnImplement = CreateGrudge(Travelers Rights,TRAVELLERS RIGHTS,Liberal,-0.09,0.9f);CreateGrudge(Travelers Rights,TRAVELLERS RIGHTS,Conservatives,0.10,0.9f);CreateGrudge(Travelers Rights,TRAVELLERS RIGHTS,Poor,-0.09,0.9f);

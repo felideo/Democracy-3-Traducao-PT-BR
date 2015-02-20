@@ -9,7 +9,7 @@ description=Ha uma serie de suspeitas de ligacoes entre o tabagismo e ma saude. 
 
 [option0]
 Name = Proibir fumar em publico
-Description = Este e um passo importante para reduzir o numero de pessoas neste paIs que morrem de doencas relacionadas com o tabagismo. E dever do Estado a aprovar leis como esta, no interesse da saude das pessoas.
+Description = Este e um passo importante para reduzir o numero de pessoas neste pais que morrem de doencas relacionadas com o tabagismo. E dever do Estado a aprovar leis como esta, no interesse da saude das pessoas.
 OnImplement = CreateGrudge(Public smoking ban,PUBLIC SMOKING BAN,Environmentalist,0.05,0.9f);CreateGrudge(Public smoking ban,PUBLIC SMOKING BAN,Liberal,-0.08,0.9f);CreateGrudge(Public smoking ban,PUBLIC SMOKING BAN,TobaccoUse,-0.22,0.9f);
 DravenX
 

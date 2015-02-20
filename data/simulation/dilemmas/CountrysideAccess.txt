@@ -1,7 +1,7 @@
 [dilemma]
 name=CountrysideAccessLaw
 guiname=Lei de Acesso pelo Campo
-description=Grande parte da nossa paisagem e ainda de propriedade privada, com acesso ao andar sobre a terra restrita pelos latifundiarios. Ha uma forte campanha para trazer leis obrigando os proprietarios a fazerem da sua terra acessIvel para caminhantes e caminhantes para desfrutar da paisagem dentro de certas diretrizes.
+description=Grande parte da nossa paisagem e ainda de propriedade privada, com acesso ao andar sobre a terra restrita pelos latifundiarios. Ha uma forte campanha para trazer leis obrigando os proprietarios a fazerem da sua terra acessivel para caminhantes e caminhantes para desfrutar da paisagem dentro de certas diretrizes.
 
 [influences]
 0 = _default_,0.8+(0*x)

@@ -1,7 +1,7 @@
 [dilemma]
 name=SameSexmarriage
 guiname=Proibir casamento do mesmo sexo
-description=Ate recentemente, isso nao tem sido um problema, o casamento tem sido uma questao simples e uma cerimonia reservada para casais heterossexuais, mas cada vez mais os ministros mais liberais vem realizando casamentos do mesmo sexo. DeverIamos proibir isso no nIvel constitucional?
+description=Ate recentemente, isso nao tem sido um problema, o casamento tem sido uma questao simples e uma cerimonia reservada para casais heterossexuais, mas cada vez mais os ministros mais liberais vem realizando casamentos do mesmo sexo. Deveriamos proibir isso no nivel constitucional?
 
 [influences]
 0 = _random_,0,1.0

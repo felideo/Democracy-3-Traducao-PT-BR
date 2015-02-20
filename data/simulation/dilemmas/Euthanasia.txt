@@ -13,7 +13,7 @@ OnImplement = CreateGrudge(Euthanasia,Euthanasia,Liberal,0.05,0.9f);CreateGrudge
 
 [option1]
 Name = Deixar lei inalterada
-Description = Todo mundo tem simpatia por aqueles que estao envolvidos nestas situacoes, mas mudar a lei e a decisao errada. Esta seria o inIcio do fim, uma vez que o princIpio de ajudar as pessoas a morrer esta na lei a pressao vai estar em qualquer pessoa com uma doenca terminal, especialmente onde a assistencia medica e caro. Nao mude a lei. 
+Description = Todo mundo tem simpatia por aqueles que estao envolvidos nestas situacoes, mas mudar a lei e a decisao errada. Esta seria o inicio do fim, uma vez que o principio de ajudar as pessoas a morrer esta na lei a pressao vai estar em qualquer pessoa com uma doenca terminal, especialmente onde a assistencia medica e caro. Nao mude a lei. 
 OnImplement = CreateGrudge(Euthanasia,Euthanasia,Liberal,-0.05,0.9f);CreateGrudge(Euthanasia,Euthanasia,Conservatives,0.05,0.9f);CreateGrudge(Euthanasia,Euthanasia,Religious,0.05,0.9f);
 
 

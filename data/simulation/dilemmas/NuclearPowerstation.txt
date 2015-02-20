@@ -9,7 +9,7 @@ description=Uma grande companhia de eletricidade quer construir uma nova usina d
 
 [option0]
 Name = Construir central eletrica
-Description = Devemos liberar a construcao imediatamente. Usinas de energia nuclear estao em uso em todo o mundo sem problemas, e seria loucura dar as costas a uma fonte tao limpa de geracao. A energia nuclear nao emite gases do efeito estufa, entao e muito mais preferIvel do que a expansao de uma usina termeletrica existente.
+Description = Devemos liberar a construcao imediatamente. Usinas de energia nuclear estao em uso em todo o mundo sem problemas, e seria loucura dar as costas a uma fonte tao limpa de geracao. A energia nuclear nao emite gases do efeito estufa, entao e muito mais preferivel do que a expansao de uma usina termeletrica existente.
 OnImplement = CreateGrudge(Nuclear Powerstation,NuclearPowerstation,Environmentalist,-0.23,0.9f);CreateGrudge(Nuclear Powerstation,NuclearPowerstation,GDP,0.06,0.9f);CreateGrudge(Nuclear Powerstation,NuclearPowerstation,Unemployment,-0.03,0.9f);CreateGrudge(Nuclear Powerstation,NuclearPowerstation,OilDemand,-0.08,0.9f);
 
 [option1]

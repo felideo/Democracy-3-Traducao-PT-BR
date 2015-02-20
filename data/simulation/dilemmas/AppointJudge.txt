@@ -1,14 +1,14 @@
 [dilemma]
 name=AppointJudge
 guiname=Nomear Juiz Senior
-description=Um dos nossos juIzes mais experientes e respeitados morreu, e agora precisa fazer uma escolha para seu substituto entre os candidatos nomeados. Este indivIduo vai sentar-se em nossos tribunais por um tempo muito longo por isso devemos tomar a decisao certa.
+description=Um dos nossos juizes mais experientes e respeitados morreu, e agora precisa fazer uma escolha para seu substituto entre os candidatos nomeados. Este individuo vai sentar-se em nossos tribunais por um tempo muito longo por isso devemos tomar a decisao certa.
 
 [influences]
 0 = _random_,0.2,0.9
 
 [option0]
 Name = Nomear <MaleName>
-Description = <MaleName> Tem sido um forte defensor dos direitos humanos, fazendo com que muitas decisoes marcantes em favor dos direitos e liberdades dos indivIduos. Ele tambem e visto como sendo fortemente pro-consumidor, e nao tem medo de desafiar as grandes corporacoes.
+Description = <MaleName> Tem sido um forte defensor dos direitos humanos, fazendo com que muitas decisoes marcantes em favor dos direitos e liberdades dos individuos. Ele tambem e visto como sendo fortemente pro-consumidor, e nao tem medo de desafiar as grandes corporacoes.
 OnImplement = CreateGrudge(Appoint Senior Judge,AppointJudge,Socialist,0.04,0.9f);CreateGrudge(Appoint Senior Judge,AppointJudge,Liberal,0.10,0.9f);CreateGrudge(Appoint Senior Judge,AppointJudge,TradeUnionist,0.09,0.9f);
 
 [option1]

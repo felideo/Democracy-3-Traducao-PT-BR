@@ -1,7 +1,7 @@
 [dilemma]
 name=RetailMerger
 guiname=Fusao de Varejistas
-description=Uma grande cadeia de lojas de varejo anunciou planos para comprar um de seus principais concorrentes. Esta fusao precisa de aprovacao do governo, mas se ele vai em frente que vai criar uma das maiores empresas do paIs.
+description=Uma grande cadeia de lojas de varejo anunciou planos para comprar um de seus principais concorrentes. Esta fusao precisa de aprovacao do governo, mas se ele vai em frente que vai criar uma das maiores empresas do pais.
 
 [influences]
 0 = _random_,0.2,0.4

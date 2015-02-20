@@ -1,7 +1,7 @@
 [dilemma]
 name=STOP AND SEARCH POLICE POWERS
 guiname=Parar e revistar
-description=Ha demandas da polIcia para o poder de parar e revistar pessoas na rua se eles acreditam que o indivIduo pode ser culpado de um crime. Atualmente a nossa polIcia nao pode revistar alguem sem prende-los formalmente.
+description=Ha demandas da policia para o poder de parar e revistar pessoas na rua se eles acreditam que o individuo pode ser culpado de um crime. Atualmente a nossa policia nao pode revistar alguem sem prende-los formalmente.
 
 [influences]
 0 = _default_,0.3+(0*x)

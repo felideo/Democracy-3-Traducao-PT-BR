@@ -1,7 +1,7 @@
 [dilemma]
 name=LAND MINE BAN
 guiname=Proibicao de minas terrestres
-description=Uma empresa de engenharia em nosso paIs acaba de ganhar um contrato para fabricar e fornecer minas terrestres para paIses estrangeiros. No momento nao ha nenhuma lei especIfica que proIbe a empresa de fazer estes produtos, mas ha um debate publico generalizado que devemos proibir a producao de minas terrestres dentro de nossas fronteiras.
+description=Uma empresa de engenharia em nosso pais acaba de ganhar um contrato para fabricar e fornecer minas terrestres para paises estrangeiros. No momento nao ha nenhuma lei especifica que proibe a empresa de fazer estes produtos, mas ha um debate publico generalizado que devemos proibir a producao de minas terrestres dentro de nossas fronteiras.
 
 [influences]
 0 = _random_,0,0.9
@@ -13,7 +13,7 @@ OnImplement = CreateGrudge(Land mine ban,LAND MINE BAN,Liberal,0.11,0.9f);Create
 
 [option1]
 Name = Rejeitar lei
-Description = E muito facil dizer que deverIamos proibir a fabricacao de minas terrestres, mas o que vem depois? parar de fazer armas? algemas? Este seria um passo para desmantelar toda a nossa industria de armas que iria custar empregos e prejudicar a confianca dos investidores. Nao e o trabalho do Estado para interferir no que uma empresa fabrica produtos.
+Description = E muito facil dizer que deveriamos proibir a fabricacao de minas terrestres, mas o que vem depois? parar de fazer armas? algemas? Este seria um passo para desmantelar toda a nossa industria de armas que iria custar empregos e prejudicar a confianca dos investidores. Nao e o trabalho do Estado para interferir no que uma empresa fabrica produtos.
 OnImplement = CreateGrudge(Land mine ban,LAND MINE BAN,Liberal,-0.11,0.9f);CreateGrudge(Land mine ban,LAND MINE BAN,Capitalist,0.08,0.9f);
 
 

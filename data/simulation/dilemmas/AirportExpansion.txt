@@ -1,7 +1,7 @@
 [dilemma]
 name=AirportExpansion
 guiname=Expansao do Aeroporto
-description=A permissao de planejamento foi requisitada para a expansao de alguns dos maiores aeroportos do nosso paIs. Simplesmente nao ha capacidade suficiente para o numero de voos que desejam pousar aqui.
+description=A permissao de planejamento foi requisitada para a expansao de alguns dos maiores aeroportos do nosso pais. Simplesmente nao ha capacidade suficiente para o numero de voos que desejam pousar aqui.
 
 [influences]
 0 = _random_,0.2,0.4
@@ -9,7 +9,7 @@ description=A permissao de planejamento foi requisitada para a expansao de algun
 
 [option0]
 Name = Permitir Planos de Expansao
-Description = Nossa industria de turismo e demasiada dependente de viagens aerias, e se expandindo o turismo, proporcionando mais empregos e um crescimento do PIB, nos devemos aumentar a capacidade aerea disponIvel. Nos precisamos agir nesse momento para garantir o aumento da capacidade em tempo.
+Description = Nossa industria de turismo e demasiada dependente de viagens aerias, e se expandindo o turismo, proporcionando mais empregos e um crescimento do PIB, nos devemos aumentar a capacidade aerea disponivel. Nos precisamos agir nesse momento para garantir o aumento da capacidade em tempo.
 OnImplement = CreateGrudge(Airport Expansion,AirportExpansion,Environmentalist,-0.08,1.0);CreateGrudge(Airport Expansion,AirportExpansion,Tourism,0.06,1.0);CreateGrudge(Airport Expansion,AirportExpansion,AirTravel,0.11,1.0);
 
 [option1]

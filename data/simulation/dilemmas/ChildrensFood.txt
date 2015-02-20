@@ -9,7 +9,7 @@ description=A lei foi proposta para regular o teor de gordura e valor nutriciona
 
 [option0]
 Name = Deixar lei inalterada
-Description = Voce nao pode interferir com o mercado livre. Este e o estado interferir na vida das pessoas. Se as criancas querem comer porcarias gordurosas e os pais nao se importam, entao quem sao os polIticos a dizer as pessoas para nao comer hamburgueres?
+Description = Voce nao pode interferir com o mercado livre. Este e o estado interferir na vida das pessoas. Se as criancas querem comer porcarias gordurosas e os pais nao se importam, entao quem sao os politicos a dizer as pessoas para nao comer hamburgueres?
 OnImplement = CreateGrudge(Children's Food,CHILDRENS FOOD,Health,-0.05,0.9f);CreateGrudge(Children's Food,CHILDRENS FOOD,Liberal,0.10,0.9f);CreateGrudge(Children's Food,CHILDRENS FOOD,Parents,-0.06,0.9f);CreateGrudge(Children's Food,CHILDRENS FOOD,Obesity,0.05,0.9f);
 
 [option1]

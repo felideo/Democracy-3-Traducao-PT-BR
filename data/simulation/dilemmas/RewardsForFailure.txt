@@ -1,7 +1,7 @@
 [dilemma]
 name=REWARDSFORFAILURE
 guiname=Limitar Bonus Bancarios
-description=Houve apelos na mIdia para o governo fazer algo sobre os grandes pagamentos de bonus que estao sendo feitas para CEOs da empresa, apesar de queda dos lucros. Nos casos em que as empresas nao conseguiram ter lucro, o governo tem sido solicitado para forcar as empresas a reter os pagamentos de bonus de executivos de topo.
+description=Houve apelos na midia para o governo fazer algo sobre os grandes pagamentos de bonus que estao sendo feitas para CEOs da empresa, apesar de queda dos lucros. Nos casos em que as empresas nao conseguiram ter lucro, o governo tem sido solicitado para forcar as empresas a reter os pagamentos de bonus de executivos de topo.
 
 [influences]
 0 = _default_,0.9+(0*x)
@@ -14,7 +14,7 @@ OnImplement = CreateGrudge(Curb Banking Bonuses,REWARDSFORFAILURE,Capitalist,-0.
 
 [option1]
 Name = Fazer nada
-Description = E facil ser crItico de pessoas que ganham grandes salarios e bonus, mas o fato e que vivemos em um mundo globalizado e bonus superiores sao necessarios para atrair os melhores talentos. Isto e interferencia desnecessaria do governo na estrutura de remuneracao das empresas e vai machucar a nossa competitividade.
+Description = E facil ser critico de pessoas que ganham grandes salarios e bonus, mas o fato e que vivemos em um mundo globalizado e bonus superiores sao necessarios para atrair os melhores talentos. Isto e interferencia desnecessaria do governo na estrutura de remuneracao das empresas e vai machucar a nossa competitividade.
 OnImplement = CreateGrudge(Curb Banking Bonuses,REWARDSFORFAILURE,Capitalist,0.02,0.9f);CreateGrudge(Curb Banking Bonuses,REWARDSFORFAILURE,TradeUnionist,-0.08,0.9f);CreateGrudge(Curb Banking Bonuses,REWARDSFORFAILURE,Socialist,-0.06,0.9f);CreateGrudge(Curb Banking Bonuses,REWARDSFORFAILURE,Wealthy,0.03,0.9f);
 
 
