@@ -8,7 +8,7 @@ Eu estou traduzindo apenas alguns arquivos, pois como o jogo esta 100% traduzido
 
 Para utilizar a tradução, basta efetuar o download e colar a pasta data no diretório onde esta instalado o seu jogo.
 
-O jogo utiliza a codificação de texto ASCI, por isso ainda não encontrei forma de aparecerem caracteres acentuados, que não são exibidos no jogo. Caso eu não encontre maneira de acentuar as palavras, removerei os caracteres especiais quando terminar a transposição de todos os textos.
+O jogo utiliza a codificação de texto ASCI, por isso ainda não encontrei forma de aparecerem caracteres acentuados, que não são exibidos no jogo.
 
 ------------------------------------------------------------------------------------
 
