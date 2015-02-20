@@ -28,7 +28,7 @@ Inclusão do Brasil = 60% (alteração dos dados para maior fidelidade a realida
 
 ------------------------------------------------------------------------------------
 
-Mods Tradusidos: Greece, Circa 2011;
+Mods Tradusidos: Greece, Circa 2011; Corruption Mod v1.1;
 
 ------------------------------------------------------------------------------------
 
