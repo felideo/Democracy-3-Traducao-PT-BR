@@ -1,13 +1,13 @@
 [config]
 Name = FarmersPlot
-GUIName = Ameaça de Agricultores!
+GUIName = Ameaca de Agricultores!
 UsedBy = TheLandArmy
 MinStrength = 12
 Type = PLOT
 Cost = 0
 MinSize = 4
 SuccessChance = 1.0
-SuccessText = "Encontros recentes por membros do movimento pro-agricultores "Exercito da Terra' tem demostrado uma grande mudança em direcao a um desejo de acao direta, quase certamente de natureza violenta. Alguns deste grupo sao, na verdade falando de pegar em armas contra o governo. Apesar de considerar a ameaca imediata a ser baixa, devemos manter um olho sobre esta organizacao, e o movimento agricultores como um todo. "
+SuccessText = "Encontros recentes por membros do movimento pro-agricultores "Exercito da Terra' tem demostrado uma grande mudanca em direcao a um desejo de acao direta, quase certamente de natureza violenta. Alguns deste grupo sao, na verdade falando de pegar em armas contra o governo. Apesar de considerar a ameaca imediata a ser baixa, devemos manter um olho sobre esta organizacao, e o movimento agricultores como um todo. "
 OnSuccess = 
 FailureText = ""
 OnFailure = 

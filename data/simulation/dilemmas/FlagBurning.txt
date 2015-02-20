@@ -1,19 +1,19 @@
 [dilemma]
 name=FlagBurning
 guiname=Lei da Queima da Bandeira
-description=A proposta foi feita para torná-lo um crime específico de queimar a bandeira de nossa nação. Patriotas estão preocupados que as pessoas estão cair na histeria anti-governo, queimando a bandeira de nossa nação em público, com a polícia impotente para agir.
+description=A proposta foi feita para torna-lo um crime especIfico de queimar a bandeira de nossa nacao. Patriotas estao preocupados que as pessoas estao cair na histeria anti-governo, queimando a bandeira de nossa nacao em publico, com a polIcia impotente para agir.
 
 [influences]
 0 = _random_,0,0.8
 
 [option0]
 Name = Proibir queimar bandeira
-Description = Muitas pessoas são insultados pelo pensamento de pessoas que queimaram a bandeira de sua nação. A bandeira não representa um partido político específico, representa o próprio país. Queimando a bandeira é um ato profundamente antipatriótico e quem faria uma coisa dessas não deve ser neste país em primeiro lugar.
+Description = Muitas pessoas sao insultados pelo pensamento de pessoas que queimaram a bandeira de sua nacao. A bandeira nao representa um partido polItico especIfico, representa o proprio paIs. Queimando a bandeira e um ato profundamente antipatriotico e quem faria uma coisa dessas nao deve ser neste paIs em primeiro lugar.
 OnImplement = CreateGrudge(Flag Burning Law,FlagBurning,Patriot,0.13,0.9f);CreateGrudge(Flag Burning Law,FlagBurning,Liberal,-0.08,0.9f);
 
 [option1]
 Name = Permitir queimar bandeira
-Description = Não podemos afirmar ser uma sociedade livre e, ao mesmo tempo, negar o direito das pessoas que se opõem ao nosso governo para expressar esse ponto de vista, mesmo que isso signifique queimar a bandeira. No final do dia, a bandeira é apenas um pedaço do pano e como podemos torná-lo uma ofensa criminal para queimar um pedaço de pano?
+Description = Nao podemos afirmar ser uma sociedade livre e, ao mesmo tempo, negar o direito das pessoas que se opoem ao nosso governo para expressar esse ponto de vista, mesmo que isso signifique queimar a bandeira. No final do dia, a bandeira e apenas um pedaco do pano e como podemos torna-lo uma ofensa criminal para queimar um pedaco de pano?
 OnImplement = CreateGrudge(Flag Burning Law,FlagBurning,Patriot,-0.22,0.9f);CreateGrudge(Flag Burning Law,FlagBurning,Liberal,0.08,0.9f);
 
 

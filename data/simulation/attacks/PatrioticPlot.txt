@@ -1,13 +1,13 @@
 [config]
 Name = PatrioticPlot
-GUIName = Conspiração Patriota!
+GUIName = Conspiracao Patriota!
 UsedBy = PatriotArmy
 MinStrength = 12
 Type = PLOT
 Cost = 0
 MinSize = 4
 SuccessChance = 1.0
-SuccessText = "Embora tenhamos sempre considerado patriotas extremos, como os membros de 'O Exército Patriota' para ser um pouco louco, a retórica que vem dessa organização nas últimas semanas, deu uma guinada para o pior. Muitos deles agora parecem certos de que um ataque militar contra o seu próprio governo é justificado e desejável. Nós não acreditamos que eles estão planejando um ataque desse tipo, mas estes são pessoas perigosas e precisamos manter uma estreita vigilância sobre eles."
+SuccessText = "Embora tenhamos sempre considerado patriotas extremos, como os membros de 'O Exercito Patriota' para ser um pouco louco, a retorica que vem dessa organizacao nas ultimas semanas, deu uma guinada para o pior. Muitos deles agora parecem certos de que um ataque militar contra o seu proprio governo e justificado e desejavel. Nos nao acreditamos que eles estao planejando um ataque desse tipo, mas estes sao pessoas perigosas e precisamos manter uma estreita vigilancia sobre eles."
 OnSuccess = 
 FailureText = ""
 OnFailure = 

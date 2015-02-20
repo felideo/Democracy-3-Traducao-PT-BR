@@ -1,7 +1,7 @@
 [dilemma]
 name=InternetTracking
 guiname=Monitoramento da Internet
-description=A capacidade cada vez maior das grandes corporações de usar bancos de dados de clientes e 'big data' para analisar o comportamento do consumidor tem levado a preocupações sobre privacidade. As empresas insistem em que tais dados são anônimos, em muitos casos, e está sendo usado exclusivamente para prestar um melhor serviço, ao passo que os ativistas sugerem grandes corporações sem rosto estão criando bancos de dados no estilo 'Big Brother' dos consumidores sem o seu consentimento.
+description=A capacidade cada vez maior das grandes corporacoes de usar bancos de dados de clientes e 'big data' para analisar o comportamento do consumidor tem levado a preocupacoes sobre privacidade. As empresas insistem em que tais dados sao anonimos, em muitos casos, e esta sendo usado exclusivamente para prestar um melhor servico, ao passo que os ativistas sugerem grandes corporacoes sem rosto estao criando bancos de dados no estilo 'Big Brother' dos consumidores sem o seu consentimento.
 
 [influences]
 0 = _random_,0,0.5
@@ -9,12 +9,12 @@ description=A capacidade cada vez maior das grandes corporações de usar bancos
 
 [option0]
 Name = Proibir Monitoramento
-Description = Este tipo de comportamento não é nada menos do que assustador, bem como representando um risco potencial de roubo de identidade para os consumidores. As empresas têm conseguido muito bem todos esses anos sem rastreamento e armazenamento de informações sobre cada decisão que um cliente faz, e pode facilmente passar sem ele. As pessoas têm o direito de comprar as coisas sem efetivamente sendo seguidos por espiões digitais onde passam.
+Description = Este tipo de comportamento nao e nada menos do que assustador, bem como representando um risco potencial de roubo de identidade para os consumidores. As empresas tem conseguido muito bem todos esses anos sem rastreamento e armazenamento de informacoes sobre cada decisao que um cliente faz, e pode facilmente passar sem ele. As pessoas tem o direito de comprar as coisas sem efetivamente sendo seguidos por espioes digitais onde passam.
 OnImplement = CreateGrudge(Internet Tracking,InternetTracking,Liberal,0.04,0.9f);CreateGrudge(Internet Tracking,InternetTracking,Capitalist,-0.05,0.9f);CreateGrudge(Internet Tracking,InternetTracking,GDP,-0.01,0.9f);
 
 [option1]
 Name = Permitir Monitoramento
-Description = Os opositores do rastreamento internet fazer soar muito mais sinistro do que é. Tudo o que estamos falando é que permite às empresas para registrar informações precisas sobre as preferências do consumidor para que eles possam criar melhores produtos e direcionar sua publicidade de forma eficaz, algo que é inofensivo e também essencial para uma economia moderna. Não há clamor real para o governo a intervir aqui.
+Description = Os opositores do rastreamento internet fazer soar muito mais sinistro do que e. Tudo o que estamos falando e que permite as empresas para registrar informacoes precisas sobre as preferencias do consumidor para que eles possam criar melhores produtos e direcionar sua publicidade de forma eficaz, algo que e inofensivo e tambem essencial para uma economia moderna. Nao ha clamor real para o governo a intervir aqui.
 OnImplement = CreateGrudge(Internet Tracking,InternetTracking,Liberal,-0.05,0.9f);CreateGrudge(Internet Tracking,InternetTracking,Capitalist,0.04,0.9f);CreateGrudge(Internet Tracking,InternetTracking,GDP,0.01,0.9f);
 
 

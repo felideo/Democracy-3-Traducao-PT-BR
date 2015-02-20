@@ -1,13 +1,13 @@
 [config]
 Name = GreenPlot
-GUIName = Conspiração Verde!
+GUIName = Conspiracao Verde!
 UsedBy = WarriorsOfGaia
 MinStrength = 12
 Type = PLOT
 Cost = 0
 MinSize = 4
 SuccessChance = 1.0
-SuccessText = "Operações secretas se infiltraram um grupo de eco-terrorista extremista conhecido como 'Guerreiros de Gaia'. esta organização está empenhada em golpear no coração do governo, possivelmente até mesmo uma tentativa de assassinato direto, e é uma ameaça que devemos levar a sério. Não há perigo iminente, mas devemos manter a situação sob estreita vigilância."
+SuccessText = "Operacoes secretas se infiltraram um grupo de eco-terrorista extremista conhecido como 'Guerreiros de Gaia'. esta organizacao esta empenhada em golpear no coracao do governo, possivelmente ate mesmo uma tentativa de assassinato direto, e e uma ameaca que devemos levar a serio. Nao ha perigo iminente, mas devemos manter a situacao sob estreita vigilancia."
 OnSuccess = 
 FailureText = ""
 OnFailure = 

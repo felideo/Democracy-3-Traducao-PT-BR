@@ -1,13 +1,13 @@
 [config]
 Name = ConservativePlot
-GUIName = Ameaça Conservadora!
+GUIName = Ameaca Conservadora!
 UsedBy = TheMoralCrusade
 MinStrength = 12
 Type = PLOT
 Cost = 0
 MinSize = 4
 SuccessChance = 1.0
-SuccessText = "Voce esta ciente do crescimento do poder de um grupo conhecido como "The Moral Crusade? Aparentemente, eles sao compostos dos membros mais obcecado do grupo valores conservador conhecido como "valores tradicionais da Aliança", e parece que eles nao estao felizes. Temos varias conversas interceptadas onde pessoas Sugerem também poder estar com raiva o suficiente para fazer uma tentativa em derrubar o governo, talvez ate mesmo um ataque suicida contra voce. Certifique-se de manter em seus dedos do pe. "
+SuccessText = "Voce esta ciente do crescimento do poder de um grupo conhecido como "The Moral Crusade? Aparentemente, eles sao compostos dos membros mais obcecado do grupo valores conservador conhecido como "valores tradicionais da Alianca", e parece que eles nao estao felizes. Temos varias conversas interceptadas onde pessoas Sugerem tambem poder estar com raiva o suficiente para fazer uma tentativa em derrubar o governo, talvez ate mesmo um ataque suicida contra voce. Certifique-se de manter em seus dedos do pe. "
 OnSuccess = 
 FailureText = ""
 OnFailure = 

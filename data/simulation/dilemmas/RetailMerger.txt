@@ -1,20 +1,20 @@
 [dilemma]
 name=RetailMerger
-guiname=Fusão de Varejistas
-description=Uma grande cadeia de lojas de varejo anunciou planos para comprar um de seus principais concorrentes. Esta fusão precisa de aprovação do governo, mas se ele vai em frente que vai criar uma das maiores empresas do país.
+guiname=Fusao de Varejistas
+description=Uma grande cadeia de lojas de varejo anunciou planos para comprar um de seus principais concorrentes. Esta fusao precisa de aprovacao do governo, mas se ele vai em frente que vai criar uma das maiores empresas do paIs.
 
 [influences]
 0 = _random_,0.2,0.4
 1 = GDP,0+(0.6*x)
 
 [option0]
-Name = Permitir fusão
-Description = Não há nenhuma boa razão para impedir essa fusão. Em um mercado cada vez mais global, as nossas empresas precisam crescer se quiserem competir com sucesso. A empresa maior será mais eficiente e eficaz no mercado global.
+Name = Permitir fusao
+Description = Nao ha nenhuma boa razao para impedir essa fusao. Em um mercado cada vez mais global, as nossas empresas precisam crescer se quiserem competir com sucesso. A empresa maior sera mais eficiente e eficaz no mercado global.
 OnImplement = CreateGrudge(Retail Merger,RetailMerger,SelfEmployed,-0.08,0.9f);CreateGrudge(Retail Merger,RetailMerger,Capitalist,0.08,0.9f);CreateGrudge(Retail Merger,RetailMerger,GDP,0.01,0.9f);CreateGrudge(Retail Merger,RetailMerger,TradeUnionist,-0.06,0.9f);CreateGrudge(Retail Merger,RetailMerger,Unemployment,0.01,0.9f);
 
 [option1]
-Name = Bloquear fusão
-Description = A ideia do livre mercado é baseado na concorrência. Permitir que essas duas empresas se fundir vai reduzir a concorrência, ea escolha do consumidor e sem nenhuma dúvida às demissões. O outro exemplo de governo cuidando de uma grande corporação e esquecendo do pequeno. As pequenas empresas e os sindicalistas exortá-lo a bloquear esta fusão.
+Name = Bloquear fusao
+Description = A ideia do livre mercado e baseado na concorrencia. Permitir que essas duas empresas se fundir vai reduzir a concorrencia, ea escolha do consumidor e sem nenhuma duvida as demissoes. O outro exemplo de governo cuidando de uma grande corporacao e esquecendo do pequeno. As pequenas empresas e os sindicalistas exorta-lo a bloquear esta fusao.
 OnImplement = CreateGrudge(Retail Merger,RetailMerger,SelfEmployed,0.08,0.9f);CreateGrudge(Retail Merger,RetailMerger,Capitalist,-0.03,0.9f);CreateGrudge(Retail Merger,RetailMerger,TradeUnionist,0.03,0.9f);
 
 

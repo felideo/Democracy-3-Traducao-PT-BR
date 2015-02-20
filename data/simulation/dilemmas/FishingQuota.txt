@@ -1,19 +1,19 @@
 [dilemma]
 name=FishingQuota
 guiname=Cotas de Pescas
-description=Grupos de conservação marinhas estão empurrando para nós a assinar leis internacionais que restringem a quantidade de certos peixes que podem ser capturados por nossos pescadores em cada ano civil. Esta é uma tentativa de preservar a viabilidade das populações de peixes para as gerações futuras.
+description=Grupos de conservacao marinhas estao empurrando para nos a assinar leis internacionais que restringem a quantidade de certos peixes que podem ser capturados por nossos pescadores em cada ano civil. Esta e uma tentativa de preservar a viabilidade das populacoes de peixes para as geracoes futuras.
 
 [influences]
 0 = _random_,0,0.85
 
 [option0]
 Name = Concordar com Cotas
-Description = Este é apenas o senso comum. A tecnologia moderna fez com seja muito barato e fácil capturar grandes quantidades de peixe, reduzindo os preços e causando uma diminuição perigosa da oferta. Pode ser impopular com os pescadores, a curto prazo, mas no longo prazo, temos que pensar no ambiente marinho. Grupos ambientalistas recomendaria a assinatura da lei.
+Description = Este e apenas o senso comum. A tecnologia moderna fez com seja muito barato e facil capturar grandes quantidades de peixe, reduzindo os precos e causando uma diminuicao perigosa da oferta. Pode ser impopular com os pescadores, a curto prazo, mas no longo prazo, temos que pensar no ambiente marinho. Grupos ambientalistas recomendaria a assinatura da lei.
 OnImplement = CreateGrudge(Fishing Quotas,FishingQuota,Environmentalist,0.08,0.9f);CreateGrudge(Fishing Quotas,FishingQuota,Unemployment,0.03,0.9f);CreateGrudge(Fishing Quotas,FishingQuota,Farmers,-0.22,0.9f);CreateGrudge(Fishing Quotas,FishingQuota,GDP,-0.04,0.9f);
 
 [option1]
 Name = Rejeitar Cotas
-Description = Na teoria tudo parece muito sensato, mas na prática queremos ceder o controle de nossa economia pesqueira para algum organismo internacional? E embora possamos ter certeza de nossos pescadores vai respeitar o acordo, como podemos ter certeza de que pescadores estrangeiros vão fazer o mesmo? Assinando essa lei só vai ser mais um prego no caixão do comércio de pesca, e vai custar empregos! Rejeitar a lei!
+Description = Na teoria tudo parece muito sensato, mas na pratica queremos ceder o controle de nossa economia pesqueira para algum organismo internacional? E embora possamos ter certeza de nossos pescadores vai respeitar o acordo, como podemos ter certeza de que pescadores estrangeiros vao fazer o mesmo? Assinando essa lei so vai ser mais um prego no caixao do comercio de pesca, e vai custar empregos! Rejeitar a lei!
 OnImplement = CreateGrudge(Fishing Quotas,FishingQuota,Environmentalist,-0.03,0.9f);CreateGrudge(Fishing Quotas,FishingQuota,Farmers,0.12,0.9f);
 
 

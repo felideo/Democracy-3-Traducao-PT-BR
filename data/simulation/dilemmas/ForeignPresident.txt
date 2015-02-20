@@ -1,7 +1,7 @@
 [dilemma]
 name=ForeignPresident
 guiname=Visita de Presidente Estrangeiro
-description=O presidente de uma nação com uma economia em rápido crescimento o convidou para uma visita oficial de estado. A visita pode ser uma excelente oportunidade para incentivar o comércio com aquele país, que seria ótimo para o emprego, mas histórico do país em matéria de direitos humanos é altamente questionável.
+description=O presidente de uma nacao com uma economia em rapido crescimento o convidou para uma visita oficial de estado. A visita pode ser uma excelente oportunidade para incentivar o comercio com aquele paIs, que seria otimo para o emprego, mas historico do paIs em materia de direitos humanos e altamente questionavel.
 
 [influences]
 0 = _default_,0.3+(0*x)
@@ -9,12 +9,12 @@ description=O presidente de uma nação com uma economia em rápido crescimento 
 
 [option0]
 Name = Rejeitar oferta
-Description = Este líder estrangeiro tem um histórico terrível em relação aos direitos humanos e atitudes em relação à não brancos dentro de seu país. Haverá uma revolta generalizada entre as minorias étnicas, e ativistas de direitos humanos aqui, e na comunidade internacional se realizar a visita, que é efetivamente um endosso desta equipa políticas brutais.
+Description = Este lIder estrangeiro tem um historico terrIvel em relacao aos direitos humanos e atitudes em relacao a nao brancos dentro de seu paIs. Havera uma revolta generalizada entre as minorias etnicas, e ativistas de direitos humanos aqui, e na comunidade internacional se realizar a visita, que e efetivamente um endosso desta equipa polIticas brutais.
 OnImplement = CreateGrudge(Foreign Presidential Visit,ForeignPresident,Liberal,0.04,0.9f);CreateGrudge(Foreign Presidential Visit,ForeignPresident,ForeignRelations,-0.12,0.9f);CreateGrudge(Foreign Presidential Visit,ForeignPresident,EthnicMinorities,0.09,0.9f);
 
 [option1]
 Name = Aceitar a oferta
-Description = A visita deve ir adiante. Em primeiro lugar, seria ótimo para a economia, potencialmente criando postos de trabalho, entre as próprias minorias que se opõem à visita, em segundo lugar, não podemos possivelmente influenciar o comportamento de outras nações se recusando até mesmo para se encontrar com seus líderes.
+Description = A visita deve ir adiante. Em primeiro lugar, seria otimo para a economia, potencialmente criando postos de trabalho, entre as proprias minorias que se opoem a visita, em segundo lugar, nao podemos possivelmente influenciar o comportamento de outras nacoes se recusando ate mesmo para se encontrar com seus lIderes.
 OnImplement = CreateGrudge(Foreign Presidential Visit,ForeignPresident,Liberal,-0.1,0.9f);CreateGrudge(Foreign Presidential Visit,ForeignPresident,GDP,0.02,0.9f);CreateGrudge(Foreign Presidential Visit,ForeignPresident,EthnicMinorities,-0.06,0.9f);
 
 

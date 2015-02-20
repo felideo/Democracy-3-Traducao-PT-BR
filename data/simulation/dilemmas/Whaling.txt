@@ -1,17 +1,17 @@
 [dilemma]
 name=Whaling
-guiname=Caça às Baleias
-description=A resolução é de antes de o governo propor a re-introdução de caça comercial de pequena escala em águas japonesas. A carne de baleia é uma iguaria local valorizada e caça comercial criaria muitos empregos.
+guiname=Caca as Baleias
+description=A resolucao e de antes de o governo propor a re-introducao de caca comercial de pequena escala em aguas japonesas. A carne de baleia e uma iguaria local valorizada e caca comercial criaria muitos empregos.
 
 [influences]
 0 = _random_,0.12,0.9
 
 [option0]
-Name = Retomar a caça às baleias
-Description = As baleias consomem uma enorme quantidade de peixes, e pode ser responsável por uma queda na captura de peixes que afetam nossa economia. Caça às baleias também podem dar um impulso bem-vindo para a nossa economia. Nem todas as espécies de baleia está em perigo, e caça comercial pode ir em frente sem perigo de provocar a extinção.
+Name = Retomar a caca as baleias
+Description = As baleias consomem uma enorme quantidade de peixes, e pode ser responsavel por uma queda na captura de peixes que afetam nossa economia. Caca as baleias tambem podem dar um impulso bem-vindo para a nossa economia. Nem todas as especies de baleia esta em perigo, e caca comercial pode ir em frente sem perigo de provocar a extincao.
 OnImplement = CreateGrudge(Whaling,Whaling,Capitalist,0.06,0.9f);CreateGrudge(Whaling,Whaling,Environmentalist,-0.09,0.9f);CreateGrudge(Whaling,Whaling,GDP,0.02,0.9f);CreateGrudge(Whaling,Whaling,Liberal,-0.04,0.9f);CreateGrudge(Whaling,Whaling,Conservatives,0.05,0.9f);CreateGrudge(Whaling,Whaling,Farmers,0.05,0.9f);CreateGrudge(Whaling,Whaling,ForeignRelations,-0.05,0.9f);
 
 [option1]
-Name = Manter proibição em vigor
-Description = Baleias são geralmente aceitos para estar entre as espécies não-humanos mais inteligentes do planeta, eles mantêm uma posição fundamental na cadeia alimentar aquática, e ainda assim foram caçados à beira da extinção. Reiniciando a caça comercial seria incrivelmente destrutivo, bem como potencialmente causando uma queda no turismo. Devemos centrar nossos esforços na observação de baleias em vez de caçar.
+Name = Manter proibicao em vigor
+Description = Baleias sao geralmente aceitos para estar entre as especies nao-humanos mais inteligentes do planeta, eles mantem uma posicao fundamental na cadeia alimentar aquatica, e ainda assim foram cacados a beira da extincao. Reiniciando a caca comercial seria incrivelmente destrutivo, bem como potencialmente causando uma queda no turismo. Devemos centrar nossos esforcos na observacao de baleias em vez de cacar.
 OnImplement = CreateGrudge(Whaling,Whaling,Capitalist,-0.01,0.9f);CreateGrudge(Whaling,Whaling,Environmentalist,0.04,0.9f);CreateGrudge(Whaling,Whaling,Liberal,0.03,0.9f);CreateGrudge(Whaling,Whaling,Conservatives,-0.06,0.9f);CreateGrudge(Whaling,Whaling,Farmers,-0.05,0.9f);

@@ -1,17 +1,17 @@
 [dilemma]
 name=AppointAmbassador
 guiname=Nomear o Embaixador da ONU
-description=O nosso embaixador na ONU se aposenta este ano e precisamos nomear um sucessor, o mais rapidamente possível. Muita coisa vai ser feita se nós nomear-mos um linha-dura que adere-se para o país ou alguém mais capaz de comprometer.
+description=O nosso embaixador na ONU se aposenta este ano e precisamos nomear um sucessor, o mais rapidamente possIvel. Muita coisa vai ser feita se nos nomear-mos um linha-dura que adere-se para o paIs ou alguem mais capaz de comprometer.
 
 [influences]
 0 = _random_,0,1.0
 
 [option0]
 Name = Nomear <FemaleName>
-Description = <FemaleName> É bem conhecido como um patriota que vai lutar com unhas e dentes para que os nossos interesses sejam representados na ONU. Visto como uma escolha popular entre os cidadãos conservadores patrióticos e mais, ela é historicamente contra a ajuda externa e um defensor das tarifas de importação. Ela não é popular internacionalmente.
+Description = <FemaleName> E bem conhecido como um patriota que vai lutar com unhas e dentes para que os nossos interesses sejam representados na ONU. Visto como uma escolha popular entre os cidadaos conservadores patrioticos e mais, ela e historicamente contra a ajuda externa e um defensor das tarifas de importacao. Ela nao e popular internacionalmente.
 OnImplement = CreateGrudge(Appoint UN Ambassador,AppointAmbassador,Socialist,-0.04,0.9);CreateGrudge(Appoint UN Ambassador,AppointAmbassador,Liberal,-0.05,0.9);CreateGrudge(Appoint UN Ambassador,AppointAmbassador,Patriot,0.09,0.9);CreateGrudge(Appoint UN Ambassador,AppointAmbassador,ForeignRelations,-0.1,0.9);
 
 [option1]
 Name = Nomear <MaleName>
-Description = <MaleName> is a popular figure on the international stage with a reputation for solving difficult problems through compromise and understanding. A true internationalist, he is popular with the liberals and socialists in our society, as well as foreign leaders.<MaleName> É uma figura popular no cenário internacional com uma reputação de resolver problemas difíceis através de compromisso e compreensão. Um verdadeiro internacionalista, ele é popular entre os liberais e os socialistas em nossa sociedade, bem como os líderes estrangeiros.
+Description = <MaleName> is a popular figure on the international stage with a reputation for solving difficult problems through compromise and understanding. A true internationalist, he is popular with the liberals and socialists in our society, as well as foreign leaders.<MaleName> E uma figura popular no cenario internacional com uma reputacao de resolver problemas difIceis atraves de compromisso e compreensao. Um verdadeiro internacionalista, ele e popular entre os liberais e os socialistas em nossa sociedade, bem como os lIderes estrangeiros.
 OnImplement = CreateGrudge(Appoint UN Ambassador,AppointAmbassador,Socialist,0.04,0.9);CreateGrudge(Appoint UN Ambassador,AppointAmbassador,Liberal,0.05,0.9);CreateGrudge(Appoint UN Ambassador,AppointAmbassador,Patriot,-0.09,0.9);CreateGrudge(Appoint UN Ambassador,AppointAmbassador,ForeignRelations,0.1,0.9);

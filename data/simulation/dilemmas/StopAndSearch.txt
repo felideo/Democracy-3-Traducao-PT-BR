@@ -1,7 +1,7 @@
 [dilemma]
 name=STOP AND SEARCH POLICE POWERS
 guiname=Parar e revistar
-description=Há demandas da polícia para o poder de parar e revistar pessoas na rua se eles acreditam que o indivíduo pode ser culpado de um crime. Atualmente a nossa polícia não pode revistar alguém sem prendê-los formalmente.
+description=Ha demandas da polIcia para o poder de parar e revistar pessoas na rua se eles acreditam que o indivIduo pode ser culpado de um crime. Atualmente a nossa polIcia nao pode revistar alguem sem prende-los formalmente.
 
 [influences]
 0 = _default_,0.3+(0*x)
@@ -9,12 +9,12 @@ description=Há demandas da polícia para o poder de parar e revistar pessoas na
 
 [option0]
 Name = Introduzir poderes
-Description = Essa será uma arma valiosa na luta contra o crime e deve ter um grande impacto na violência e nos crimes de rua principalmente. Se nossos cidadãos não tem  o que esconder, eles não devem temer esta lei.
+Description = Essa sera uma arma valiosa na luta contra o crime e deve ter um grande impacto na violencia e nos crimes de rua principalmente. Se nossos cidadaos nao tem  o que esconder, eles nao devem temer esta lei.
 OnImplement = CreateGrudge(Stop and search,STOP AND SEARCH POLICE POWERS,CrimeRate,-0.07,0.9f);CreateGrudge(Stop and search,STOP AND SEARCH POLICE POWERS,Liberal,-0.11,0.9f);
 
 [option1]
 Name = Deixar inalterado
-Description = Essa é uma decisão muito perigosa. É aberta ao abuso por motivos raciais, e distanciará a policia da comunidade. Nossos cidadãos devem ser livres para fazer seus negócios legais sem interferência das autoridades!
+Description = Essa e uma decisao muito perigosa. E aberta ao abuso por motivos raciais, e distanciara a policia da comunidade. Nossos cidadaos devem ser livres para fazer seus negocios legais sem interferencia das autoridades!
 OnImplement = CreateGrudge(Stop and search,STOP AND SEARCH POLICE POWERS,Liberal,0.11,0.9f);
 
 

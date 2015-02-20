@@ -1,7 +1,7 @@
 [dilemma]
 name=PeopleSmuggling
-guiname=Tráfico de Pessoas
-description=Um grande número de pessoas foram capturados entrando em nosso país escondidos dentro de containers de carga, em uma tentativa organizada de contrabandear pessoas. Os criminosos que planejaram o esquema foram presos, mas há debate sobre se as pessoas que estão agora em nossas costas deve ser enviadas de volta ao seu país de origem.
+guiname=Trafico de Pessoas
+description=Um grande numero de pessoas foram capturados entrando em nosso paIs escondidos dentro de containers de carga, em uma tentativa organizada de contrabandear pessoas. Os criminosos que planejaram o esquema foram presos, mas ha debate sobre se as pessoas que estao agora em nossas costas deve ser enviadas de volta ao seu paIs de origem.
 
 [influences]
 0 = _random_,0.2,0.4
@@ -9,13 +9,13 @@ description=Um grande número de pessoas foram capturados entrando em nosso paí
 2 = BorderControls,0+(0.7*x)
 
 [option0]
-Name = Permití-los ficar
-Description = Há fortes evidências de que essas pessoas estavam desesperados para fugir da perseguição, pobreza ou mesmo a morte em seu próprio país. Estas são pessoas desesperadas como podemos ver a distancia que pecorreram para a fim de chegar aqui. Seria desumano deportá-los agora eles estão aqui. 
+Name = PermitI-los ficar
+Description = Ha fortes evidencias de que essas pessoas estavam desesperados para fugir da perseguicao, pobreza ou mesmo a morte em seu proprio paIs. Estas sao pessoas desesperadas como podemos ver a distancia que pecorreram para a fim de chegar aqui. Seria desumano deporta-los agora eles estao aqui. 
 OnImplement = CreateGrudge(People Smuggling,PeopleSmuggling,Liberal,0.05,0.9f);CreateGrudge(People Smuggling,PeopleSmuggling,Conservatives,-0.05,0.9f);CreateGrudge(People Smuggling,PeopleSmuggling,Patriot,-0.08,0.9f);CreateGrudge(People Smuggling,PeopleSmuggling,EthnicMinorities,0.08,0.09);
 
 [option1]
-Name = Deportá-los
-Description = Deixando essas pessoas permanecer enviaria o sinal totalmente errado para as pessoas que querem vir aqui ilegalmente. Temos problema suficiente com migrantes econômicos ilegais como eles. Lamentável que possa ser, a única escolha sensata é enviá-los de volta.
+Name = Deporta-los
+Description = Deixando essas pessoas permanecer enviaria o sinal totalmente errado para as pessoas que querem vir aqui ilegalmente. Temos problema suficiente com migrantes economicos ilegais como eles. Lamentavel que possa ser, a unica escolha sensata e envia-los de volta.
 OnImplement = CreateGrudge(People Smuggling,PeopleSmuggling,Liberal,-0.09,0.9f);CreateGrudge(People Smuggling,PeopleSmuggling,Conservatives,0.05,0.9f);CreateGrudge(People Smuggling,PeopleSmuggling,Patriot,0.08,0.9f);CreateGrudge(People Smuggling,PeopleSmuggling,EthnicMinorities,-0.11,0.09);
 
 

@@ -1,19 +1,19 @@
 [dilemma]
 name=NuclearPowerstation
-guiname=Central Elétrica Nuclear
-description=Uma grande companhia de eletricidade quer construir uma nova usina de energia nuclear. A planta é necessária graças ao crescimento da nossa economia, e a companhia já construiu plantas antes, então não devem haver problemas na construção.
+guiname=Central Eletrica Nuclear
+description=Uma grande companhia de eletricidade quer construir uma nova usina de energia nuclear. A planta e necessaria gracas ao crescimento da nossa economia, e a companhia ja construiu plantas antes, entao nao devem haver problemas na construcao.
 
 [influences]
 0 = _default_,0.3+(0*x)
 1 = _random_,0,0.5
 
 [option0]
-Name = Construir central elétrica
-Description = Devemos liberar a construção imediatamente. Usinas de energia nuclear estão em uso em todo o mundo sem problemas, e seria loucura dar as costas a uma fonte tão limpa de geração. A energia nuclear não emite gases do efeito estufa, então é muito mais preferível do que a expansão de uma usina termelétrica existente.
+Name = Construir central eletrica
+Description = Devemos liberar a construcao imediatamente. Usinas de energia nuclear estao em uso em todo o mundo sem problemas, e seria loucura dar as costas a uma fonte tao limpa de geracao. A energia nuclear nao emite gases do efeito estufa, entao e muito mais preferIvel do que a expansao de uma usina termeletrica existente.
 OnImplement = CreateGrudge(Nuclear Powerstation,NuclearPowerstation,Environmentalist,-0.23,0.9f);CreateGrudge(Nuclear Powerstation,NuclearPowerstation,GDP,0.06,0.9f);CreateGrudge(Nuclear Powerstation,NuclearPowerstation,Unemployment,-0.03,0.9f);CreateGrudge(Nuclear Powerstation,NuclearPowerstation,OilDemand,-0.08,0.9f);
 
 [option1]
-Name = Prevenir construção
-Description = A energia nuclear pode ser segura geralmente, mas o potencial de uma situação catastrófica no caso de problemas evidencia que ela não vale o risco. Há formas mais limpas e seguras de geração de energia, como a solar, de ondas e do vento, que deveriam ser encorajadas. Recuse esta proposta e poderemos ter certeza de que a energia será obtida de outras fontes.
+Name = Prevenir construcao
+Description = A energia nuclear pode ser segura geralmente, mas o potencial de uma situacao catastrofica no caso de problemas evidencia que ela nao vale o risco. Ha formas mais limpas e seguras de geracao de energia, como a solar, de ondas e do vento, que deveriam ser encorajadas. Recuse esta proposta e poderemos ter certeza de que a energia sera obtida de outras fontes.
 OnImplement = CreateGrudge(Nuclear Powerstation,NuclearPowerstation,Environmentalist,0.07,0.9f);CreateGrudge(Nuclear Powerstation,NuclearPowerstation,GDP,-0.01,0.9f);CreateGrudge(Nuclear Powerstation,NuclearPowerstation,OilDemand,0.05,0.9f);
 
