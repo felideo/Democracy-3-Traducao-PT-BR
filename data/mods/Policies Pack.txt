@@ -1,0 +1,7 @@
+[config]
+name = Policies Pack
+path = Policies Pack
+guiname = Pacote de Politicas
+author = Linus
+description = Este pacote de políticas inclui 18 novas políticas: a inflação, poder de compra, transporte público, bicicletas, electricidade, resíduos / rejeitos radioativos, cursos de línguas, relações internacionais e muito mais. Agora a versão 1.5.1!
+

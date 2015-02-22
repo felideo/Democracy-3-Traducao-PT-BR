@@ -1,0 +1,24 @@
+[dilemma]
+name=Laborday
+guiname=Festival do Dia do Trabalhador 
+description=Festas para o próximo Dia do Trabalho estão sendo planejadas. Tradicionalmente, você estaria dando um discurso na frente dos sindicatos, mas foi convidado para a cerimônia de um novo complexo industrial por parte de investidores estrangeiros, que irá fortalecer a economia da região e criar muitos empregos de baixa renda.
+
+[influences]
+0 = _random_,0.2,0.7
+
+[option0]
+Name = Mantenha o discurso diante dos sindicatos
+Description = Dia do Trabalho é o dia dos trabalhadores e os seus sindicatos, manterum discurso na frente deles é uma tradição e uma grande honra. Trabalhadores enfrentam muitos problemas nestes tempos inseguros e precisam ser tranquilizados pelo governo que estamos do seu lado e manter seus locais de trabalho é uma prioridade.
+OnImplement = CreateGrudge(Labor Day festivities,Laborday,Socialist,0.04,0.9f);CreateGrudge(Labor Day festivities,Laborday,TradeUnionist,0.10,0.9f);
+
+[option1]
+Name = Junte-se aos investidores estrangeiros
+Description = Embora seja importante para atender às necessidades dos sindicatos, que também é importante para criar mais postos de trabalho e uma chave para os investidores estrangeiros. Juntá-los irá mostrar o nosso apreço e fará com que eles e outros países investa mais aqui. Vamos juntar os sindicatos novamente no próximo ano.
+OnImplement = CreateGrudge(Labor Day festivities,Laborday,Socialist,-0.04,0.9f);CreateGrudge(Labor Day festivities,Laborday,TradeUnionist,-0.12,0.9f);CreateGrudge(Labor Day festivities,Laborday,InternationalTrade,0.05,0.8f);CreateGrudge(Labor Day festivities,Laborday,Capitalist,0.05,0.9f)
+
+
+
+
+
+
+

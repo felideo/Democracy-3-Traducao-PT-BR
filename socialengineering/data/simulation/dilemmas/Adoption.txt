@@ -1,0 +1,24 @@
+[dilemma]
+name=Adoption
+guiname=Adoções por pais solteiros
+description=Solteiros atualmente têm dificuldade em adotar uma criança em nosso país. No passado era difícil para solteiros criarem um filho, mas hoje tem sido mais fácil combinar ter um filho e uma carreira ao mesmo tempo. Assim, para aqueles que querem um filho, mas não consegue encontrar ou não quer um parceiro, a adoção deve ser facilitado.
+
+[influences]
+0 = _random_,0.1,0.7
+
+[option0]
+Name = Mudar os requisitos
+Description = Solteiros merecem os mesmos direitos que os casais de adotar uma criança. Facilite as exigências para as adoções individuais, com creche e os tempos de trabalho flexíveis, os solteiros devem ter a chance de criar e amar uma criança também.
+OnImplement = CreateGrudge(Single adoptions,Adoption,Equality,0.05,0.9f);CreateGrudge(Single adoptions,Adoption,Liberals,0.05,0.9f);CreateGrudge(Single adoptions,Adoption,Parents,-0.07,0.6f);CreateGrudge(Single adoptions,Adoption,Conservatives,-0.05,0.9f);
+
+[option1]
+Name = Manter os requisitos
+Description = ACrianças adotadas precisam de um lar estável e uma mãe e pai. Embora alguns pais solteiros conseguem criar um filho sozinho, mesmo se encontrando em dificuldades, o que causa ainda mais danos para a criança adotada.
+OnImplement = CreateGrudge(Single adoptions,Adoption,Equality,-0.05,0.9f);CreateGrudge(Single adoptions,Adoption,Liberals,-0.05,0.9f);CreateGrudge(Single adoptions,Adoption,Parents,0.07,0.6f);CreateGrudge(Single adoptions,Adoption,Conservatives,0.05,0.9f);
+
+
+
+
+
+
+

@@ -1,0 +1,24 @@
+[dilemma]
+name=Airport
+guiname=Conexão em Aeroportos
+description=Um novo aeroporto está previsto para a capital, longe do centro da cidade. O que deve ser usado como a principal ligação do aeroporto e do centro da cidade?
+
+[influences]
+0 = _random_,0.2,0.7
+
+[option0]
+Name = Carros
+Description = O transporte público é muito bom, mas sabemos que as pessoas geralmente preferem dirigir. Vamos construir uma nova estrada que liga o aeroporto ao centro da cidade, uma via exclusiva de ônibus.
+OnImplement = CreateGrudge(Airport connection,Airport,CarUsage,0.03,1.0f);CreateGrudge(Airport connection,Airport,Environmentalist,-0.1,0.8f);CreateGrudge(Airport connection,Airport,Motorist,0.05,0.95f);
+
+[option1]
+Name = Onibus
+Description = O aeroporto em si já é uma das principais causas para a poluição terrestre e sonora. É melhor ir com um sistema de ônibus bem planejado, eficiente, baixa poluição e baixo congestionamento.
+OnImplement = CreateGrudge(Airport connection,Airport,BusUsage,0.03,1.0f);CreateGrudge(Airport connection,Airport,Environment,0.04,1.0f);CreateGrudge(Airport connection,Airport,Environmentalist,0.08,0.8f);CreateGrudge(Airport connection,Airport,Motorist,-0.05,0.95f);
+
+
+
+
+
+
+

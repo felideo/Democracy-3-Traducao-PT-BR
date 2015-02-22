@@ -1,0 +1,24 @@
+[dilemma]
+name=Doctorbribes
+guiname=Médicos sendo subornados
+description=Por muitos anos, algumas empresas farmacêuticas têm dado dinheiro e outras graças aos médicos que receitam os seus medicamentos, mesmo que, essas drogas não seja necessária ou não a opção ideal. Isso tem crescido nos últimos meses e embora nenhum dano físico foi feito até agora, é apenas questão de tempo até que algo ruim acontece.
+
+[influences]
+0 = _random_,0.1,0.7
+
+[option0]
+Name = Ignorar o problema
+Description = Isso já se arrasta há muitos anos e nada aconteceu. Claramente, não há necessidade de intervir e obrigar regras sobre estas empresas. Afinal, a indústria farmacêutica é um negócio rico e influente, se outras empresas pensam que o seu produto é melhor, eles podem fazer o mesmo.
+OnImplement = CreateGrudge(Doctors being bribed,Doctorbribes,Capitalist,0.05,0.9f);CreateGrudge(Doctors being bribed,Doctorbribes,Health,-0.03,1.0f);CreateGrudge(Doctors being bribed,Doctorbribes,Retired,-0.05,0.9f);CreateGrudge(Doctors being bribed,Doctorbribes,PrivateHealthcare,0.08,1.0f)
+
+[option1]
+Name = Apresentar regulamentação
+Description = Basta, a vida dos doentes estão em jogo e é inaceitável que os médicos prescrevem medicamentos com base em suas próprias motivações financeiras e não na necessidades do paciente. Regulamentações serão postas em prática para evitar que as empresas farmacêuticas influenciaram os médicos de forma financeira.
+OnImplement = CreateGrudge(Doctors being bribed,Doctorbribes,Capitalist,-0.05,0.9f);CreateGrudge(Doctors being bribed,Doctorbribes,Health,0.03,1.0f);CreateGrudge(Doctors being bribed,Doctorbribes,Retired,0.05,0.9f);CreateGrudge(Doctors being bribed,Doctorbribes,PrivateHealthcare,-0.08,1.0f)
+
+
+
+
+
+
+

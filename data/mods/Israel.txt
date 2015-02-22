@@ -1,0 +1,7 @@
+[config]
+name = Israel (0.21)
+path = Israel
+guiname = Israel (0.21)
+author = MarioishBeast
+description = Um país em disputa para sua existência, muitos inimigos e problemas em uma base, o terrorismo, o crime e a fuga diária de telentos devido aos altos impostos, Israel está em um estado bastante difícil para todas as pessoas. Você pode fazer melhor? Versão 0.21
+

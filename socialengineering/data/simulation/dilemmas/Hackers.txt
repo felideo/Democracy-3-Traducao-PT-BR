@@ -1,0 +1,24 @@
+[dilemma]
+name=Hackers
+guiname=Hackers rompem sistemas essenciais
+description=Um grupo de hackers invadiu nossas redes de computadores críticos, incluindo usinas de energia e rede bancária. O grupo veio a público e admitiu o hackerismo, apontando falhas perigosas em nossas defesas e oferecendo maneiras de solucionar os problemas. As empresas e especialistas em segurança já estão em alerta.
+
+[influences]
+0 = _random_,0.2,0.7
+
+[option0]
+Name = Apreender criminosos
+Description = Hackeando esses sistemas poderia ter causado uma catástrofe. As falhas no sistema precisam ser corrigidos o mais rapidamente possível e os hackers presos, senão, outros hackers vão tentar isso de novo, causando dano imenso em nossas redes na esperança de se tornar famoso.
+OnImplement = CreateGrudge(Hackers breaching critical systems,Hackers,Conservatives,0.1,0.9f);CreateGrudge(Hackers breaching critical systems,Hackers,Technology,-0.05,0.9f);CreateGrudge(Hackers breaching critical systems,Hackers,Liberals,-0.08,0.9f)
+
+[option1]
+Name= Contratá-los
+Description = Esses hackers são os melhores na sua área, para manter os nossos sistemas de segurança e trabalhar em novos métodos para evitar futuros casos assim. Companhias e estatais não vão gostar, mas a segurança vem em primeiro lugar aqui.
+OnImplement = CreateGrudge(Hackers breaching critical systems,Hackers,Conservatives,-0.1,0.9f);CreateGrudge(Hackers breaching critical systems,Hackers,Technology,0.1,0.9f);CreateGrudge(Hackers breaching critical systems,Hackers,StateEmployees,-0.05,0.9f)
+
+
+
+
+
+
+

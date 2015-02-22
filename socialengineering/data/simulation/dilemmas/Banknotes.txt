@@ -1,0 +1,25 @@
+[dilemma]
+name=Banknotes
+guiname=Rosto sobre as novas notas
+description=Novas notas de banco será introduzido em breve e uma nova cara tem que ser colocado sobre eles. Um arcebispo popular e um ativista de direitos humanos famoso do nosso país concorrem é para você decidir quem vai ser o rosto da nossa moeda no futuro.
+
+[influences]
+0 = _random_,0.2,0.7
+
+[option0]
+Name = Escolher arcebispo  <MaleName>
+Description = O arcebispo  <MaleName> é realmente um homem santo, confiável e puro. Sua crença forte pode ser um pouco forte para os liberais, mas ele serve como modelo pros conservadores. Colocando seu rosto em nossa moeda certamente vai enviar uma mensagem sutil de fé.
+OnImplement = CreateGrudge(Face on the new bank notes,Banknotes,Conservatives,0.05,0.8f);CreateGrudge(Face on the new bank notes,Banknotes,Religious,0.1,0.9f);CreateGrudge(Face on the new bank notes,Banknotes,Liberal,-0.07,0.8f);CreateGrudge(Face on the new bank notes,Banknotes,Religious_freq,0.03,1.0f);
+
+
+[option1]
+Name = Escolher  <FemaleName>
+Description = <FemaleName> sempre esteve na linha de frente para defender os direitos humanos de qualquer um, qualquer parte do mundo. Isto trouxe-lhe problemas com grandes corporações, mas as pessoas adoram e apoiam. Com o rosto em nossas notas de banco enviará uma mensagem de liberdade.
+OnImplement = CreateGrudge(Face on the new bank notes,Banknotes,Liberal,0.05,0.8f);CreateGrudge(Face on the new bank notes,Banknotes,ForeignRelations,0.05,0.98f);CreateGrudge(Face on the new bank notes,Banknotes,Religious,-0.1,0.9f);Liberal_freq,0.03,1.0f);
+
+
+
+
+
+
+ 

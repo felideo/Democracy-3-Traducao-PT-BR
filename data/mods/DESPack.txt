@@ -1,0 +1,7 @@
+[config]
+name = Disaster and Emergency Situations Pack
+path = DESPack
+guiname = Pacote de Disastres e Situações de Emergencia
+author = Elinor
+description = Mesmo jogando varios jogos diferentes, eu ainda não vi a maioria dos desastres, eu não quero estragar contandos as surpresas que tenho visto: alguns deles são surpreendentemente criativas.
+

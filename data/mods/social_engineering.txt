@@ -1,0 +1,6 @@
+[config]
+name = "socialengineering"
+path = "socialengineering"
+guiname = "Social Engineering"
+author = "Positech Games"
+description = "Esta expansão para a Democracia 3 adiciona novos dilemas e as políticas que permitem exercer mudança sutil em cima de seu país. O imposto de renda e da política econômica são grandes instrumentos contundentes, mas com a engenharia social que você começa a influenciar a população de maneiras muito mais sutis."
