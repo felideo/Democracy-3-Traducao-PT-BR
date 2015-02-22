@@ -1,4 +1,6 @@
 # Democarcy-3-Traducao-PT-BR = 75% Completa
+#Pacote de Expanção Social Engineering = 100%
+
 
 Tradução independente do jogo Democracy 3
 
