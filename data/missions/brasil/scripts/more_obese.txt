@@ -1,1 +1,0 @@
-CreateGrudge(USA,_hidden_,Obesity,0.13,1,0);

@@ -1,1 +1,0 @@
-CreateGrudge(USA,_hidden_,Religious_freq,0.33,1,0);

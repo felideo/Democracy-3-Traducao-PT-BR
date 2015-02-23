@@ -1,0 +1,6 @@
+[config]
+name = "extremism"
+path = "extremism"
+guiname = "Extremism"
+author = "Positech Games"
+description = "Esta expansão para Democracy 3 adiciona novas políticas e situações que refletem os extremos da política dentro de um sistema democrático, como a proibição de ensino privado, proibição de relacionamentos de poessoas com o mesmo sexo e obrigar desempregados a trabalhar."
