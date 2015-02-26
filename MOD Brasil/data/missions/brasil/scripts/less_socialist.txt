@@ -1,0 +1,1 @@
+CreateGrudge(USA,_hidden_,Socialist_freq,-0.12,1,0);
